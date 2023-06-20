@@ -1,10 +1,10 @@
-## Selected specialities and projects in machine learning and data science
+## Selected projects in machine learning and data science
 
 ---
 
-### Machine Learning Operations (MLOps) with AWS
-Automate end-to-end ML workflow for all the steps including data extraction, data transformation, training, evaluation, data/model 
-drift and deploying the model in production with AWS Sagemaker Pipeline - a purpose-built continuous integration and continuous delivery (CI/CD) service. 
+### MLOps with AWS
+Automate end-to-end machine learning (ML) workflow for all the steps including data extraction, data transformation, training, evaluation, data/model 
+drift and deploying the model in production with AWS sagemaker pipeline - a purpose-built CI/CD service. 
 
 <img src="images/Sageaker Pipeline4.png?raw=true"/>
 
@@ -14,7 +14,7 @@ drift and deploying the model in production with AWS Sagemaker Pipeline - a purp
 
 ---
 ### Deep CNN-LSTM network for energy usage forecasting
-Long Short-Term Memory or LSTM is a special type of Recurrent Neural Network (RNN) that can be used for time-series forecasting. LSTM networks are capable of learning features from input sequences of data and can be used to predict multi-step sequences. In this example, a CNN-LSTM architecture is used for multistep time-series energy usage forecasting. 
+Long short-term memory (LSTM) is a special type of recurrent neural network (RNN) that can be used for time-series forecasting. LSTM networks are capable of learning features from input sequences of data and can be used to predict multi-step sequences. In this example, a CNN-LSTM architecture is used for multistep time-series energy usage forecasting. A one-dimensional convolutional neural network (CNN) is used to read and encode the input sequence. An LSTM network is then used as a decoder to make a one-step prediction for each value in the output sequence. 
 
 <img src="images/time-series2.png?raw=true"/>
 
@@ -25,7 +25,7 @@ Long Short-Term Memory or LSTM is a special type of Recurrent Neural Network (RN
 
 ---
 ### Combined ML models for house prices prediction
-A combination of multiple machine learning models is used to develop  a powerful model for predicting house prices using the Ames housing dataset. 
+A combination of multiple ML models (XGBoost, GBM, Ridge and ElasticNet) is used to develop a powerful model for predicting house prices with high accuracy. The Ames housing dataset was used to demonstrate the model's capability. 
 
 <img src="images/Saleprice2.png?raw=true"/>
 
@@ -35,7 +35,7 @@ A combination of multiple machine learning models is used to develop  a powerful
 
 ---
 ### Extract, transform, and load (ETL) in Python
-This is a simple demonstration of extract, transform and load (ETL) process in python. Tesla share price data is extracted, transformed and loaded into a PostgreSQL database.
+This is a simple demonstration of an ETL process in python. Tesla share price data is extracted, transformed and loaded into a PostgreSQL database. An automation tool like Airflow can be easily employed to execute the ETL process on a schedule and new records will be automatically extracted, transformed and loaded into the database!
 
 <img src="images/PostgreSQL.png?raw=true"/>
 
