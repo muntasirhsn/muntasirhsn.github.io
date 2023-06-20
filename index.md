@@ -4,7 +4,7 @@
 
 ### Machine Learning Operations (MLOps) with AWS
 Automate end-to-end ML workflow for all the steps including data extraction, data transformation, training, evaluation, data/model 
-drift and deploying the model in production with AWS Sagemaker Pipeline. 
+drift and deploying the model in production with AWS Sagemaker Pipeline - a purpose-built continuous integration and continuous delivery (CI/CD) service. 
 
 <img src="images/Sageaker Pipeline3.png?raw=true"/>
 
