@@ -6,7 +6,7 @@
 Automate end-to-end ML workflow for all the steps including data extraction, data transformation, training, evaluation, data/model 
 drift and deploying the model in production with AWS Sagemaker Pipeline - a purpose-built continuous integration and continuous delivery (CI/CD) service. 
 
-<img src="images/Sageaker Pipeline3.png?raw=true"/>
+<img src="images/Sageaker Pipeline4.png?raw=true"/>
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/AWS-white?logo=amazon-aws&logoColor=orange)](#) [![](https://img.shields.io/badge/Sagemaker-white?logo=amazon-sagemaker&logoColor=orange)](#)
 
@@ -34,7 +34,7 @@ A combination of multiple machine learning models is used to develop  a powerful
 [View code on GitHub](https://github.com/muntasirhsn/Multiple-ML-Model-for-House-Prices-Prediction)
 
 ---
-### ETL in Python
+### Extract, transform, and load (ETL) in Python
 This is a simple demonstration of extract, transform and load (ETL) process in python. Tesla share price data is extracted, transformed and loaded into a PostgreSQL database.
 
 <img src="images/PostgreSQL.png?raw=true"/>
