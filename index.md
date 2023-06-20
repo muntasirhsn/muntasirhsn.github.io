@@ -18,6 +18,8 @@ Long short-term memory (LSTM) is a special type of recurrent neural network (RNN
 
 <img src="images/time-series2.png?raw=true"/>
 
+<img src="images/time-series3.png?raw=true"/>
+
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/sklearn-white?logo=scikit-learn)](#) [![](https://img.shields.io/badge/TensorFlow-white?logo=TensorFlow)](#)
 
 [View code on GitHub](https://github.com/muntasirhsn/CNN-LSTM-model-for-energy-usage-forecasting)
