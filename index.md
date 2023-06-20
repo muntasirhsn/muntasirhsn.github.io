@@ -10,7 +10,7 @@ drift and deploying the model in production with AWS Sagemaker Pipeline.
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/AWS-white?logo=amazon-aws&logoColor=orange)](#) [![](https://img.shields.io/badge/Sagemaker-white?logo=amazon-sagemaker&logoColor=orange)](#)
 
-[Contact me for your business applications with AI](https://www.linkedin.com/in/-muntasir-hossain/)
+[View project on GitHub](https://github.com/muntasirhsn/MLOps-with-AWS)
 
 ---
 ### Deep CNN-LSTM network for energy usage forecasting
