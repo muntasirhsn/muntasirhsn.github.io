@@ -24,7 +24,7 @@ Long Short-Term Memory or LSTM is a special type of Recurrent Neural Network (RN
 
 
 ---
-### Multiple-Model machine learning for house prices prediction
+### Combined ML models for house prices prediction
 A combination of multiple machine learning models is used to develop  a powerful model for predicting house prices using the Ames housing dataset. 
 
 <img src="images/Saleprice2.png?raw=true"/>
