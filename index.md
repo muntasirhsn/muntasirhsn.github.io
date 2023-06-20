@@ -8,7 +8,7 @@ drift and deploying the model in production with AWS Sagemaker Pipeline.
 
 <img src="images/Sageaker Pipeline3.png?raw=true"/>
 
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/AWS-white?logo=amazon-aws&logoColor=orange)](#)
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/AWS-white?logo=amazon-aws&logoColor=orange)](#) [![](https://img.shields.io/badge/Sagemaker-white?logo=amazon-sagemaker&logoColor=orange)](#)
 
 [Contact me for your business applications with AI](https://www.linkedin.com/in/-muntasir-hossain/)
 
