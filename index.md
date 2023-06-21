@@ -8,7 +8,7 @@ drift and deploying the model in production with AWS sagemaker pipeline - a purp
 
 <img src="images/Sageaker Pipeline4.png?raw=true"/>
 
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/AWS-white?logo=amazon-aws&logoColor=blue)](#) [![](https://img.shields.io/badge/Sagemaker-white?logo=amazon-sagemaker&logoColor=orange)](#)
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/AWS-white?logo=amazon-aws&logoColor=blue)](#) [![](https://img.shields.io/badge/Sagemaker-white?logo=amazon-sagemaker&logoColor=orange)](#) [![](https://img.shields.io/badge/-React%20Router-CA4245?logo=react-router)](#)
 
 [View project on GitHub](https://github.com/muntasirhsn/MLOps-with-AWS)
 
