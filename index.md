@@ -8,7 +8,7 @@ drift and deploying the model in production with AWS sagemaker pipeline - a purp
 
 <img src="images/Sageaker Pipeline4.png?raw=true"/>
 
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/AWS-white?logo=amazon-aws&logoColor=blue)](#) [![](https://img.shields.io/badge/Sagemaker-white?logo=amazon-sagemaker&logoColor=orange)](#) [![](https://img.shields.io/badge/-Amazon%20Sagemaker-green?logo=amazon-sagemaker)](#) [![](https://img.shields.io/badge/-Amazon%20API%20Gateway-ff69b4?logo=amazon-api-gateway)](#)
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/AWS-white?logo=amazon-aws&logoColor=blue)](#) [![](https://img.shields.io/badge/Sagemaker-white?logo=amazon-sagemaker&logoColor=orange)](#) [![](https://img.shields.io/badge/-Amazon%20Sagemaker-lightgrey?logo=amazon-sagemaker)](#) [![](https://img.shields.io/badge/-Amazon%20API%20Gateway-lightgrey?logo=amazon-api-gateway)](#)
 
 [View project on GitHub](https://github.com/muntasirhsn/MLOps-with-AWS)
 
