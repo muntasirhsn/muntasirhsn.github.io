@@ -6,9 +6,11 @@
 Automate end-to-end machine learning (ML) workflow for all the steps including data extraction, data transformation, training, evaluation, data/model 
 drift and deploying the model in production with AWS sagemaker pipeline - a purpose-built CI/CD service. 
 
+<img src="images/MLOps_Muntasir Hossain.png?raw=true"/>
+
 <img src="images/Sageaker Pipeline4.png?raw=true"/>
 
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/AWS-white?logo=amazon-aws&logoColor=blue)](#) [![](https://img.shields.io/badge/-Amazon%20Sagemaker-white?logo=amazon-sagemaker)](#) [![](https://img.shields.io/badge/-Amazon%20API%20Gateway-white?logo=amazon-api-gateway)](#)
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/AWS-white?logo=amazon-aws&logoColor=orange)](#) [![](https://img.shields.io/badge/-Amazon%20Sagemaker-white?logo=amazon-sagemaker)](#) [![](https://img.shields.io/badge/-Amazon%20API%20Gateway-white?logo=amazon-api-gateway)](#)
 
 [View project on GitHub](https://github.com/muntasirhsn/MLOps-with-AWS)
 
