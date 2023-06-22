@@ -10,7 +10,7 @@ drift and deploying the model in production with AWS sagemaker pipeline - a purp
 
 <img src="images/Sageaker Pipeline4.png?raw=true"/>
 
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![AWS](https://img.shields.io/badge/AWS-Cloud-blue?logo=amazon-aws)](https://aws.amazon.com/)  [![Amazon Sagemaker](https://img.shields.io/badge/Sagemaker?logo=amazon-aws)](https://aws.amazon.com/sagemaker/)  [![AWS CodePipeline](https://img.shields.io/badge/CodePipeline-white?logo=amazon-aws)](https://aws.amazon.com/codepipeline/) [![Amazon API Gateway](https://img.shields.io/badge/API_Gateway-white?logo=amazon-aws)](https://aws.amazon.com/api-gateway/) 
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![AWS](https://img.shields.io/badge/AWS-Cloud-blue?logo=amazon-aws)](https://aws.amazon.com/)  [![Amazon Sagemaker](https://img.shields.io/badge/Sagemaker-lightorange?logo=amazon-aws)](https://aws.amazon.com/sagemaker/)  [![Amazon CodePipeline](https://img.shields.io/badge/CodePipeline-red?logo=amazon-aws)](https://aws.amazon.com/codepipeline/) [![Amazon API Gateway](https://img.shields.io/badge/API_Gateway-lightgreen?logo=amazon-aws)](https://aws.amazon.com/api-gateway/) 
 
 [View project on GitHub](https://github.com/muntasirhsn/MLOps-with-AWS)
 
