@@ -16,7 +16,7 @@ drift and deploying the model in production with Amazon sagemaker pipeline - a p
 
 ---
 ### Computer Vision: Deploying YOLOv8 model with AWS
-YOLO (You Only Look Once) is a state-of-the-art, real-time object detection model used in real-time object detection and classification in computer vision. The latest model YOLOv8 is  known for its runtime efficiency as well as detection accuracy. To utilise its potential deploying the model at scale is crucial. Here, a YOLOv8 model is hosted on the Amazon SageMaker endpoint and inference was run for input images/videos for object detection.
+YOLO (you only look once) is a state-of-the-art, real-time object detection model used in real-time object detection and classification in computer vision. The latest model YOLOv8 is  known for its runtime efficiency as well as detection accuracy. To utilise its potential deploying the model at scale is crucial. Here, a YOLOv8 model is hosted on the Amazon SageMaker endpoint and inference was run for input images/videos for object detection.
 
 <img src="images/highway1-detect2.gif?raw=true"/> Figure 1: Object detection with YOLOv8 model deployed om Amazon SageMaker endpoints
 
