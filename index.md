@@ -10,7 +10,7 @@ drift and deploying the model in production with Amazon sagemaker pipeline - a p
 
 <img src="images/Sageaker Pipeline5.png?raw=true"/> Figure 2: CI/CD pipeline with Amazon Sagemaker 
 
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![AWS](https://img.shields.io/badge/AWS-Cloud-white?logo=amazon-aws)](https://aws.amazon.com/)  [![Amazon Sagemaker](https://img.shields.io/badge/Sagemaker-white?logo=amazon-aws)](https://aws.amazon.com/sagemaker/) [![Amazon API Gateway](https://img.shields.io/badge/API_Gateway-white?logo=amazon-aws)](https://aws.amazon.com/api-gateway/) 
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![AWS](https://img.shields.io/badge/AWS-Cloud-white?logo=amazon-aws)](https://aws.amazon.com/)  [![Amazon Sagemaker](https://img.shields.io/badge/Amazon-Sagemaker-white?logo=amazon-aws)](https://aws.amazon.com/sagemaker/) [![Amazon API Gateway](https://img.shields.io/badge/Amazon-API_Gateway-white?logo=amazon-aws)](https://aws.amazon.com/api-gateway/) 
 
 [View project on GitHub](https://github.com/muntasirhsn/MLOps-with-AWS)
 
@@ -33,7 +33,7 @@ YOLO (you only look once) is a state-of-the-art, real-time object detection, seg
 
 <img src="images/highway1-detect3.gif?raw=true"/> Figure 1: Object detection with YOLOv8 model deployed om Amazon SageMaker endpoints
 
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#) [![YOLO](https://img.shields.io/badge/YOLO-Object%20Detection-white)](https://github.com/AlexeyAB/darknet) [![AWS](https://img.shields.io/badge/AWS-Cloud-white?logo=amazon-aws)](https://aws.amazon.com/) [![Amazon Sagemaker](https://img.shields.io/badge/Sagemaker-white?logo=amazon-aws)](https://aws.amazon.com/sagemaker/) 
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#) [![YOLO](https://img.shields.io/badge/YOLO-Object%20Detection-white)](https://github.com/AlexeyAB/darknet) [![AWS](https://img.shields.io/badge/AWS-Cloud-white?logo=amazon-aws)](https://aws.amazon.com/) [![Amazon Sagemaker](https://img.shields.io/badge/Amazon-Sagemaker-white?logo=amazon-aws)](https://aws.amazon.com/sagemaker/) 
 
 [View project on GitHub](https://github.com/muntasirhsn/Deploying-YOLOv8-model-on-Amazon-SageMaker-endpoint)
 
