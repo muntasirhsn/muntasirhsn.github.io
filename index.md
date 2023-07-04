@@ -8,7 +8,7 @@ drift and deploying the model in production with Amazon sagemaker pipeline - a p
 
 <img src="images/MLOps2_Muntasir Hossain.png?raw=true"/> Figure 1: MLOps reference architecture with AWS
 
-<img src="images/Sageaker Pipeline4.png?raw=true"/> Figure 2: CI/CD pipeline with Amazon Sagemaker 
+<img src="images/Sageaker Pipeline5.png?raw=true"/> Figure 2: CI/CD pipeline with Amazon Sagemaker 
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![AWS](https://img.shields.io/badge/AWS-Cloud-blue?logo=amazon-aws)](https://aws.amazon.com/)  [![Amazon Sagemaker](https://img.shields.io/badge/Amazon-Sagemaker-orange?logo=amazon-aws)](https://aws.amazon.com/sagemaker/) [![Amazon API Gateway](https://img.shields.io/badge/Amazon-API_Gateway-green?logo=amazon-aws)](https://aws.amazon.com/api-gateway/) 
 
