@@ -35,7 +35,7 @@ YOLO (you only look once) is a state-of-the-art, real-time object detection mode
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![AWS](https://img.shields.io/badge/AWS-Cloud-blue?logo=amazon-aws)](https://aws.amazon.com/)  [![Amazon Sagemaker](https://img.shields.io/badge/Amazon-Sagemaker-orange?logo=amazon-aws)](https://aws.amazon.com/sagemaker/) [![YOLO](https://img.shields.io/badge/YOLO-Object%20Detection-blue)](https://github.com/AlexeyAB/darknet)
 
-[View project on GitHub](https://github.com/muntasirhsn/Deploying-YOLOv8-model-on-Amazon-SageMaker-endpoint))
+[View project on GitHub](https://github.com/muntasirhsn/Deploying-YOLOv8-model-on-Amazon-SageMaker-endpoint)
 
 ---
 ### Deep CNN-LSTM network for energy usage forecasting
