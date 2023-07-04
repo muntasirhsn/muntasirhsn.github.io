@@ -33,7 +33,7 @@ YOLO (you only look once) is a state-of-the-art, real-time object detection, seg
 
 <img src="images/highway1-detect3.gif?raw=true"/> Figure 1: Object detection with YOLOv8 model deployed om Amazon SageMaker endpoints
 
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#) [![YOLO](https://img.shields.io/badge/YOLO-Object%20Detection-blue)](https://github.com/AlexeyAB/darknet) [![AWS](https://img.shields.io/badge/AWS-Cloud-blue?logo=amazon-aws)](https://aws.amazon.com/) [![Amazon Sagemaker](https://img.shields.io/badge/Amazon-Sagemaker-orange?logo=amazon-aws)](https://aws.amazon.com/sagemaker/) 
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#) [![YOLO](https://img.shields.io/badge/YOLO-Object%20Detection-white)](https://github.com/AlexeyAB/darknet) [![AWS](https://img.shields.io/badge/AWS-Cloud-blue?logo=amazon-aws)](https://aws.amazon.com/) [![Amazon Sagemaker](https://img.shields.io/badge/Amazon-Sagemaker-orange?logo=amazon-aws)](https://aws.amazon.com/sagemaker/) 
 
 [View project on GitHub](https://github.com/muntasirhsn/Deploying-YOLOv8-model-on-Amazon-SageMaker-endpoint)
 
