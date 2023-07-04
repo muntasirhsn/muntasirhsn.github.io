@@ -10,7 +10,7 @@ drift and deploying the model in production with Amazon sagemaker pipeline - a p
 
 <img src="images/Sageaker Pipeline5.png?raw=true"/> Figure 2: CI/CD pipeline with Amazon Sagemaker 
 
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![AWS](https://img.shields.io/badge/AWS-Cloud-white?logo=amazon-aws)](https://aws.amazon.com/)  [![Amazon Sagemaker](https://img.shields.io/badge/Amazon-Sagemaker-white?logo=amazon-aws)](https://aws.amazon.com/sagemaker/) [![Amazon API Gateway](https://img.shields.io/badge/Amazon-API_Gateway-white?logo=amazon-aws)](https://aws.amazon.com/api-gateway/) 
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![AWS](https://img.shields.io/badge/AWS-Cloud-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/)  [![Amazon Sagemaker](https://img.shields.io/badge/Amazon-Sagemaker-white?logo=amazon-aws)](https://aws.amazon.com/sagemaker/) [![Amazon API Gateway](https://img.shields.io/badge/Amazon-API_Gateway-white?logo=amazon-aws)](https://aws.amazon.com/api-gateway/) 
 
 [View project on GitHub](https://github.com/muntasirhsn/MLOps-with-AWS)
 
