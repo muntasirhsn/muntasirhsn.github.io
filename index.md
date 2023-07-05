@@ -1,3 +1,15 @@
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-98XCH9YM8T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-98XCH9YM8T');
+</script>
+
+
+
 ## Selected projects in machine learning and data science
 
 ---
