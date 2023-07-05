@@ -6,7 +6,7 @@
 Automate end-to-end machine learning (ML) workflow for all the steps including data extraction, data transformation, training, evaluation, data/model 
 drift and deploying the model in production with Amazon sagemaker pipeline - a purpose-built CI/CD service.
 
-<img src="images/MLOps3_Muntasir Hossain.png?raw=true"/> Figure 1: MLOps reference architecture with AWS
+<img src="images/MLOps4_Muntasir Hossain.jpg?raw=true"/> Figure 1: MLOps reference architecture with AWS
 
 <img src="images/Sageaker Pipeline5.png?raw=true"/> Figure 2: CI/CD pipeline with Amazon Sagemaker 
 
