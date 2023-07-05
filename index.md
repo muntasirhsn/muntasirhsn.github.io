@@ -31,7 +31,7 @@ A combination of multiple ML models (XGBoost, GBM, Ridge and ElasticNet) is used
 ### Computer Vision: Deploying YOLOv8 model with AWS
 YOLO (you only look once) is a state-of-the-art, real-time object detection, segmentation and classification model used in computer vision. The latest model YOLOv8 is  known for its runtime efficiency as well as detection accuracy. To fully utilise its potential, deploying the model at scale is crucial. Here, a YOLOv8 model was hosted on the Amazon SageMaker endpoint and inference was run for input images/videos for object detection.
 
-<img src="images/highway1-detect3.gif?raw=true"/> Figure 1: Object detection with YOLOv8 model deployed om Amazon SageMaker endpoints
+<img src="images/highway1-detect3.gif?raw=true"/> Figure 1: Object detection with YOLOv8 model deployed to an real-time Amazon SageMaker endpoint
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#) [![YOLO](https://img.shields.io/badge/YOLO-Object%20Detection-white)](https://github.com/AlexeyAB/darknet) [![AWS](https://img.shields.io/badge/AWS-Cloud-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/) [![Amazon Sagemaker](https://img.shields.io/badge/Sagemaker-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/sagemaker/) 
 
