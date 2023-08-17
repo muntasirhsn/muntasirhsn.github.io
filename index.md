@@ -6,8 +6,6 @@
 Automate end-to-end machine learning (ML) workflow for all the steps including data extraction, data transformation, training, evaluation, data/model 
 drift and deploying the model in production with Amazon sagemaker pipeline - a purpose-built CI/CD service.
 
-ollaboration between <a href="https://www.linkedin.com/company/amazon-web-services/">Amazon Web Services (AWS)</a> and <a href="https://www.linkedin.com/company/deeplearningai/">DeepLearning.AI</a>! 
-
 
 <img src="images/MLOps4_1_Muntasir Hossain.jpg?raw=true"/> Figure 1: MLOps reference architecture with AWS
 
