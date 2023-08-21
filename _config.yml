@@ -1,7 +1,7 @@
 title: Muntasir Hossain # your name (or website title) here
 logo: "/images/MMH_3715~2.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  Machine learning specialist with skills and experience in developing end-to-end machine learning solutions for data preprocessing, model training, fine-tuning and deploying in production, and model monitoring. 
+  Machine learning specialist with skills and experience in developing end-to-end machine learning solutions for data preprocessing, model training, fine-tuning, deploying in production and model monitoring. 
   Proficient in machine learning operations (MLOps) for data pipeline automation with continuous integration and continuous delivery (CI/CD). 
   
   <br><br>
@@ -11,4 +11,4 @@ description: > # your text below (remove <br> elements if you don't need line br
 remote_theme: pages-themes/minimal@v0.2.0
 # plugins:
 # - jekyll-remote-theme
-google_analytics: G-Y8D5MR8K6D # your Google Analytics tracking ID here
+# google_analytics: G-Y8D5MR8K6D # your Google Analytics tracking ID here
