@@ -58,7 +58,7 @@ Long short-term memory (LSTM) is a special type of recurrent neural network (RNN
 
 ---
 ### Extract, transform, and load (ETL) in Python
-This is a simple demonstration of an ETL process in python. Tesla share price data is extracted, transformed and loaded into a PostgreSQL database. An automation tool like Airflow can be easily employed to execute the ETL process on a schedule and new records will be automatically extracted, transformed and loaded into the database!
+This is a simple demonstration of an ETL process in python. Tesla share price data is extracted, transformed and loaded into a PostgreSQL database. An automation tool like Windows Task Scheduler or Airflow can be easily employed to execute the ETL process on a schedule and new records will be automatically extracted, transformed and loaded into the database!
 
 <img src="images/PostgreSQL2.png?raw=true"/> Figure 8: Transformed and loaded data in PostgreSQL database
 
