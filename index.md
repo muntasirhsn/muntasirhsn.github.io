@@ -3,7 +3,7 @@
 ---
 
 ### MLOps with AWS: Train and deploy ML models at scale
-Automate end-to-end machine learning (ML) workflow for all the steps including data extraction, data transformation, training, evaluation, data/model 
+Automate end-to-end machine learning (ML) workflow for all the steps including data extraction, data preprocessing, training models at scale with distributed computing (GPUs/CPUs), model evaluation, data/model 
 drift and deploying the model in production with Amazon sagemaker pipeline - a purpose-built CI/CD service.
 
 
