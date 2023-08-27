@@ -13,7 +13,7 @@ drift and deploying the model in production with Amazon SageMaker pipeline - a p
 
 
 
-<img src="images/RealtimeInference-Postman4.png?raw=true"/> Figure 3: Real-time inference with the deployed ML model in production. A REST API was created by using Amazon API Gateway as an external-facing entry point for the model endpoint. The API was tested with Postman (API platform) for real-time inference.
+<img src="images/RealtimeInference-Postman4.png?raw=true"/> Figure 3: Real-time inference with the ML model deployed in production. A REST API was created by using Amazon API Gateway as an external-facing entry point for the model endpoint. The API was tested with Postman (API platform) for real-time inference.
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![AWS](https://img.shields.io/badge/AWS-Cloud-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/)  [![Amazon Sagemaker](https://img.shields.io/badge/Sagemaker-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/sagemaker/) [![Amazon API Gateway](https://img.shields.io/badge/API_Gateway-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/api-gateway/) 
 
