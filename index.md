@@ -21,8 +21,8 @@ drift and deploying the model in production with Amazon SageMaker pipeline - a p
 
 
 ---
-### Combined ML models for house prices prediction
-A combination of multiple ML models (XGBoost, GBM, Ridge and ElasticNet) is used to develop a powerful model for predicting house prices with high accuracy. The Ames housing dataset was used to demonstrate the model's capability. 
+### Predictive Modelling: Combined ML models for high prediction accuracy
+A combination of multiple ML models (XGBoost, GBM, Ridge and ElasticNet) is used to develop a powerful predictive model. The Ames housing dataset was used to demonstrate the model's capability to predict house prices with high accuracy. 
 
 <img src="images/Saleprice3.png?raw=true"/> Figure 5: Relation between numerical features and the target (sale price)
 
