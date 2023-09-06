@@ -22,7 +22,7 @@ drift and deploying the model in production with Amazon SageMaker pipeline - a p
 
 ---
 ### Predictive Analytics: Stacking model for high prediction accuracy
-Stacking is an ensemble machine learning technique in which the outputs of multiple different machine learning models (base models) are fed into a higher-level meta-model to make the final output. Stacking can be useful to improve the overall accuracy of the predictions by utilising the strengths of each individual base model and minimising the effects of overfitting. In this example, the Ames housing dataset was used to demonstrate the stacking model's capability to predict house prices with high accuracy. In this example, a combination of multiple ML models (XGBoost, GBM, Ridge and ElasticNet) is used to develop the stacking model. The Ames housing dataset was used to demonstrate the model's capability to predict house prices with high accuracy. 
+Stacking is an ensemble machine learning technique in which the outputs of multiple different machine learning models (base models) are fed into a higher-level meta-model to make the final output. Stacking can be useful to improve the overall accuracy of the predictions by utilising the strengths of each individual base model and minimising the effects of overfitting. In this example, a combination of multiple ML models (XGBoost, GBM, Ridge and ElasticNet) is used to develop the stacking model. The Ames housing dataset was used to demonstrate the model's capability to predict house prices with high accuracy. 
 
 <img src="images/Saleprice3.png?raw=true"/> Figure 5: Relation between numerical features and the target (sale price)
 
