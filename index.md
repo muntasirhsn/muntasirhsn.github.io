@@ -3,11 +3,10 @@
 ---
 
 ### MLOps with AWS: Train and deploy ML models at scale
-Automate end-to-end machine learning (ML) workflow for all the steps including data preprocessing, training models at scale with distributed computing (GPUs/CPUs), model evaluation, data/model 
-drift and deploying the model in production with Amazon SageMaker pipeline - a purpose-built CI/CD service.
+Automate end-to-end machine learning (ML) workflow for all the steps including data preprocessing, training models at scale with distributed computing (GPUs/CPUs), model evaluation, deploying in production, model monitoring and drift detection with Amazon SageMaker pipeline - a purpose-built CI/CD service.
 
 
-<img src="images/MLOps4_1_Muntasir Hossain.jpg?raw=true"/> Figure 1: MLOps reference architecture with AWS
+<img src="images/MLOps6_Muntasir Hossain.jpg?raw=true"/> Figure 1: ML orchestration reference architecture with AWS
 
 <img src="images/Sageaker Pipeline5.png?raw=true"/> Figure 2: CI/CD pipeline with Amazon Sagemaker 
 
