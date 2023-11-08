@@ -38,7 +38,7 @@ Stacking is an ensemble machine learning technique in which the outputs of multi
 
 ---
 ### NLP: Text Classification
-Text classification in NLP categorizes text documents or sentences in predefined labels. Here, a DistilBERT model was fine-tuned for multiclass text classification by using PyTorch and HuggingFace. The model is able to classify a text with high accuracy within any of the four categories: 'World', 'Sports', 'Business' and 'Sci/Tech'. 
+Text classification in NLP categorizes text documents or sentences in predefined labels. Here, a DistilBERT model was fine-tuned for multiclass text classification by using PyTorch and HuggingFace. The model is able to classify a text with high accuracy within any of the four categories: 'World', 'Sports', 'Business' and 'Sci/Tech'. Try the classification demo below!
 
 <script
 	type="module"
@@ -48,13 +48,8 @@ Text classification in NLP categorizes text documents or sentences in predefined
 <gradio-app src="https://muntasirhossain-text-classification-for-articles.hf.space"></gradio-app>
 
 
-<img src="images/Text Classification.png?raw=true"/> Figure 7: A demo for multiclass text classification with fine-tuned DistilBERT model
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#) [![](https://img.shields.io/badge/HuggingFace_Transformers-white?logo=huggingface)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) 
-
-[Try the classification demo here!](https://huggingface.co/spaces/MuntasirHossain/Text-Classification-for-Articles)
-
-
 
 
 
