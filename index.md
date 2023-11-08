@@ -37,10 +37,24 @@ Stacking is an ensemble machine learning technique in which the outputs of multi
 
 
 ---
+### NLP: Text Classification
+Text classification in NLP categorizes text documents or sentences in predefined labels. Here, a DistilBERT model was fine-tuned for multiclass text classification by using PyTorch and HuggingFace. The model is able to classify a text with high accuracy within any of the four categories: 'World', 'Sports', 'Business' and 'Sci/Tech'. 
+
+<img src="images/Text Classification.png?raw=true"/> Figure 7: A demo for multiclass text classification with fine-tuned DistilBERT model
+
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#) [![](https://img.shields.io/badge/HuggingFace_Transformers-white?logo=huggingface)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) 
+
+[Try the classification demo here!](https://huggingface.co/spaces/MuntasirHossain/Text-Classification-for-Articles)
+
+
+
+
+
+---
 ### Computer Vision: Deploying YOLOv8 model with AWS
 YOLO (you only look once) is a state-of-the-art, real-time object detection, segmentation and classification model used in computer vision. The latest model YOLOv8 is  known for its runtime efficiency as well as detection accuracy. To fully utilise its potential, deploying the model at scale is crucial. Here, a YOLOv8 model was hosted on the Amazon SageMaker endpoint and inference was run for input images/videos for object detection.
 
-<img src="images/highway1-detect3.gif?raw=true"/> Figure 7: Object detection with YOLOv8 model deployed to a real-time Amazon SageMaker endpoint
+<img src="images/highway1-detect3.gif?raw=true"/> Figure 8: Object detection with YOLOv8 model deployed to a real-time Amazon SageMaker endpoint
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#) [![YOLO](https://img.shields.io/badge/YOLO-Object%20Detection-white)](https://github.com/AlexeyAB/darknet) [![AWS](https://img.shields.io/badge/AWS-Cloud-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/) [![Amazon Sagemaker](https://img.shields.io/badge/Sagemaker-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/sagemaker/) 
 
