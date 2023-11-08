@@ -1,4 +1,4 @@
-## Selected projects in machine learning and data science
+## Selected projects (demo) in machine learning, Generative AI, NLP and data science
 
 ---
 
@@ -54,7 +54,7 @@ Text classification in NLP categorizes text documents or sentences in predefined
 
 ---
 ### NLP: Named Entity Recognition
-Named entity recognition (NER) is an NLP technique that extracts information from text to detect and classify named entities. In this demo, a BERT model was fine-tuned for NER task by using PyTorch and Hugging Face transformers. Try the classification demo below!
+Named entity recognition (NER) is an NLP technique that extracts information from text to detect and classify named entities. In this demo, a BERT model was fine-tuned for NER task by using PyTorch and Hugging Face transformers. Try the NER demo below!
 
 <script
 	type="module"
