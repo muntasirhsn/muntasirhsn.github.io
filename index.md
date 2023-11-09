@@ -41,7 +41,7 @@ RAG is a technique that combines a retriever and a generative LLM to deliver acc
 
 ![image](https://github.com/muntasirhsn/muntasirhsn.github.io/assets/29087240/cb5f2892-68a5-4d68-b9b4-568959b2595a) Figure 7: A schematic representation of RAG with a retriever and an LLM
 
-[View project on GitHub]()
+[View project on GitHub](https://github.com/muntasirhsn/Retrieval-Augmented-Generation-with-Llama-2)
 
 ---
 ### NLP: Text Classification
