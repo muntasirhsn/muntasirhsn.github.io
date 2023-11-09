@@ -36,8 +36,8 @@ Stacking is an ensemble machine learning technique in which the outputs of multi
 [View code on GitHub](https://github.com/muntasirhsn/Multiple-ML-Model-for-House-Prices-Prediction)
 
 ---
-### Generative AI: Retrieval-Augmented Generation (RAG)
-RAG is a technique that combines a retriever and a generative large language model (LLM) to deliver accurate responses to queries. It involves retrieving relevant information from a large corpus and then generating contextually appropriate responses to queries. Here we use the Llama 2 LLM with LangChain to perform generative question-answering (QA) with RAG.
+### Generative AI: Retrieval-Augmented Generation (RAG) with Large Language Models (LLMs)
+RAG is a technique that combines a retriever and a generative LLM to deliver accurate responses to queries. It involves retrieving relevant information from a large corpus and then generating contextually appropriate responses to queries. Here we use the Llama 2 LLM with LangChain to perform generative question-answering (QA) with RAG.
 
 ![image](https://github.com/muntasirhsn/muntasirhsn.github.io/assets/29087240/cb5f2892-68a5-4d68-b9b4-568959b2595a) Figure 7: A schematic representation of RAG with a retriever and an LLM
 
