@@ -21,7 +21,7 @@ In this demo, I have designed an end-to-end machine learning (ML) workflow with 
 
 ---
 ### Predictive Analytics: Stacking ML model for high prediction accuracy
-Stacking is an ensemble machine learning technique in which the outputs of multiple different machine learning models (base models) are fed into a higher-level meta-model to make the final output. Stacking can be useful to improve the overall accuracy of the predictions by utilising the strengths of each individual base model and minimising the effects of overfitting. In this example, I utilised a combination of multiple ML models (XGBoost, GBM, Ridge and ElasticNet) to develop the stacking regression model with high prediction accuracy. 
+Stacking is an ensemble machine learning technique in which the outputs of multiple different machine learning models (base models) are fed into a higher-level meta-model to make the final output. Stacking can be useful to improve the overall accuracy of the predictions by utilising the strengths of each individual base model and minimising the effects of overfitting. In this example, I utilised a combination of multiple ML models (XGBoost, GBM, Ridge and ElasticNet) to develop the stacking regression model for predicting house prices with high accuracy. 
 
 <img src="images/Saleprice3.png?raw=true"/> Figure 4: Relation between numerical features and the target (sale price)
 
