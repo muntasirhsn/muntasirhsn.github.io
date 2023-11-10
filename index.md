@@ -45,7 +45,7 @@ RAG is a technique that combines a retriever and a generative LLM to deliver acc
 
 ---
 ### NLP: Text Classification
-Text classification in NLP categorizes text documents or sentences in predefined labels. Here, a DistilBERT model was fine-tuned for multiclass text classification by using PyTorch and Hugging Face transformers. The model is able to classify a text with high accuracy within any of the four categories: 'World', 'Sports', 'Business' and 'Sci/Tech'. Try the classification demo below!
+Text classification in NLP categorizes text documents or sentences in predefined labels. Here, I fine-tuned a DistilBERT model for multiclass text classification by using PyTorch and Hugging Face transformers. The model is able to classify a text with high accuracy within any of the four categories: 'World', 'Sports', 'Business' and 'Sci/Tech'. Try the classification demo below!
 
 <script
 	type="module"
@@ -54,7 +54,7 @@ Text classification in NLP categorizes text documents or sentences in predefined
 
 <gradio-app src="https://muntasirhossain-text-classification-for-articles.hf.space"></gradio-app>
 
-
+[Check the model metrics on Hugging Face hub!](https://huggingface.co/MuntasirHossain/distilbert-finetuned-ag-news)
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#) [![](https://img.shields.io/badge/HuggingFace_Transformers-white?logo=huggingface)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) 
 
@@ -69,6 +69,8 @@ Named entity recognition (NER) is an NLP technique that extracts information fro
 ></script>
 
 <gradio-app src="https://muntasirhossain-named-entity-recognition.hf.space"></gradio-app>
+
+[Check the model metrics on Hugging Face hub!](https://huggingface.co/MuntasirHossain/bert-finetuned-ner)
 
 
 
