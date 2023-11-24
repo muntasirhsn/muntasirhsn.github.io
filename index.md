@@ -44,7 +44,7 @@ RAG is a technique that combines a retriever and a generative LLM to deliver acc
 [View codes on GitHub](https://github.com/muntasirhsn/Retrieval-Augmented-Generation-with-Llama-2)
 
 ---
-### NLP: Text Classification
+### NLP: Building Text Classifiers using Transformers and HuggingFace
 Text classification in NLP categorizes text documents or sentences in predefined labels. Here, I fine-tuned a DistilBERT model for multiclass text classification by using PyTorch and Hugging Face transformers. The model is able to classify a text with high accuracy within any of the four categories: 'World', 'Sports', 'Business' and 'Sci/Tech'. Try the classification demo below!
 
 <script
@@ -60,7 +60,7 @@ Text classification in NLP categorizes text documents or sentences in predefined
 
 
 ---
-### NLP: Named Entity Recognition
+### NLP: Named Entity Recognition with BERT model
 Named entity recognition (NER) is an NLP technique that extracts information from text to detect and classify named entities. In this demo, a BERT model was fine-tuned for NER task by using PyTorch and Hugging Face transformers. Try the NER demo below!
 
 <script
