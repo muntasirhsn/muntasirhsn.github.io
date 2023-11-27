@@ -25,9 +25,6 @@ Stacking is an ensemble machine learning technique in which the outputs of multi
 
 <img src="images/Saleprice3.png?raw=true"/> Figure 4: Relation between numerical features and the target (sale price)
 
-#![image](https://github.com/muntasirhsn/muntasirhsn.github.io/assets/29087240/60e16b91-e03a-4d2a-9953-9d6b860fd76a) Figure 5: Transforming Skewed Features
-
-
 <img src="images/Stacking Model.png?raw=true"/> Figure 5: A schematic presentation of the stacking ML model architecture
 
 
