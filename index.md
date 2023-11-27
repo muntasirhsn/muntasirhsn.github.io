@@ -1,4 +1,4 @@
-## Selected demo projects in machine learning, generative AI, NLP, computer vision and more. 
+## Selected projects in machine learning, generative AI, NLP, computer vision and more. 
 
 ---
 
