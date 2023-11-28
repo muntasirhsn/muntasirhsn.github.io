@@ -57,8 +57,8 @@ Text classification in NLP categorizes text documents or sentences in predefined
 
 
 ---
-### NLP: Named Entity Recognition with BERT model
-Named entity recognition (NER) is an NLP technique that extracts information from text to detect and classify named entities. In this demo, a BERT model was fine-tuned for NER task by using PyTorch and Hugging Face transformers. Try the NER demo below!
+### NLP: Named Entity Recognition with BERT
+Named entity recognition (NER) is an NLP technique that extracts information from text to detect and classify named entities. In this demo, I fine-tuned a BERT model by using PyTorch and Hugging Face transformers for NER. Try the NER demo below!
 
 <script
 	type="module"
