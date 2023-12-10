@@ -58,7 +58,7 @@ Text classification in NLP categorizes text documents or sentences in predefined
 
 ---
 ### NLP: Named Entity Recognition with spaCy and Transformers
-Named entity recognition (NER) is an NLP technique that extracts information from text to detect and classify named entities. While the spaCy library is already excellent for NER task, the spacy-transformers library wraps the  Hugging Face’s transformers inside the pipeline and enables accurate NER in much more challenging scenarios involving [complex texts](https://en.wikipedia.org/wiki/Tesla,_Inc.). Try the NER demo below!
+Named entity recognition (NER) is an NLP technique that extracts information from text to detect and classify named entities. While the spaCy library is already excellent for NER task, the spacy-transformers library wraps the  Hugging Face’s transformers inside the pipeline and enables accurate NER in much more challenging scenarios involving [complex texts](https://en.wikipedia.org/wiki/Tesla,_Inc.#:~:text=In%20February%202006,Airport.%5B24%5D). Try the NER demo below!
 
 <script
 	type="module"
