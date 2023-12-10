@@ -41,8 +41,8 @@ RAG is a technique that combines a retriever and a generative LLM to deliver acc
 [View codes on GitHub](https://github.com/muntasirhsn/Retrieval-Augmented-Generation-with-Llama-2)
 
 ---
-### NLP: Building Text Classifiers using Transformers and HuggingFace
-Text classification in NLP categorizes text documents or sentences in predefined labels. Here, I fine-tuned a DistilBERT model for multiclass text classification by using PyTorch and Hugging Face transformers. The model is able to classify a text with high accuracy within any of the four categories: 'World', 'Sports', 'Business' and 'Sci/Tech'. Try the classification demo below!
+### NLP: Fine-tuning Hugging Face Transformers model for Text Classification
+Text classification in NLP categorizes text documents or sentences in predefined labels. Here, I fine-tuned a DistilBERT model for multiclass text classification by using PyTorch and Hugging Face transformers. The model can classify a text with high accuracy within any of the four categories: 'World', 'Sports', 'Business' and 'Sci/Tech'. Try the classification demo below!
 
 <script
 	type="module"
@@ -57,21 +57,19 @@ Text classification in NLP categorizes text documents or sentences in predefined
 
 
 ---
-### NLP: Named Entity Recognition with BERT
-Named entity recognition (NER) is an NLP technique that extracts information from text to detect and classify named entities. In this demo, I fine-tuned a BERT model by using PyTorch and Hugging Face transformers for NER. Try the NER demo below!
+### NLP: Named Entity Recognition with spaCy and BERT
+Named entity recognition (NER) is an NLP technique that extracts information from text to detect and classify named entities. While the spaCy library is already excellent for NER task, the spacy-transformers library wraps the  Hugging Face’s transformers inside the pipeline and enables accurate NER in much more challenging scenarios involving [complex texts](https://en.wikipedia.org/wiki/Tesla,_Inc.). Try the NER demo below!
 
 <script
 	type="module"
-	src="https://gradio.s3-us-west-2.amazonaws.com/4.1.1/gradio.js"
+	src="https://gradio.s3-us-west-2.amazonaws.com/4.8.0/gradio.js"
 ></script>
 
-<gradio-app src="https://muntasirhossain-named-entity-recognition.hf.space"></gradio-app>
-
-[Check the model metrics on Hugging Face hub!](https://huggingface.co/MuntasirHossain/bert-finetuned-ner)
+<gradio-app src="https://muntasirhossain-ner-spacy-transformers.hf.space"></gradio-app>
 
 
 
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#) [![](https://img.shields.io/badge/HuggingFace_Transformers-white?logo=huggingface)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) 
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/spaCy-white?logo=spacy)](#) [![](https://img.shields.io/badge/HuggingFace_Transformers-white?logo=huggingface)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) 
 
 
 
