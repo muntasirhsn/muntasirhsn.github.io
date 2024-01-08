@@ -56,22 +56,6 @@ Text classification in NLP categorizes text documents or sentences in predefined
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#) [![](https://img.shields.io/badge/HuggingFace_Transformers-white?logo=huggingface)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) 
 
 
----
-### NLP: Named Entity Recognition with spaCy and Transformers
-Named entity recognition (NER) is an NLP technique that extracts information from text to detect and classify named entities. While the spaCy library is already excellent for NER task, the spacy-transformers library wraps the  Hugging Face’s transformers inside the pipeline and enables accurate NER in much more challenging scenarios involving [complex texts](https://en.wikipedia.org/wiki/Tesla,_Inc.#:~:text=In%20February%202006,Airport.%5B24%5D). Try the NER demo below!
-
-<script
-	type="module"
-	src="https://gradio.s3-us-west-2.amazonaws.com/4.8.0/gradio.js"
-></script>
-
-<gradio-app src="https://muntasirhossain-ner-spacy-transformers.hf.space"></gradio-app>
-
-
-
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/spaCy-white?logo=spacy)](#) [![](https://img.shields.io/badge/HuggingFace_Transformers-white?logo=huggingface)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) 
-
-
 
 ---
 ### Computer Vision: Deploying YOLOv8 model with AWS
