@@ -10,17 +10,17 @@ RAG is a technique that combines a retriever and a generative LLM to deliver acc
 [**View codes on GitHub**](https://github.com/muntasirhsn/Retrieval-Augmented-Generation-with-Llama-2)
 
 ---
-### NLP: Fine-tuning Hugging Face Transformers model for Text Classification
-Text classification in NLP categorizes text documents or sentences in predefined labels. Here, I fine-tuned a DistilBERT model for multiclass text classification by using PyTorch and Hugging Face transformers. The model can classify a text with high accuracy within any of the four categories: 'World', 'Sports', 'Business' and 'Sci/Tech'. **Try the real-time classification demo below!**
+### NLP: Detecting cyberbullying content on social media
+The prevalence of cyberbullying on social platforms emerged as a paramount concern of the twenty-first century. Here, I trained a Hugging Face transformers (BERT) model to automatically detect hateful/cyberbullying contents and allow to take appropriate action to maintain a safe online environment. The model can distinguish between various forms of cyberbullying, including ethnicity-based, gender-based, religion-based, aged-based and other types. **Try the real-time classification demo below!**
 
 <script
 	type="module"
-	src="https://gradio.s3-us-west-2.amazonaws.com/4.1.1/gradio.js"
+	src="https://gradio.s3-us-west-2.amazonaws.com/4.19.1/gradio.js"
 ></script>
 
-<gradio-app src="https://muntasirhossain-text-classification-for-articles.hf.space"></gradio-app>
+<gradio-app src="https://muntasirhossain-text-classification-cyberbullying.hf.space"></gradio-app>
 
-[**Check the model metrics on Hugging Face hub!**](https://huggingface.co/MuntasirHossain/distilbert-finetuned-ag-news)
+[**Check the model metrics on Hugging Face hub!**](https://huggingface.co/MuntasirHossain/bert-finetuned-twitter-cyberbullying)
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#) [![](https://img.shields.io/badge/HuggingFace_Transformers-white?logo=huggingface)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) 
 
