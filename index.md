@@ -12,7 +12,7 @@ RAG is a technique that combines a retriever and a generative LLM to deliver acc
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/HuggingFace_Transformers-white?logo=huggingface)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) 
 
 ### NLP/Generative AI: Parameter-efficient fine-tuning (PEFT) of LLMs
-Fine-tuning an LLM (e.g. full fine-tuning) for a particular task can be computationally intensive as it involves updating all the LLM model parameters. Parameter-efficient fine-tuning PEFT) methods update only a small subset of parameters while freezing most of the other model weights, allowing LLM fine-tuning with limited resources. Here, I have fine-tuned the Google Flan-T5 Large model with QLoRA (a form of PEFT). The fine-tuned LLM delivers highly accurate summarisation of texts/dialogues.  
+Fine-tuning an LLM (e.g. full fine-tuning) for a particular task can be computationally intensive as it involves updating all the LLM model parameters. Parameter-efficient fine-tuning PEFT) methods update only a small subset of parameters while freezing most of the other model weights, allowing LLM fine-tuning with limited resources. Here, I have fine-tuned the [Google Flan-T5 Large](https://huggingface.co/google/flan-t5-large) model with QLoRA (a form of PEFT). The fine-tuned LLM delivers highly accurate summarisation of texts/dialogues.  
 
 [**Check the model metrics on Hugging Face hub!**](https://huggingface.co/MuntasirHossain/flan-t5-large-samsum-qlora)
 
