@@ -20,14 +20,7 @@ Fine-tuning an LLM (e.g. full fine-tuning) for a particular task can be computat
 
 ---
 ### NLP: Detecting cyberbullying content on social media
-The prevalence of cyberbullying on social platforms emerged as a paramount concern of the twenty-first century. Here, I trained a Hugging Face transformers (BERT) model to automatically detect hateful/cyberbullying contents and allow to take appropriate action to maintain a safe online environment. The model can distinguish between various forms of cyberbullying, including ethnicity-based, gender-based, religion-based, aged-based and other types. **Try the real-time classification demo below!**
-
-<script
-	type="module"
-	src="https://gradio.s3-us-west-2.amazonaws.com/4.19.1/gradio.js"
-></script>
-
-<gradio-app src="https://muntasirhossain-text-classification-cyberbullying.hf.space"></gradio-app>
+The prevalence of cyberbullying on social platforms emerged as a paramount concern of the twenty-first century. Here, I trained a Hugging Face transformers (BERT) model to automatically detect hateful/cyberbullying contents and allow to take appropriate action to maintain a safe online environment. The model can distinguish between various forms of cyberbullying, including ethnicity-based, gender-based, religion-based, aged-based and other types. 
 
 [**Check the model metrics on Hugging Face hub!**](https://huggingface.co/MuntasirHossain/bert-finetuned-twitter-cyberbullying)
 
