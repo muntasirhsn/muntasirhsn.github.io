@@ -19,6 +19,22 @@ Fine-tuning an LLM (e.g. full fine-tuning) for a particular task can be computat
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#) [![](https://img.shields.io/badge/HuggingFace_Transformers-white?logo=huggingface)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) 
 
 ---
+
+### 
+Gemma is a set of lightweight, open-source models developed by Google, derived from the advanced technology behind the Gemini models. Although they are comparatively small models (with 7B and 2B variants), they are still quite powerful for general-purpose text-generation tasks. Are you curious to try these models? Try below the chatbot based on the Google/Gemma-7b-IT model. Disclaimer: The model was deployed by Hugging Face on their hub. I have used the Hugging Face Inference Client for the model to develop this chatbot.
+
+
+<script
+	type="module"
+	src="https://gradio.s3-us-west-2.amazonaws.com/4.19.2/gradio.js"
+></script>
+
+<gradio-app src="https://muntasirhossain-gemma-7b-it-chat.hf.space"></gradio-app>
+
+---
+
+
+
 ### NLP: Detecting cyberbullying content on social media
 The prevalence of cyberbullying on social platforms emerged as a paramount concern of the twenty-first century. Here, I trained a Hugging Face transformers (BERT) model to automatically detect hateful/cyberbullying contents and allow to take appropriate action to maintain a safe online environment. The model can distinguish between various forms of cyberbullying, including ethnicity-based, gender-based, religion-based, aged-based and other types. 
 
