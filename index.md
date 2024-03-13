@@ -20,7 +20,13 @@ Fine-tuning an LLM (e.g. full fine-tuning) for a particular task can be computat
 
 ---
 
-### 
+### Deploying Hugging Face LLMs on AWS Sagemaker Endpoint and create a chatbot powered by Gradio
+Deploying LLMs often requires a huge GPU resource and using on-premises infrastrucutre is may not always seem a feasible solution. Here, I deployed a Mistral-7B-Instruct model from the Hugging Face hub to an Amazon Sagemaker endpoint with GPU 
+instances. After the deployment I used Gradio to develop the user-friendly chatbot interface.  
+![image](https://github.com/muntasirhsn/muntasirhsn.github.io/assets/29087240/1044e48d-4bc5-4793-b794-4b461603369c) Figure: A Chatbot developed with Amazon Sagemaker endpoint for Mistral-7B-Instruct model and Gradio
+
+
+### Using Google Gemma LLM as a chatbot
 Gemma is a set of lightweight, open-source models developed by Google, derived from the advanced technology behind the Gemini models. Although they are comparatively small models (with 7B and 2B variants), they are still quite powerful for general-purpose text-generation tasks. Are you curious to try these models? Try below the chatbot based on the Google/Gemma-7b-IT model. Disclaimer: The model was deployed by Hugging Face on their hub. I have used the Hugging Face Inference Client for the model to develop this chatbot.
 
 
