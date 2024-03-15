@@ -2,6 +2,25 @@
 
 ---
 
+### MLOps with AWS: Train and deploy ML models at scale
+In this project, I developed an end-to-end machine learning (ML) workflow with automation for all the steps including data preprocessing, training models at scale with distributed computing (GPUs/CPUs), model evaluation, deploying in production, model monitoring and drift detection with Amazon SageMaker Pipeline - a purpose-built CI/CD service.
+
+
+<img src="images/MLOps6_Muntasir Hossain.jpg?raw=true"/> Figure: ML orchestration reference architecture with AWS
+
+<img src="images/Sageaker Pipeline5.png?raw=true"/> Figure: CI/CD pipeline with Amazon Sagemaker 
+
+
+
+<img src="images/RealtimeInference-Postman4.png?raw=true"/> Figure 5: Real-time inference with the ML model deployed in production. A REST API was created by using Amazon API Gateway as an external-facing entry point for the model endpoint. The API was tested with Postman (API platform) for real-time inference.
+
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![AWS](https://img.shields.io/badge/AWS-Cloud-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/)  [![Amazon Sagemaker](https://img.shields.io/badge/Sagemaker-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/sagemaker/) [![Amazon API Gateway](https://img.shields.io/badge/API_Gateway-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/api-gateway/) 
+
+[View codes on GitHub](https://github.com/muntasirhsn/MLOps-with-AWS)
+
+
+---
+
 ### Generative AI: Retrieval-Augmented Generation (RAG) with Large Language Models (LLMs) and LangChain
 RAG is a technique that combines a retriever and a generative LLM to deliver accurate responses to queries. It involves retrieving relevant information from a large corpus and then generating contextually appropriate responses to queries. Here, I used the Llama 2 LLM and LangChain with GPU acceleration to perform generative question-answering (QA) with RAG.
 
@@ -20,9 +39,19 @@ Fine-tuning an LLM (e.g. full fine-tuning) for a particular task can be computat
 
 ---
 
+### ML Deployment: Deploying AWS Sagemaker Endpoints with serverless services (AWS Lambda) and FastAPI
+FastAPI is a modern web framework designed for building APIs with Python.  It emphasizes simplicity and ease of use while providing robust functionality, making it popular among developers for creating high-performance APIs. 
+In this example, I utilise FastAPI and AWS lambda as a serverless service to deploy an Amazon Sagemaker endpoint for a Microsoft/Phi-2 LLM. 
+
+![image](https://github.com/muntasirhsn/muntasirhsn.github.io/assets/29087240/92bae7ad-6a12-4ff7-a026-2a17afcf7090) Figure: Deploying Amazon Sagemaker ML model endpoint with FastAPI and AWS Lambda
+
+
+---
+
 ### NLP/Generative AI: Deploying Hugging Face LLMs on AWS Sagemaker Endpoint and creating a chatbot powered by Gradio
 Deploying LLMs requires a huge amount of GPU resources and using on-premises infrastructure may not always seem a feasible solution. Here, I deployed a Mistral-7B-Instruct model from the Hugging Face hub to an Amazon Sagemaker endpoint with GPU 
 instances. After the deployment, I used Gradio to develop the user-friendly chatbot interface.  
+
 ![image](https://github.com/muntasirhsn/muntasirhsn.github.io/assets/29087240/1044e48d-4bc5-4793-b794-4b461603369c) Figure: A Chatbot developed with Amazon Sagemaker endpoint for Mistral-7B-Instruct model and Gradio
 
 
@@ -47,25 +76,6 @@ The prevalence of cyberbullying on social platforms emerged as a paramount conce
 [Check the model metrics on Hugging Face hub!](https://huggingface.co/MuntasirHossain/bert-finetuned-twitter-cyberbullying)
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#) [![](https://img.shields.io/badge/HuggingFace_Transformers-white?logo=huggingface)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) 
-
-
----
-
-### MLOps with AWS: Train and deploy ML models at scale
-In this project, I developed an end-to-end machine learning (ML) workflow with automation for all the steps including data preprocessing, training models at scale with distributed computing (GPUs/CPUs), model evaluation, deploying in production, model monitoring and drift detection with Amazon SageMaker Pipeline - a purpose-built CI/CD service.
-
-
-<img src="images/MLOps6_Muntasir Hossain.jpg?raw=true"/> Figure: ML orchestration reference architecture with AWS
-
-<img src="images/Sageaker Pipeline5.png?raw=true"/> Figure: CI/CD pipeline with Amazon Sagemaker 
-
-
-
-<img src="images/RealtimeInference-Postman4.png?raw=true"/> Figure 5: Real-time inference with the ML model deployed in production. A REST API was created by using Amazon API Gateway as an external-facing entry point for the model endpoint. The API was tested with Postman (API platform) for real-time inference.
-
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![AWS](https://img.shields.io/badge/AWS-Cloud-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/)  [![Amazon Sagemaker](https://img.shields.io/badge/Sagemaker-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/sagemaker/) [![Amazon API Gateway](https://img.shields.io/badge/API_Gateway-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/api-gateway/) 
-
-[View codes on GitHub](https://github.com/muntasirhsn/MLOps-with-AWS)
 
 
 ### Predictive Modelling: Stacking ML model for high prediction accuracy
