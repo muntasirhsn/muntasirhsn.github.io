@@ -39,7 +39,7 @@ Fine-tuning an LLM (e.g. full fine-tuning) for a particular task can be computat
 
 ---
 
-### ML Deployment: Deploying AWS Sagemaker Endpoints with serverless services (AWS Lambda) and FastAPI
+### ML Deployment: Deploying AWS Sagemaker Endpoints with FastAPI and serverless services (AWS Lambda)
 FastAPI is a modern web framework designed for building APIs with Python.  It emphasizes simplicity and ease of use while providing robust functionality, making it popular among developers for creating high-performance APIs. 
 In this example, I utilise FastAPI and AWS lambda as a serverless service to deploy an Amazon Sagemaker endpoint for a Microsoft/Phi-2 LLM. 
 
