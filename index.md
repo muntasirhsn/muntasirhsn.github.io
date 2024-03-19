@@ -39,7 +39,7 @@ RAG is a technique that combines a retriever and a generative LLM to deliver acc
 
 ---
 
-### LLM Deployment: Deploying AWS Sagemaker Endpoints for LLMs with FastAPI and serverless services (AWS Lambda)
+### ML/LLMs/NLP: Deploying AWS Sagemaker Endpoints with FastAPI and serverless services (AWS Lambda)
 FastAPI is a modern web framework designed for building APIs with Python.  It emphasizes simplicity and ease of use while providing robust functionality, making it popular among developers for creating high-performance APIs. 
 In this example, I utilise FastAPI and AWS lambda as a serverless service to deploy an Amazon Sagemaker endpoint for a Microsoft/Phi-2 LLM. 
 
@@ -102,7 +102,7 @@ YOLO (you only look once) is a state-of-the-art, real-time object detection, seg
 [**View project on GitHub**](https://github.com/muntasirhsn/Deploying-YOLOv8-model-on-Amazon-SageMaker-endpoint)
 
 ---
-### Deep CNN-LSTM network for energy usage forecasting
+### Deep Learning: CNN-LSTM network for energy usage forecasting
 Long short-term memory (LSTM) is a special type of recurrent neural network (RNN) that can be used for time-series forecasting. LSTM networks are capable of learning features from input sequences of data and can be used to predict multi-step sequences. In this example, I demonstrated a CNN-LSTM architecture for multistep time-series energy usage forecasting. A one-dimensional convolutional neural network (CNN) is used to read and encode the input sequence. An LSTM network is then used as a decoder to make a one-step prediction for each value in the output sequence. 
 
 <img src="images/time-series3.png?raw=true"/>  Figure: Actual and predicted energy usage over 12 weeks of time period
@@ -114,7 +114,7 @@ Long short-term memory (LSTM) is a special type of recurrent neural network (RNN
 
 
 ---
-### Extract, transform, and load (ETL) in Python
+### Data Engineering: Extract, transform, and load (ETL) in Python
 This is a simple demonstration of an ETL process in python. Tesla share price data is extracted, transformed and loaded into a PostgreSQL database. An automation tool like Windows Task Scheduler or Airflow can be easily employed to execute the ETL process on a schedule and new records will be automatically extracted, transformed and loaded into the database!
 
 <img src="images/PostgreSQL2.png?raw=true"/> Figure: Transformed and loaded data in PostgreSQL database
