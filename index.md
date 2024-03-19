@@ -2,15 +2,13 @@
 
 ---
 
-### MLOps with AWS: Train and deploy ML models at scale
+### MLOps with AWS: Automate the pipelines, train and deploy at scale and monitor models
 In this project, I developed an end-to-end machine learning (ML) workflow with automation for all the steps including data preprocessing, training models at scale with distributed computing (GPUs/CPUs), model evaluation, deploying in production, model monitoring and drift detection with Amazon SageMaker Pipeline - a purpose-built CI/CD service.
 
 
 <img src="images/MLOps6_Muntasir Hossain.jpg?raw=true"/> Figure: ML orchestration reference architecture with AWS
 
 <img src="images/Sageaker Pipeline5.png?raw=true"/> Figure: CI/CD pipeline with Amazon Sagemaker 
-
-
 
 <img src="images/RealtimeInference-Postman4.png?raw=true"/> Figure 5: Real-time inference with the ML model deployed in production. A REST API was created by using Amazon API Gateway as an external-facing entry point for the model endpoint. The API was tested with Postman (API platform) for real-time inference.
 
@@ -21,16 +19,7 @@ In this project, I developed an end-to-end machine learning (ML) workflow with a
 
 ---
 
-### Generative AI: Retrieval-Augmented Generation (RAG) with Large Language Models (LLMs) and LangChain
-RAG is a technique that combines a retriever and a generative LLM to deliver accurate responses to queries. It involves retrieving relevant information from a large corpus and then generating contextually appropriate responses to queries. Here, I used the Llama 2 LLM and LangChain with GPU acceleration to perform generative question-answering (QA) with RAG.
-
-![image](https://github.com/muntasirhsn/muntasirhsn.github.io/assets/29087240/cb5f2892-68a5-4d68-b9b4-568959b2595a) Figure: A schematic representation of RAG with a retriever and an LLM
-
-[View codes on GitHub](https://github.com/muntasirhsn/Retrieval-Augmented-Generation-with-Llama-2)
-
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/HuggingFace_Transformers-white?logo=huggingface)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) 
-
-### NLP/Generative AI: Parameter-efficient fine-tuning (PEFT) of LLMs
+### NLP/LLMs: Parameter-efficient fine-tuning (PEFT) of Large Language Models (LLMs)
 Fine-tuning an LLM (e.g. full fine-tuning) for a particular task can be computationally intensive as it involves updating all the LLM model parameters. Parameter-efficient fine-tuning PEFT) methods update only a small subset of parameters while freezing most of the other model weights, allowing LLM fine-tuning with limited resources. Here, I have fine-tuned the [Google Flan-T5 Large](https://huggingface.co/google/flan-t5-large) model with QLoRA (a form of PEFT). The fine-tuned LLM delivers highly accurate summarisation of texts/dialogues.  
 
 [Check the model metrics on Hugging Face hub!](https://huggingface.co/MuntasirHossain/flan-t5-large-samsum-qlora)
@@ -39,7 +28,18 @@ Fine-tuning an LLM (e.g. full fine-tuning) for a particular task can be computat
 
 ---
 
-### ML Deployment: Deploying AWS Sagemaker Endpoints with FastAPI and serverless services (AWS Lambda)
+### Generative AI: Retrieval-Augmented Generation (RAG) with LLMs, Vectorstores and LangChain
+RAG is a technique that combines a retriever and a generative LLM to deliver accurate responses to queries. It involves retrieving relevant information from a large corpus and then generating contextually appropriate responses to queries. Here, I used the Llama 2 LLM and LangChain with GPU acceleration to perform generative question-answering (QA) with RAG.
+
+![image](https://github.com/muntasirhsn/muntasirhsn.github.io/assets/29087240/cb5f2892-68a5-4d68-b9b4-568959b2595a) Figure: A schematic representation of RAG with a retriever and an LLM
+
+[View codes on GitHub](https://github.com/muntasirhsn/Retrieval-Augmented-Generation-with-Llama-2)
+
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/HuggingFace_Transformers-white?logo=huggingface)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) 
+
+---
+
+### LLM Deployment: Deploying AWS Sagemaker Endpoints for LLMs with FastAPI and serverless services (AWS Lambda)
 FastAPI is a modern web framework designed for building APIs with Python.  It emphasizes simplicity and ease of use while providing robust functionality, making it popular among developers for creating high-performance APIs. 
 In this example, I utilise FastAPI and AWS lambda as a serverless service to deploy an Amazon Sagemaker endpoint for a Microsoft/Phi-2 LLM. 
 
@@ -54,8 +54,9 @@ instances. After the deployment, I used Gradio to develop the user-friendly chat
 
 ![image](https://github.com/muntasirhsn/muntasirhsn.github.io/assets/29087240/1044e48d-4bc5-4793-b794-4b461603369c) Figure: A Chatbot developed with Amazon Sagemaker endpoint for Mistral-7B-Instruct model and Gradio
 
+---
 
-### NLP/Generative AI: Using Google Gemma LLM as a chatbot
+### NLP/Generative AI: Using Google Gemma 7B LLM as a chatbot
 Gemma is a set of lightweight, open-source models developed by Google, derived from the advanced technology behind the Gemini models. Although they are comparatively small models (with 7B and 2B variants), they are still quite powerful for general-purpose text-generation tasks. Are you curious to try these models? Try below the chatbot based on the Google/Gemma-7b-IT model. **Disclaimer**: The model was deployed by Hugging Face on their hub. I used the Hugging Face Inference Client for this model to develop this chatbot.
 
 
@@ -68,8 +69,6 @@ Gemma is a set of lightweight, open-source models developed by Google, derived f
 
 ---
 
-
-
 ### NLP: Detecting cyberbullying content on social media
 The prevalence of cyberbullying on social platforms emerged as a paramount concern of the twenty-first century. Here, I trained a Hugging Face transformers (BERT) model to automatically detect hateful/cyberbullying contents and allow to take appropriate action to maintain a safe online environment. The model can distinguish between various forms of cyberbullying, including ethnicity-based, gender-based, religion-based, aged-based and other types. 
 
@@ -77,6 +76,7 @@ The prevalence of cyberbullying on social platforms emerged as a paramount conce
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#) [![](https://img.shields.io/badge/HuggingFace_Transformers-white?logo=huggingface)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) 
 
+---
 
 ### Predictive Modelling: Stacking ML model for high prediction accuracy
 Stacking is an ensemble machine learning technique in which the outputs of multiple different machine learning models (base models) are fed into a higher-level meta-model to make the final output. Stacking can be useful to improve the overall accuracy of the predictions by utilising the strengths of each individual base model and minimising the effects of overfitting. In this example, I utilised a combination of multiple ML models (XGBoost, GBM, Ridge and ElasticNet) to develop the stacking regression model for predicting house prices with high accuracy. 
