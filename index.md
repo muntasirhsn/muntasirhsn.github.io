@@ -2,23 +2,6 @@
 
 ---
 
-### MLOps with AWS: Automate the pipelines, train and deploy at scale and monitor models
-In this project, I developed an end-to-end machine learning (ML) workflow with automation for all the steps including data preprocessing, training models at scale with distributed computing (GPUs/CPUs), model evaluation, deploying in production, model monitoring and drift detection with Amazon SageMaker Pipeline - a purpose-built CI/CD service.
-
-
-<img src="images/MLOps6_Muntasir Hossain.jpg?raw=true"/> Figure: ML orchestration reference architecture with AWS
-
-<img src="images/Sageaker Pipeline5.png?raw=true"/> Figure: CI/CD pipeline with Amazon Sagemaker 
-
-<img src="images/RealtimeInference-Postman4.png?raw=true"/> Figure 5: Real-time inference with the ML model deployed in production. A REST API was created by using Amazon API Gateway as an external-facing entry point for the model endpoint. The API was tested with Postman (API platform) for real-time inference.
-
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![AWS](https://img.shields.io/badge/AWS-Cloud-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/)  [![Amazon Sagemaker](https://img.shields.io/badge/Sagemaker-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/sagemaker/) [![Amazon API Gateway](https://img.shields.io/badge/API_Gateway-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/api-gateway/) 
-
-[View codes on GitHub](https://github.com/muntasirhsn/MLOps-with-AWS)
-
-
----
-
 ### NLP/LLMs: Parameter-efficient fine-tuning (PEFT) of Large Language Models (LLMs)
 Fine-tuning an LLM (e.g. full fine-tuning) for a particular task can be computationally intensive as it involves updating all the LLM model parameters. Parameter-efficient fine-tuning PEFT) methods update only a small subset of parameters while freezing most of the other model weights, allowing LLM fine-tuning with limited resources. Here, I have fine-tuned the [Google Flan-T5 Large](https://huggingface.co/google/flan-t5-large) model with QLoRA (a form of PEFT). The fine-tuned LLM delivers highly accurate summarisation of texts/dialogues.  
 
@@ -67,16 +50,25 @@ Gemma is a set of lightweight, open-source models developed by Google, derived f
 
 <gradio-app src="https://muntasirhossain-gemma-7b-it-chat.hf.space"></gradio-app>
 
----
-
-### NLP: Detecting cyberbullying content on social media
-The prevalence of cyberbullying on social platforms emerged as a paramount concern of the twenty-first century. Here, I trained a Hugging Face transformers (BERT) model to automatically detect hateful/cyberbullying contents and allow to take appropriate action to maintain a safe online environment. The model can distinguish between various forms of cyberbullying, including ethnicity-based, gender-based, religion-based, aged-based and other types. 
-
-[Check the model metrics on Hugging Face hub!](https://huggingface.co/MuntasirHossain/bert-finetuned-twitter-cyberbullying)
-
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#) [![](https://img.shields.io/badge/HuggingFace_Transformers-white?logo=huggingface)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) 
 
 ---
+
+### MLOps with AWS: Automate the pipelines, train and deploy at scale and monitor models
+In this project, I developed an end-to-end machine learning (ML) workflow with automation for all the steps including data preprocessing, training models at scale with distributed computing (GPUs/CPUs), model evaluation, deploying in production, model monitoring and drift detection with Amazon SageMaker Pipeline - a purpose-built CI/CD service.
+
+
+<img src="images/MLOps6_Muntasir Hossain.jpg?raw=true"/> Figure: ML orchestration reference architecture with AWS
+
+<img src="images/Sageaker Pipeline5.png?raw=true"/> Figure: CI/CD pipeline with Amazon Sagemaker 
+
+<img src="images/RealtimeInference-Postman4.png?raw=true"/> Figure 5: Real-time inference with the ML model deployed in production. A REST API was created by using Amazon API Gateway as an external-facing entry point for the model endpoint. The API was tested with Postman (API platform) for real-time inference.
+
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![AWS](https://img.shields.io/badge/AWS-Cloud-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/)  [![Amazon Sagemaker](https://img.shields.io/badge/Sagemaker-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/sagemaker/) [![Amazon API Gateway](https://img.shields.io/badge/API_Gateway-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/api-gateway/) 
+
+[View codes on GitHub](https://github.com/muntasirhsn/MLOps-with-AWS)
+
+---
+
 
 ### Predictive Modelling: Stacking ML model for high prediction accuracy
 Stacking is an ensemble machine learning technique in which the outputs of multiple different machine learning models (base models) are fed into a higher-level meta-model to make the final output. Stacking can be useful to improve the overall accuracy of the predictions by utilising the strengths of each individual base model and minimising the effects of overfitting. In this example, I utilised a combination of multiple ML models (XGBoost, GBM, Ridge and ElasticNet) to develop the stacking regression model for predicting house prices with high accuracy. 
