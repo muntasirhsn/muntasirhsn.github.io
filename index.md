@@ -31,13 +31,6 @@ In this example, I utilise FastAPI and AWS lambda as a serverless service to dep
 
 ---
 
-### NLP/Generative AI: Deploying Hugging Face LLMs on AWS Sagemaker Endpoint and creating a chatbot powered by Gradio
-Deploying LLMs requires a huge amount of GPU resources and using on-premises infrastructure may not always seem a feasible solution. Here, I deployed a Mistral-7B-Instruct model from the Hugging Face hub to an Amazon Sagemaker endpoint with GPU 
-instances. After the deployment, I used Gradio to develop the user-friendly chatbot interface.  
-
-![image](https://github.com/muntasirhsn/muntasirhsn.github.io/assets/29087240/1044e48d-4bc5-4793-b794-4b461603369c) Figure: A Chatbot developed with Amazon Sagemaker endpoint for Mistral-7B-Instruct model and Gradio
-
----
 
 ### NLP/Generative AI: Using Google Gemma 7B LLM as a chatbot
 Gemma is a set of lightweight, open-source models developed by Google, derived from the advanced technology behind the Gemini models. Although they are comparatively small models (with 7B and 2B variants), they are still quite powerful for general-purpose text-generation tasks. Are you curious to try these models? Try below the chatbot based on the Google/Gemma-7b-IT model. **Disclaimer**: The model was deployed by Hugging Face on their hub. I used the Hugging Face Inference Client for this model to develop this chatbot.
@@ -69,6 +62,14 @@ In this project, I developed an end-to-end machine learning (ML) workflow with a
 
 ---
 
+
+### NLP/Generative AI: Deploying Hugging Face LLMs on AWS Sagemaker Endpoint and creating a chatbot powered by Gradio
+Deploying LLMs requires a huge amount of GPU resources and using on-premises infrastructure may not always seem a feasible solution. Here, I deployed a Mistral-7B-Instruct model from the Hugging Face hub to an Amazon Sagemaker endpoint with GPU 
+instances. After the deployment, I used Gradio to develop the user-friendly chatbot interface.  
+
+![image](https://github.com/muntasirhsn/muntasirhsn.github.io/assets/29087240/1044e48d-4bc5-4793-b794-4b461603369c) Figure: A Chatbot developed with Amazon Sagemaker endpoint for Mistral-7B-Instruct model and Gradio
+
+---
 
 ### Predictive Modelling: Stacking ML model for high prediction accuracy
 Stacking is an ensemble machine learning technique in which the outputs of multiple different machine learning models (base models) are fed into a higher-level meta-model to make the final output. Stacking can be useful to improve the overall accuracy of the predictions by utilising the strengths of each individual base model and minimising the effects of overfitting. In this example, I utilised a combination of multiple ML models (XGBoost, GBM, Ridge and ElasticNet) to develop the stacking regression model for predicting house prices with high accuracy. 
