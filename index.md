@@ -2,8 +2,8 @@
 
 ---
 
-### NLP/LLMs: Parameter-efficient fine-tuning (PEFT) of Large Language Models (LLMs)
-Fine-tuning an LLM (e.g. full fine-tuning) for a particular task can be computationally intensive as it involves updating all the LLM model parameters. Parameter-efficient fine-tuning PEFT) methods update only a small subset of parameters while freezing most of the other model weights, allowing LLM fine-tuning with limited resources. Here, I have fine-tuned the [Google Flan-T5 Large](https://huggingface.co/google/flan-t5-large) model with QLoRA (a form of PEFT). The fine-tuned LLM delivers highly accurate summarisation of texts/dialogues.  
+### Generative AI/LLMs/NLP: Parameter-efficient fine-tuning (PEFT) of Large Language Models (LLMs)
+Fine-tuning an LLM (e.g. full fine-tuning) for a particular task can be computationally intensive as it involves updating all the LLM model parameters. Parameter-efficient fine-tuning PEFT) methods update only a small subset of parameters, allowing LLM fine-tuning with limited resources. Here, I have fine-tuned the [Google Flan-T5 Large](https://huggingface.co/google/flan-t5-large) model with Quantized Low-Rank Adaptation (QLoRA), a form of PEFT. The fine-tuned LLM delivers highly accurate summarisation of texts/dialogues. Instead of updating all the weights of the pre-trained LLM, LoRA freezes the original model weights and applies changes to a separate set of weights. Quantization further reduces the memory footprint by quantizing the precision of the weights in the pre-trained LLM to 4-bit. These modified weights, known as the low-rank representation, are then added to the original weights, allowing for more efficient adaptation of the LLM without the need to retrain the entire model from scratch.  
 
 [Check the model metrics on Hugging Face hub!](https://huggingface.co/MuntasirHossain/flan-t5-large-samsum-qlora)
 
@@ -11,7 +11,17 @@ Fine-tuning an LLM (e.g. full fine-tuning) for a particular task can be computat
 
 ---
 
-### Generative AI: Retrieval-Augmented Generation (RAG) with LLMs, Vectorstores and LangChain
+
+### LLMs/NLP: Reinforcement Learning with Human Feedback (RLHF) 
+Reinforcement Learning with Human Feedback (RLHF) is a cutting-edge approach used to fine-tune Large Language Models (LLMs) to generate outputs that align more closely with human preferences and expectations. Here, I utilised RLHF to further fine-tune a [Google Flan-T5 Large](https://huggingface.co/MuntasirHossain/flan-t5-large-samsum-qlora)and generate less toxic content. The model was previously fine-tuned for generative summarisation with PEFT. A [binary classifier model](https://huggingface.co/facebook/roberta-hate-speech-dynabench-r4-target) from Meta AI was used as the reward model to score and reward the LLM output based on the toxicity level. The LLM was fine-tuned with Proximal Policy Optimization (PPO) using those reward values. The iterative process for maximising cumulative rewards and fine-tuning with PPO enables detoxified LLM outputs. To ensure that the model does not deviate from generating content that is too far from the original LLM, KL-divergence was employed during the iterative training process.
+
+[Check the model on Hugging Face hub!](https://huggingface.co/MuntasirHossain/flan-t5-large-samsum-qlora-ppo)
+
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#) [![](https://img.shields.io/badge/HuggingFace_Transformers-white?logo=huggingface)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) 
+
+---
+
+### Generative AI: Retrieval-Augmented Generation (RAG) with LLMs, Vector Databases and LangChain
 RAG is a technique that combines a retriever and a generative LLM to deliver accurate responses to queries. It involves retrieving relevant information from a large corpus and then generating contextually appropriate responses to queries. Here, I used the Llama 2 LLM and LangChain with GPU acceleration to perform generative question-answering (QA) with RAG.
 
 ![image](https://github.com/muntasirhsn/muntasirhsn.github.io/assets/29087240/cb5f2892-68a5-4d68-b9b4-568959b2595a) Figure: A schematic representation of RAG with a retriever and an LLM
