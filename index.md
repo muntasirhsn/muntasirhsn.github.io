@@ -38,7 +38,7 @@ In this example, I utilise FastAPI and AWS lambda as a serverless service to dep
 
 ![image](https://github.com/muntasirhsn/muntasirhsn.github.io/assets/29087240/92bae7ad-6a12-4ff7-a026-2a17afcf7090) Figure: Deploying Amazon Sagemaker ML model endpoint with FastAPI and AWS Lambda
 
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![AWS](https://img.shields.io/badge/AWS-Cloud-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/)  [![Amazon Sagemaker](https://img.shields.io/badge/Sagemaker-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/sagemaker/) [![Fast API](https://img.shields.io/badge/Fast API-white?logo=fast-api)]((#)) 
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![AWS](https://img.shields.io/badge/AWS-Cloud-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/)  [![Amazon Sagemaker](https://img.shields.io/badge/Sagemaker-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/sagemaker/) [![Fast API](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](#)
 
 
 ---
