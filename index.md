@@ -32,7 +32,7 @@ RAG is a technique that combines a retriever and a generative LLM to deliver acc
 
 ---
 
-### ML/LLMs/NLP: Deploying AWS Sagemaker Endpoints with FastAPI and serverless services (AWS Lambda)
+### ML/LLMs/NLP: Deploying Amazon Sagemaker endpoints with FastAPI and AWS Lambda serverless services
 FastAPI is a modern web framework designed for building APIs with Python.  It emphasizes simplicity and ease of use while providing robust functionality, making it popular among developers for creating high-performance APIs. 
 In this example, I utilise FastAPI and AWS lambda as a serverless service to deploy an Amazon Sagemaker endpoint for a Microsoft/Phi-2 LLM. 
 
