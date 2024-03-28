@@ -42,7 +42,7 @@ In this example, I utilise FastAPI and AWS lambda as a serverless service to dep
 
 ---
 
-### MLOps with AWS: Automate the pipelines, train and deploy at scale and monitor models
+### MLOps with AWS: Automate the pipelines, train and deploy at scale, monitor models and access with RESTful APIs
 In this project, I developed an end-to-end machine learning (ML) workflow with automation for all the steps including data preprocessing, training models at scale with distributed computing (GPUs/CPUs), model evaluation, deploying in production, model monitoring and drift detection with Amazon SageMaker Pipeline - a purpose-built CI/CD service.
 
 
