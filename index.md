@@ -38,7 +38,7 @@ In this project, I developed an end-to-end machine learning (ML) workflow with a
 
 ---
 
-### Generative AI: Retrieval-Augmented Generation (RAG) with LLMs, Vector Databases and LangChain
+### Generative AI: Retrieval-Augmented Generation (RAG) with LLMs, Embeddings, Vector Databases and LangChain
 RAG is a technique that combines a retriever and a generative LLM to deliver accurate responses to queries. It involves retrieving relevant information from a large corpus and then generating contextually appropriate responses to queries. Here, I used the Llama 2 LLM and LangChain with GPU acceleration to perform generative question-answering (QA) with RAG.
 
 ![image](https://github.com/muntasirhsn/muntasirhsn.github.io/assets/29087240/cb5f2892-68a5-4d68-b9b4-568959b2595a) Figure: A schematic representation of RAG with a retriever and an LLM
