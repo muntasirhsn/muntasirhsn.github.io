@@ -67,7 +67,7 @@ instances. After the deployment, I used Gradio to develop the user-friendly chat
 ---
 
 ### Generative AI: Using Google Gemma 7B LLM as an AI Agent
-Gemma is a set of lightweight, open-source models developed by Google, derived from the advanced technology behind the Gemini models. Although they are comparatively small models (with 7B and 2B variants), they are still quite powerful for general-purpose text-generation tasks. Are you curious to try these models? Try below the AI agent based on the Google/Gemma-7b-IT model. **Disclaimer**: The model was deployed by Hugging Face on their hub. I used the Hugging Face Inference Client for this model to develop this chatbot.
+Gemma is a set of lightweight, open-source models developed by Google, derived from the advanced technology behind the Gemini models. Although they are comparatively small models (with 7B and 2B variants), they are still quite powerful for general-purpose text-generation tasks. Are you curious to try these models? Try below the AI agent based on the Google/Gemma-7b-IT model. Disclaimer: The model was deployed by Hugging Face on their hub. I used the Hugging Face Inference Client for this model and a web application (Gradio) to develop this AI Agent.
 
 
 <script
