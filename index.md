@@ -50,7 +50,15 @@ In this project, I developed an end-to-end machine learning (ML) workflow with a
 
 ---
 
-### ML/LLMs/NLP: Deploying Amazon Sagemaker LLM/ML model endpoints with FastAPI and AWS Lambda serverless services
+### Generative AI/LLMs: Deploying LLMs on Amazon Sagemaker endpoints and creating AI Agents powered by Gradio
+Deploying LLMs requires a huge amount of GPU resources and using on-premises infrastructure may not always seem feasible. Here, I deployed a Mistral-7B-Instruct model from the Hugging Face hub to an Amazon Sagemaker endpoint with GPU 
+instances. After the deployment, I used Gradio to develop the user-friendly chatbot interface.  
+
+![image](https://github.com/muntasirhsn/muntasirhsn.github.io/assets/29087240/1044e48d-4bc5-4793-b794-4b461603369c) Figure: A Chatbot developed with Amazon Sagemaker endpoint for Mistral-7B-Instruct model and Gradio
+
+---
+
+### Generative AI/LLMs/NLP/ML: Deploying Amazon Sagemaker LLM/ML model endpoints with FastAPI and AWS Lambda serverless services
 FastAPI is a modern web framework designed for building APIs with Python.  It emphasizes simplicity and ease of use while providing robust functionality, making it popular among developers for creating high-performance APIs. 
 In this example, I utilise FastAPI and AWS lambda as a serverless service to deploy an Amazon Sagemaker endpoint for a Microsoft/Phi-2 LLM. 
 
@@ -58,14 +66,6 @@ In this example, I utilise FastAPI and AWS lambda as a serverless service to dep
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![AWS](https://img.shields.io/badge/AWS-Cloud-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/)  [![Amazon Sagemaker](https://img.shields.io/badge/Sagemaker-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/sagemaker/) [![Fast API](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](#)
 
-
----
-
-### NLP/Generative AI: Deploying LLMs on Amazon Sagemaker endpoints and creating AI Agents powered by Gradio
-Deploying LLMs requires a huge amount of GPU resources and using on-premises infrastructure may not always seem feasible. Here, I deployed a Mistral-7B-Instruct model from the Hugging Face hub to an Amazon Sagemaker endpoint with GPU 
-instances. After the deployment, I used Gradio to develop the user-friendly chatbot interface.  
-
-![image](https://github.com/muntasirhsn/muntasirhsn.github.io/assets/29087240/1044e48d-4bc5-4793-b794-4b461603369c) Figure: A Chatbot developed with Amazon Sagemaker endpoint for Mistral-7B-Instruct model and Gradio
 
 ---
 
