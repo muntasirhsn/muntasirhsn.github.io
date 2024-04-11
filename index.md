@@ -50,7 +50,7 @@ In this project, I developed an end-to-end machine learning (ML) workflow with a
 
 ---
 
-### ML/LLMs/NLP: Deploying Amazon Sagemaker endpoints with FastAPI and AWS Lambda serverless services
+### ML/LLMs/NLP: Deploying Amazon Sagemaker LLM/ML model endpoints with FastAPI and AWS Lambda serverless services
 FastAPI is a modern web framework designed for building APIs with Python.  It emphasizes simplicity and ease of use while providing robust functionality, making it popular among developers for creating high-performance APIs. 
 In this example, I utilise FastAPI and AWS lambda as a serverless service to deploy an Amazon Sagemaker endpoint for a Microsoft/Phi-2 LLM. 
 
@@ -62,7 +62,7 @@ In this example, I utilise FastAPI and AWS lambda as a serverless service to dep
 ---
 
 ### NLP/Generative AI: Deploying LLMs on Amazon Sagemaker endpoints and creating AI Agents powered by Gradio
-Deploying LLMs requires a huge amount of GPU resources and using on-premises infrastructure may not always seem a feasible solution. Here, I deployed a Mistral-7B-Instruct model from the Hugging Face hub to an Amazon Sagemaker endpoint with GPU 
+Deploying LLMs requires a huge amount of GPU resources and using on-premises infrastructure may not always seem feasible. Here, I deployed a Mistral-7B-Instruct model from the Hugging Face hub to an Amazon Sagemaker endpoint with GPU 
 instances. After the deployment, I used Gradio to develop the user-friendly chatbot interface.  
 
 ![image](https://github.com/muntasirhsn/muntasirhsn.github.io/assets/29087240/1044e48d-4bc5-4793-b794-4b461603369c) Figure: A Chatbot developed with Amazon Sagemaker endpoint for Mistral-7B-Instruct model and Gradio
@@ -71,7 +71,7 @@ instances. After the deployment, I used Gradio to develop the user-friendly chat
 
 
 ### Predictive Modelling: Stacking ML model for high prediction accuracy
-Stacking is an ensemble machine learning technique in which the outputs of multiple different machine learning models (base models) are fed into a higher-level meta-model to make the final output. Stacking can be useful to improve the overall accuracy of the predictions by utilising the strengths of each individual base model and minimising the effects of overfitting. In this example, I utilised a combination of multiple ML models (XGBoost, GBM, Ridge and ElasticNet) to develop the stacking regression model for predicting house prices with high accuracy. 
+Stacking is an ensemble machine learning technique in which the outputs of multiple different machine learning models (base models) are fed into a higher-level meta-model to make the final output. Stacking can be useful to improve the overall accuracy of the predictions by utilising the strengths of each base model and minimising the effects of overfitting. In this example, I used multiple ML models (XGBoost, GBM, Ridge and ElasticNet) to develop the stacking regression model for predicting house prices with high accuracy. 
 
 <img src="images/Saleprice3.png?raw=true"/> Figure: Relation between numerical features and the target (sale price)
 
