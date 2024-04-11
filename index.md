@@ -68,18 +68,6 @@ instances. After the deployment, I used Gradio to develop the user-friendly chat
 
 ---
 
-### Generative AI: Using Google Gemma 7B LLM as an AI Agent
-Gemma is a set of lightweight, open-source models developed by Google, derived from the advanced technology behind the Gemini models. Although they are comparatively small models (with 7B and 2B variants), they are still quite powerful for general-purpose text-generation tasks. Are you curious to try these models? Try below the AI agent based on the Google/Gemma-7b-IT model. Disclaimer: The model was deployed by Hugging Face on their hub. I used the Hugging Face Inference Client for this model and a web application (Gradio) to develop this AI Agent.
-
-
-<script
-	type="module"
-	src="https://gradio.s3-us-west-2.amazonaws.com/4.19.2/gradio.js"
-></script>
-
-<gradio-app src="https://muntasirhossain-gemma-7b-it-chat.hf.space"></gradio-app>
-
----
 
 ### Predictive Modelling: Stacking ML model for high prediction accuracy
 Stacking is an ensemble machine learning technique in which the outputs of multiple different machine learning models (base models) are fed into a higher-level meta-model to make the final output. Stacking can be useful to improve the overall accuracy of the predictions by utilising the strengths of each individual base model and minimising the effects of overfitting. In this example, I utilised a combination of multiple ML models (XGBoost, GBM, Ridge and ElasticNet) to develop the stacking regression model for predicting house prices with high accuracy. 
