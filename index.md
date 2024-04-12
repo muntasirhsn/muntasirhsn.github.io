@@ -84,7 +84,7 @@ Stacking is an ensemble machine learning technique in which the outputs of multi
 
 
 ---
-### Computer Vision: Deploying YOLOv8 model on Cloud
+### Computer Vision: Deploying YOLOv8 model with Amazon Sagemaker
 YOLO (you only look once) is a state-of-the-art, real-time object detection, segmentation and classification model used in computer vision. The latest model YOLOv8 is  known for its runtime efficiency as well as detection accuracy. To fully utilise its potential, deploying the model at scale is crucial. Here, a YOLOv8 model was hosted on the Amazon SageMaker endpoint and inference was run for input images/videos for object detection.
 
 <img src="images/highway1-detect3.gif?raw=true"/> Figure: Object detection with YOLOv8 model deployed to a real-time Amazon SageMaker endpoint
