@@ -9,27 +9,6 @@ Fine-tuning an LLM (e.g. full fine-tuning) for a particular task can be computat
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#) [![](https://img.shields.io/badge/HuggingFace_Transformers-white?logo=huggingface)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) 
 
----
-
-
-### Generative AI/LLMs/NLP: Reinforcement Learning with Human Feedback (RLHF) 
-Reinforcement Learning with Human Feedback (RLHF) is a cutting-edge approach used to fine-tune Large Language Models (LLMs) to generate outputs that align more closely with human preferences and expectations. Here, I utilised RLHF to further fine-tune a [Google Flan-T5 Large](https://huggingface.co/MuntasirHossain/flan-t5-large-samsum-qlora) and generate less toxic content. The model was previously fine-tuned for generative summarisation with PEFT. A [binary classifier model](https://huggingface.co/facebook/roberta-hate-speech-dynabench-r4-target) from Meta AI was used as the reward model to score and reward the LLM output based on the toxicity level. The LLM was fine-tuned with Proximal Policy Optimization (PPO) using those reward values. The iterative process for maximising cumulative rewards and fine-tuning with PPO enables detoxified LLM outputs. To ensure that the model does not deviate from generating content that is too far from the original LLM, KL-divergence was employed during the iterative training process.
-
-[Check the model on Hugging Face hub!](https://huggingface.co/MuntasirHossain/flan-t5-large-samsum-qlora-ppo)
-
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#) [![](https://img.shields.io/badge/HuggingFace_Transformers-white?logo=huggingface)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) 
-
-
----
-
-### Generative AI: Retrieval-Augmented Generation (RAG) with LLMs, Embeddings, Vector Databases and LangChain
-RAG is a technique that combines a retriever and a generative LLM to deliver accurate responses to queries. It involves retrieving relevant information from a large corpus and then generating contextually appropriate responses to queries. Here, I used the Llama 2 LLM and LangChain with GPU acceleration to perform generative question-answering (QA) with RAG.
-
-![image](https://github.com/muntasirhsn/muntasirhsn.github.io/assets/29087240/cb5f2892-68a5-4d68-b9b4-568959b2595a) Figure: A schematic representation of RAG with a retriever and an LLM
-
-[View codes on GitHub](https://github.com/muntasirhsn/Retrieval-Augmented-Generation-with-Llama-2)
-
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/HuggingFace_Transformers-white?logo=huggingface)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) 
 
 ---
 
@@ -50,14 +29,6 @@ In this project, I developed an end-to-end machine learning (ML) workflow with a
 
 ---
 
-### Generative AI/LLMs: Deploying LLMs on Amazon Sagemaker endpoints and creating AI Agents powered by Gradio
-Deploying LLMs requires a huge amount of GPU resources and using on-premises infrastructure may not always seem feasible. Here, I deployed a Mistral-7B-Instruct model from the Hugging Face hub to an Amazon Sagemaker endpoint with GPU 
-instances. After the deployment, I used Gradio to develop the user-friendly chatbot interface.  
-
-![image](https://github.com/muntasirhsn/muntasirhsn.github.io/assets/29087240/1044e48d-4bc5-4793-b794-4b461603369c) Figure: A Chatbot developed with Amazon Sagemaker endpoint for Mistral-7B-Instruct model and Gradio
-
----
-
 ### Generative AI/LLMs/NLP/ML: Deploying Amazon Sagemaker LLM/ML model endpoints with FastAPI and AWS Lambda serverless services
 FastAPI is a modern web framework designed for building APIs with Python.  It emphasizes simplicity and ease of use while providing robust functionality, making it popular among developers for creating high-performance APIs. 
 In this example, I utilise FastAPI and AWS lambda as a serverless service to deploy an Amazon Sagemaker endpoint for a Microsoft/Phi-2 LLM. 
@@ -65,6 +36,37 @@ In this example, I utilise FastAPI and AWS lambda as a serverless service to dep
 ![image](https://github.com/muntasirhsn/muntasirhsn.github.io/assets/29087240/92bae7ad-6a12-4ff7-a026-2a17afcf7090) Figure: Deploying Amazon Sagemaker ML model endpoint with FastAPI and AWS Lambda
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![AWS](https://img.shields.io/badge/AWS-Cloud-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/)  [![Amazon Sagemaker](https://img.shields.io/badge/Sagemaker-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/sagemaker/) [![Fast API](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](#)
+
+
+---
+
+### Generative AI: Retrieval-Augmented Generation (RAG) with LLMs, Embeddings, Vector Databases and LangChain
+RAG is a technique that combines a retriever and a generative LLM to deliver accurate responses to queries. It involves retrieving relevant information from a large corpus and then generating contextually appropriate responses to queries. Here, I used the Llama 2 LLM and LangChain with GPU acceleration to perform generative question-answering (QA) with RAG.
+
+![image](https://github.com/muntasirhsn/muntasirhsn.github.io/assets/29087240/cb5f2892-68a5-4d68-b9b4-568959b2595a) Figure: A schematic representation of RAG with a retriever and an LLM
+
+[View codes on GitHub](https://github.com/muntasirhsn/Retrieval-Augmented-Generation-with-Llama-2)
+
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/HuggingFace_Transformers-white?logo=huggingface)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) 
+
+---
+
+### Generative AI/LLMs: Deploying LLMs on Amazon Sagemaker endpoints and creating AI Agents powered by Gradio
+Deploying LLMs requires a huge amount of GPU resources and using on-premises infrastructure may not always seem feasible. Here, I deployed a Mistral-7B-Instruct model from the Hugging Face hub to an Amazon Sagemaker endpoint with GPU 
+instances. After the deployment, I used Gradio to develop the user-friendly chatbot interface.  
+
+![image](https://github.com/muntasirhsn/muntasirhsn.github.io/assets/29087240/1044e48d-4bc5-4793-b794-4b461603369c) Figure: A Chatbot developed with Amazon Sagemaker endpoint for Mistral-7B-Instruct model and Gradio
+
+
+---
+
+
+### Generative AI/LLMs/NLP: Reinforcement Learning with Human Feedback (RLHF) 
+Reinforcement Learning with Human Feedback (RLHF) is a cutting-edge approach used to fine-tune Large Language Models (LLMs) to generate outputs that align more closely with human preferences and expectations. Here, I utilised RLHF to further fine-tune a [Google Flan-T5 Large](https://huggingface.co/MuntasirHossain/flan-t5-large-samsum-qlora) and generate less toxic content. The model was previously fine-tuned for generative summarisation with PEFT. A [binary classifier model](https://huggingface.co/facebook/roberta-hate-speech-dynabench-r4-target) from Meta AI was used as the reward model to score and reward the LLM output based on the toxicity level. The LLM was fine-tuned with Proximal Policy Optimization (PPO) using those reward values. The iterative process for maximising cumulative rewards and fine-tuning with PPO enables detoxified LLM outputs. To ensure that the model does not deviate from generating content that is too far from the original LLM, KL-divergence was employed during the iterative training process.
+
+[Check the model on Hugging Face hub!](https://huggingface.co/MuntasirHossain/flan-t5-large-samsum-qlora-ppo)
+
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#) [![](https://img.shields.io/badge/HuggingFace_Transformers-white?logo=huggingface)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) 
 
 
 ---
