@@ -73,6 +73,18 @@ Reinforcement Learning with Human Feedback (RLHF) is a cutting-edge approach use
 
 ---
 
+### Computer Vision: Deploying YOLOv8 model with Amazon Sagemaker
+YOLO (you only look once) is a state-of-the-art, real-time object detection, segmentation and classification model used in computer vision. The latest model YOLOv8 is  known for its runtime efficiency as well as detection accuracy. To fully utilise its potential, deploying the model at scale is crucial. Here, a YOLOv8 model was hosted on the Amazon SageMaker endpoint and inference was run for input images/videos for object detection.
+
+<img src="images/highway1-detect3.gif?raw=true"/> Figure: Object detection with YOLOv8 model deployed to a real-time Amazon SageMaker endpoint
+
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#) [![YOLO](https://img.shields.io/badge/YOLO-Object%20Detection-white)](https://github.com/AlexeyAB/darknet) [![AWS](https://img.shields.io/badge/AWS-Cloud-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/) [![Amazon Sagemaker](https://img.shields.io/badge/Sagemaker-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/sagemaker/) 
+
+[View project on GitHub](https://github.com/muntasirhsn/Deploying-YOLOv8-model-on-Amazon-SageMaker-endpoint)
+
+
+---
+
 
 ### Predictive Modelling: Stacking ML model for high prediction accuracy
 Stacking is an ensemble machine learning technique in which the outputs of multiple different machine learning models (base models) are fed into a higher-level meta-model to make the final output. Stacking can be useful to improve the overall accuracy of the predictions by utilising the strengths of each base model and minimising the effects of overfitting. In this example, I used multiple ML models (XGBoost, GBM, Ridge and ElasticNet) to develop the stacking regression model for predicting house prices with high accuracy. 
@@ -86,18 +98,8 @@ Stacking is an ensemble machine learning technique in which the outputs of multi
 
 [View codes on GitHub](https://github.com/muntasirhsn/Multiple-ML-Model-for-House-Prices-Prediction)
 
-
 ---
-### Computer Vision: Deploying YOLOv8 model with Amazon Sagemaker
-YOLO (you only look once) is a state-of-the-art, real-time object detection, segmentation and classification model used in computer vision. The latest model YOLOv8 is  known for its runtime efficiency as well as detection accuracy. To fully utilise its potential, deploying the model at scale is crucial. Here, a YOLOv8 model was hosted on the Amazon SageMaker endpoint and inference was run for input images/videos for object detection.
 
-<img src="images/highway1-detect3.gif?raw=true"/> Figure: Object detection with YOLOv8 model deployed to a real-time Amazon SageMaker endpoint
-
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#) [![YOLO](https://img.shields.io/badge/YOLO-Object%20Detection-white)](https://github.com/AlexeyAB/darknet) [![AWS](https://img.shields.io/badge/AWS-Cloud-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/) [![Amazon Sagemaker](https://img.shields.io/badge/Sagemaker-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/sagemaker/) 
-
-[View project on GitHub](https://github.com/muntasirhsn/Deploying-YOLOv8-model-on-Amazon-SageMaker-endpoint)
-
----
 ### Deep Learning: CNN-LSTM network for energy usage forecasting
 Long short-term memory (LSTM) is a special type of recurrent neural network (RNN) that can be used for time-series forecasting. LSTM networks are capable of learning features from input sequences of data and can be used to predict multi-step sequences. In this example, I demonstrated a CNN-LSTM architecture for multistep time-series energy usage forecasting. A one-dimensional convolutional neural network (CNN) is used to read and encode the input sequence. An LSTM network is then used as a decoder to make a one-step prediction for each value in the output sequence. 
 
@@ -108,8 +110,9 @@ Long short-term memory (LSTM) is a special type of recurrent neural network (RNN
 [View code on GitHub](https://github.com/muntasirhsn/CNN-LSTM-model-for-energy-usage-forecasting)
 
 
-
 ---
+
+
 ### Data Engineering: Extract, transform, and load (ETL) in Python
 This is a simple demonstration of an ETL process in python. Tesla share price data is extracted, transformed and loaded into a PostgreSQL database. An automation tool like Windows Task Scheduler or Airflow can be easily employed to execute the ETL process on a schedule and new records will be automatically extracted, transformed and loaded into the database!
 
