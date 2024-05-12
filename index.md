@@ -22,6 +22,7 @@ RAG is a technique that combines a retriever and a generative LLM to deliver acc
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/HuggingFace_Transformers-white?logo=huggingface)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) 
 
 Try the RAG app below hosted on Hugging Facce!
+
 <script
 	type="module"
 	src="https://gradio.s3-us-west-2.amazonaws.com/4.31.0/gradio.js"
