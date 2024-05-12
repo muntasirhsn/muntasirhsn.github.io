@@ -12,6 +12,26 @@ Fine-tuning an LLM (e.g. full fine-tuning) for a particular task can be computat
 
 ---
 
+### Generative AI: Retrieval-Augmented Generation (RAG) with LLMs, embeddings, vector databases and LangChain
+RAG is a technique that combines a retriever and a generative LLM to deliver accurate responses to queries. It involves retrieving relevant information from a large corpus and then generating contextually appropriate responses to queries. Here, I used the Llama 2 LLM and LangChain with GPU acceleration to perform generative question-answering (QA) with RAG.
+
+![image](https://github.com/muntasirhsn/muntasirhsn.github.io/assets/29087240/cb5f2892-68a5-4d68-b9b4-568959b2595a) Figure: A schematic representation of RAG with a retriever and an LLM
+
+[View codes on GitHub](https://github.com/muntasirhsn/Retrieval-Augmented-Generation-with-Llama-2)
+
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/HuggingFace_Transformers-white?logo=huggingface)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) 
+
+Try the RAG app below hosted on Hugging Facce!
+<script
+	type="module"
+	src="https://gradio.s3-us-west-2.amazonaws.com/4.31.0/gradio.js"
+></script>
+
+<gradio-app src="https://muntasirhossain-rag-pdf-chatbot.hf.space"></gradio-app>
+
+
+---
+
 ### MLOps with AWS: Automate the pipelines, train and deploy at scale, monitor models and access with RESTful APIs
 In this project, I developed an end-to-end machine learning (ML) workflow with automation for all the steps including data preprocessing, training models at scale with distributed computing (GPUs/CPUs), model evaluation, deploying in production, model monitoring and drift detection with Amazon SageMaker Pipeline - a purpose-built CI/CD service.
 
@@ -34,18 +54,6 @@ Deploying LLMs requires a huge amount of GPU resources and using on-premises inf
 instances. After the deployment, I used Gradio to develop the user-friendly chatbot interface.  
 
 ![image](https://github.com/muntasirhsn/muntasirhsn.github.io/assets/29087240/1044e48d-4bc5-4793-b794-4b461603369c) Figure: A Chatbot developed with Amazon Sagemaker endpoint for Mistral-7B-Instruct model and Gradio
-
-
----
-
-### Generative AI: Retrieval-Augmented Generation (RAG) with LLMs, embeddings, vector databases and LangChain
-RAG is a technique that combines a retriever and a generative LLM to deliver accurate responses to queries. It involves retrieving relevant information from a large corpus and then generating contextually appropriate responses to queries. Here, I used the Llama 2 LLM and LangChain with GPU acceleration to perform generative question-answering (QA) with RAG.
-
-![image](https://github.com/muntasirhsn/muntasirhsn.github.io/assets/29087240/cb5f2892-68a5-4d68-b9b4-568959b2595a) Figure: A schematic representation of RAG with a retriever and an LLM
-
-[View codes on GitHub](https://github.com/muntasirhsn/Retrieval-Augmented-Generation-with-Llama-2)
-
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/HuggingFace_Transformers-white?logo=huggingface)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) 
 
 
 ---
