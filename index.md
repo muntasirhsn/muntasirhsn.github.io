@@ -38,7 +38,8 @@ Try below the RAG app I built using Gradio (hosted on Hugging Facce Hub)!
 	src="https://gradio.s3-us-west-2.amazonaws.com/4.28.3/gradio.js"
 ></script>
 
-<gradio-app src="https://muntasirhossain-rag-chatbot.hf.space"></gradio-app>
+<gradio-app src="https://muntasirhossain-rag-pdf-chatbot.hf.space"></gradio-app>
+
 
 
 
