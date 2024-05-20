@@ -7,7 +7,7 @@ Fine-tuning an LLM (e.g. full fine-tuning) for a particular task can be computat
 
 [Check the model on Hugging Face hub!](https://huggingface.co/MuntasirHossain/Meta-Llama-3-8B-OpenOrca/edit/main/README.md)
 
-Try the below chatbot that is using the fine-tuned model in the backend. **Note:** The app is running on a free basic CPU hosted on Hugging Facce Hub. Responses may be slow!
+Try the following chatbot that is using the fine-tuned model in the backend!
 
 <script
 	type="module"
