@@ -44,7 +44,7 @@ RAG is a technique that combines a retriever and a generative LLM to deliver acc
 
 ---
 
-### MLOps with AWS: Automate the pipelines, train and deploy at scale, monitor models and access with RESTful APIs
+### MLOps with AWS: Automate the pipelines, train and deploy at scale, monitor models and access with REST APIs
 In this project, I developed an end-to-end machine learning (ML) workflow with automation for all the steps including data preprocessing, training models at scale with distributed computing (GPUs/CPUs), model evaluation, deploying in production, model monitoring and drift detection with Amazon SageMaker Pipeline - a purpose-built CI/CD service.
 
 
