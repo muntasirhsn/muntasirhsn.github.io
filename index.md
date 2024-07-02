@@ -4,15 +4,13 @@
 
 ---
 
-### MLOps with AWS: Automate the pipelines, train and deploy at scale, monitor models and access with REST APIs
+### MLOps with AWS: Train models at scale, deploy to production and monitor models with data pipeline automation
 In this project, I developed an end-to-end machine learning (ML) workflow with automation for all the steps including data preprocessing, training models at scale with distributed computing (GPUs/CPUs), model evaluation, deploying in production, model monitoring and drift detection with Amazon SageMaker Pipeline - a purpose-built CI/CD service.
 
 
 <img src="images/MLOps6_Muntasir Hossain.jpg?raw=true"/> Figure: ML orchestration reference architecture with AWS
 
 <img src="images/Sageaker Pipeline5.png?raw=true"/> Figure: CI/CD pipeline with Amazon Sagemaker 
-
-<img src="images/RealtimeInference-Postman4.png?raw=true"/> Figure 5: Real-time inference with the ML model deployed in production. A REST API was created by using Amazon API Gateway as an external-facing entry point for the model endpoint. The API was tested with Postman (API platform) for real-time inference.
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![AWS](https://img.shields.io/badge/AWS-Cloud-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/)  [![Amazon Sagemaker](https://img.shields.io/badge/Sagemaker-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/sagemaker/) [![Amazon API Gateway](https://img.shields.io/badge/API_Gateway-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/api-gateway/) 
 
