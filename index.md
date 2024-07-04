@@ -35,12 +35,12 @@ Stacking is an ensemble machine learning technique in which the outputs of multi
 
 ---
 
-### Generative AI/LLMs: Parameter-efficient fine-tuning (qLoRA) of LLMs (Llama-3) 
+### Generative AI/LLMs: Parameter-efficient fine-tuning (qLoRA) of LLMs (Llama-3) and Conversational AI Agents
 Fine-tuning an LLM (e.g. full fine-tuning) for a particular task can be computationally intensive as it involves updating all the LLM model parameters. Parameter-efficient fine-tuning (PEFT) updates only a small subset of parameters, allowing LLM fine-tuning with limited resources. Here, I have fine-tuned the [Llama-3-8B](meta-llama/Meta-Llama-3-8B) foundation model with Quantized Low-Rank Adaptation (qLoRA), a form of PEFT by using NVIDIA L4 GPUs. Instead of updating all the weights of the pre-trained LLM, LoRA freezes the original model weights and applies changes to a separate set of weights. Quantization further reduces the memory footprint by quantizing the precision of the weights in the pre-trained LLM to 4-bit. These modified weights, known as the low-rank representation, are then added to the original weights, allowing for more efficient fine-tuning of the LLM without the need to retrain the entire model from scratch.  
 
 [Check the model on Hugging Face hub!](https://huggingface.co/MuntasirHossain/Meta-Llama-3-8B-OpenOrca/edit/main/README.md)
 
-Try the following chatbot (developed with Gradio) that uses the fine-tuned model in the backend!
+Try the following conversational AI agent (developed with Gradio) that uses the fine-tuned model in the backend! **Please note that the app is running on a basic CPU! A low-precision version of the fine-tuned LLM is deployed to overcome the hardware restrictions. Hence, performances may not be the best and responses may be slow!**
 
 <script
 	type="module"
