@@ -1,7 +1,5 @@
 ## Selected projects in machine learning, predictive modelling, deep learning, generative AI, NLP and computer vision. 
 
-
-
 ---
 
 ### MLOps with AWS: Automate the pipeline for data preprocessing, training models at scale, deploying to production and monitoring models
