@@ -1,10 +1,10 @@
-## Selected projects in machine learning and deep learning, predictive modelling, generative AI, LLMs, NLP, computer vision and data engineering. 
+## Selected projects in machine learning, predictive modelling, deep learning, generative AI, NLP and computer vision. 
 
 
 
 ---
 
-### MLOps with AWS: Train models at scale, deploy to production and monitor models with data pipeline automation
+### Machine Learning Operations (MLLOps) with AWS: Train models at scale, deploy to production and monitor models with data pipeline automation
 In this project, I developed an end-to-end machine learning (ML) workflow with automation for all the steps including data preprocessing, training models at scale with distributed computing (GPUs/CPUs), model evaluation, deploying in production, model monitoring and drift detection with Amazon SageMaker Pipeline - a purpose-built CI/CD service.
 
 
@@ -20,7 +20,7 @@ In this project, I developed an end-to-end machine learning (ML) workflow with a
 ---
 
 
-### Predictive Modelling: Stacking ML model for high prediction accuracy
+### Machine Learning: Stacking models for highly accurate predictive modelling
 Stacking is an ensemble machine learning technique in which the outputs of multiple different machine learning models (base models) are fed into a higher-level meta-model to make the final output. Stacking can be useful to improve the overall accuracy of the predictions by utilising the strengths of each base model and minimising the effects of overfitting. In this example, I used multiple ML models (XGBoost, GBM, Ridge and ElasticNet) to develop the stacking regression model for predicting house prices with high accuracy. 
 
 <img src="images/Saleprice3.png?raw=true"/> Figure: Relation between numerical features and the target (sale price)
@@ -35,8 +35,8 @@ Stacking is an ensemble machine learning technique in which the outputs of multi
 
 ---
 
-### Generative AI/LLMs: Parameter-efficient fine-tuning (qLoRA) of LLMs (Llama-3) and Conversational AI Agents
-Fine-tuning an LLM (e.g. full fine-tuning) for a particular task can be computationally intensive as it involves updating all the LLM model parameters. Parameter-efficient fine-tuning (PEFT) updates only a small subset of parameters, allowing LLM fine-tuning with limited resources. Here, I have fine-tuned the [Llama-3-8B](meta-llama/Meta-Llama-3-8B) foundation model with Quantized Low-Rank Adaptation (qLoRA), a form of PEFT by using NVIDIA L4 GPUs. Instead of updating all the weights of the pre-trained LLM, LoRA freezes the original model weights and applies changes to a separate set of weights. Quantization further reduces the memory footprint by quantizing the precision of the weights in the pre-trained LLM to 4-bit. These modified weights, known as the low-rank representation, are then added to the original weights, allowing for more efficient fine-tuning of the LLM without the need to retrain the entire model from scratch.  
+### Generative AI: Parameter-efficient fine-tuning of LLMs (Llama-3) and Conversational AI Agents
+Fine-tuning an LLM (e.g. full fine-tuning) for a particular task can be computationally intensive as it involves updating all the LLM model parameters. Parameter-efficient fine-tuning (PEFT) updates only a small subset of parameters, allowing LLM fine-tuning with limited resources. Here, I have fine-tuned the [Llama-3-8B](meta-llama/Meta-Llama-3-8B) foundation model with Quantized Low-Rank Adaptation (**qLoRA**), a form of PEFT, by using NVIDIA L4 GPUs. Instead of updating all the weights of the pre-trained LLM, LoRA freezes the original model weights and applies changes to a separate set of weights. Quantization further reduces the memory footprint by quantizing the precision of the weights in the pre-trained LLM to 4-bit. These modified weights, known as the low-rank representation, are then added to the original weights, allowing for more efficient fine-tuning of the LLM without the need to retrain the entire model from scratch.  
 
 [Check the model on Hugging Face hub!](https://huggingface.co/MuntasirHossain/Meta-Llama-3-8B-OpenOrca/edit/main/README.md)
 
@@ -76,30 +76,6 @@ RAG is a technique that combines a retriever and a generative LLM to deliver acc
 
 ---
 
-
-### Generative AI/LLMs/NLP/ML: Deploying open-source LLMs and ML models at scale with Amazon Sagemaker, FastAPI and AWS Lambda serverless services
-FastAPI is a modern web framework designed for building APIs with Python.  It emphasizes simplicity and ease of use while providing robust functionality, making it popular among developers for creating high-performance APIs. 
-In this example, I deployed a  Microsoft/Phi-2 LLM from the Hugging Face hub to an Amazon Sagemaker endpoint with GPU instances. To integrate the Sagemaker endpoint to consumer-facing APIs, I utilise FastAPI and AWS lambda as a serverless service.  
-
-![image](https://github.com/muntasirhsn/muntasirhsn.github.io/assets/29087240/92bae7ad-6a12-4ff7-a026-2a17afcf7090) Figure: Deploying Amazon Sagemaker ML model endpoint with FastAPI and AWS Lambda
-
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![AWS](https://img.shields.io/badge/AWS-Cloud-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/)  [![Amazon Sagemaker](https://img.shields.io/badge/Sagemaker-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/sagemaker/) [![Fast API](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](#)
-
-
-
----
-
-
-### Generative AI/LLMs/NLP: Reinforcement Learning with Human Feedback (RLHF) 
-Reinforcement Learning with Human Feedback (RLHF) is a cutting-edge approach used to fine-tune Large Language Models (LLMs) to generate outputs that align more closely with human preferences and expectations. Here, I utilised RLHF to further fine-tune a [Google Flan-T5 Large](https://huggingface.co/MuntasirHossain/flan-t5-large-samsum-qlora) and generate less toxic content. The model was previously fine-tuned for generative summarisation with PEFT. A [binary classifier model](https://huggingface.co/facebook/roberta-hate-speech-dynabench-r4-target) from Meta AI was used as the reward model to score and reward the LLM output based on the toxicity level. The LLM was fine-tuned with Proximal Policy Optimization (PPO) using those reward values. The iterative process for maximising cumulative rewards and fine-tuning with PPO enables detoxified LLM outputs. To ensure that the model does not deviate from generating content that is too far from the original LLM, KL-divergence was employed during the iterative training process.
-
-[Check the model on Hugging Face hub!](https://huggingface.co/MuntasirHossain/flan-t5-large-samsum-qlora-ppo)
-
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#) [![](https://img.shields.io/badge/HuggingFace_Transformers-white?logo=huggingface)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) 
-
-
----
-
 ### Deep Learning: CNN-LSTM deep neural networks for energy usage forecasting
 Long short-term memory (LSTM) is a special type of recurrent neural network (RNN) that can be used for time-series forecasting. LSTM networks are capable of learning features from input sequences of data and can be used to predict multi-step sequences. In this example, I demonstrated a CNN-LSTM architecture for multistep time-series energy usage forecasting. A one-dimensional convolutional neural network (CNN) is used to read and encode the input sequence. An LSTM network is then used as a decoder to make a one-step prediction for each value in the output sequence. 
 
@@ -108,6 +84,29 @@ Long short-term memory (LSTM) is a special type of recurrent neural network (RNN
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/TensorFlow-white?logo=TensorFlow)](#) [![](https://img.shields.io/badge/-Keras-white?logo=Keras&logoColor=black)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#)
 
 [View code on GitHub](https://github.com/muntasirhsn/CNN-LSTM-model-for-energy-usage-forecasting)
+
+
+---
+
+
+### ML/NLP/Generative AI: Deploying ML models and open-source LLMs at scale with Amazon Sagemaker, FastAPI and AWS Lambda serverless services
+FastAPI is a modern web framework designed for building APIs with Python.  It emphasizes simplicity and ease of use while providing robust functionality, making it popular among developers for creating high-performance APIs. 
+In this example, I deployed a  Microsoft/Phi-2 LLM from the Hugging Face hub to an Amazon Sagemaker endpoint with GPU instances. To integrate the Sagemaker endpoint to consumer-facing APIs, I utilise FastAPI and AWS lambda as a serverless service.  
+
+![image](https://github.com/muntasirhsn/muntasirhsn.github.io/assets/29087240/92bae7ad-6a12-4ff7-a026-2a17afcf7090) Figure: Deploying Amazon Sagemaker ML model endpoint with FastAPI and AWS Lambda
+
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![AWS](https://img.shields.io/badge/AWS-Cloud-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/)  [![Amazon Sagemaker](https://img.shields.io/badge/Sagemaker-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/sagemaker/) [![Fast API](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](#)
+
+
+---
+
+
+### Generative AI/LLMs: Reinforcement Learning with Human Feedback (RLHF) 
+Reinforcement Learning with Human Feedback (RLHF) is a cutting-edge approach used to fine-tune Large Language Models (LLMs) to generate outputs that align more closely with human preferences and expectations. Here, I utilised RLHF to further fine-tune a [Google Flan-T5 Large](https://huggingface.co/MuntasirHossain/flan-t5-large-samsum-qlora) and generate less toxic content. The model was previously fine-tuned for generative summarisation with PEFT. A [binary classifier model](https://huggingface.co/facebook/roberta-hate-speech-dynabench-r4-target) from Meta AI was used as the reward model to score and reward the LLM output based on the toxicity level. The LLM was fine-tuned with Proximal Policy Optimization (PPO) using those reward values. The iterative process for maximising cumulative rewards and fine-tuning with PPO enables detoxified LLM outputs. To ensure that the model does not deviate from generating content that is too far from the original LLM, KL-divergence was employed during the iterative training process.
+
+[Check the model on Hugging Face hub!](https://huggingface.co/MuntasirHossain/flan-t5-large-samsum-qlora-ppo)
+
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#) [![](https://img.shields.io/badge/HuggingFace_Transformers-white?logo=huggingface)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) 
 
 
 ---
