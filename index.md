@@ -4,7 +4,7 @@
 
 ---
 
-### Machine Learning Operations (MLOps) with AWS: Train models at scale, deploy to production, monitor models and automate the data pipeline
+### Machine Learning Operations (MLOps) with AWS: Automate the pipeline for data preprocessing, train models at scale, deploying to production and monitoring models
 In this project, I developed an end-to-end machine learning (ML) workflow with automation for all the steps including data preprocessing, training models at scale with distributed computing (GPUs/CPUs), model evaluation, deploying in production, model monitoring and drift detection with Amazon SageMaker Pipeline - a purpose-built CI/CD service.
 
 
@@ -40,7 +40,7 @@ Fine-tuning an LLM (e.g. full fine-tuning) for a particular task can be computat
 
 [Check the model on Hugging Face hub!](https://huggingface.co/MuntasirHossain/Meta-Llama-3-8B-OpenOrca/edit/main/README.md)
 
-Try the following conversational AI agent (developed with Gradio) that uses the fine-tuned model in the backend! **Please note that the app is running on a basic CPU! A low-precision version of the fine-tuned LLM is deployed to overcome the hardware restrictions. Hence, performances may not be the best and responses may be slow!**
+Try the following conversational AI agent (developed with Gradio) that uses the fine-tuned model in the backend! **Please note: the app is running on a basic CPU! A low-precision version of the fine-tuned LLM is deployed to overcome the hardware restrictions. Hence, performances may not be up to its full potential and responses may be slow!**
 
 <script
 	type="module"
