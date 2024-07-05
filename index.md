@@ -1,4 +1,4 @@
-## Selected projects in generative AI, LLMs, NLP, machine learning and deep learning, MLOps, predictive modelling, computer vision and data engineering. 
+## Selected projects in machine learning and deep learning, predictive modelling, generative AI, LLMs, NLP, computer vision and data engineering. 
 
 
 
