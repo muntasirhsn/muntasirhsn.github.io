@@ -4,7 +4,7 @@
 
 ---
 
-### Machine Learning Operations (MLLOps) with AWS: Train models at scale, deploy to production and monitor models with data pipeline automation
+### Machine Learning Operations (MLOps) with AWS: Train models at scale, deploy to production, monitor models and automate the data pipeline
 In this project, I developed an end-to-end machine learning (ML) workflow with automation for all the steps including data preprocessing, training models at scale with distributed computing (GPUs/CPUs), model evaluation, deploying in production, model monitoring and drift detection with Amazon SageMaker Pipeline - a purpose-built CI/CD service.
 
 
