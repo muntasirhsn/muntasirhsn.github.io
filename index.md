@@ -60,7 +60,7 @@ Try the following conversational AI agent (developed with Gradio) that uses the 
 ---
 
 
-### LLMs/Generative AI: Deploying open LLMs at scale with Amazon Sagemaker, FastAPI and AWS Lambda serverless services
+### LLMs/Generative AI: Deploying LLMs at scale with Amazon Sagemaker, FastAPI and AWS Lambda serverless services
 FastAPI is a modern web framework designed for building APIs with Python.  It emphasizes simplicity and ease of use while providing robust functionality, making it popular among developers for creating high-performance APIs. 
 In this example, I deployed a  Microsoft/Phi-2 LLM from the Hugging Face hub to an Amazon Sagemaker endpoint with GPU instances. To integrate the Sagemaker endpoint to consumer-facing APIs, I utilise FastAPI and AWS lambda as a serverless service.  
 
