@@ -39,8 +39,8 @@ RAG is a technique that combines a retriever and a generative LLM to deliver acc
 
 ---
 
-### Generative AI: Parameter-efficient fine-tuning of LLMs (Llama-3) and Conversational AI Agents
-Fine-tuning an LLM (e.g. full fine-tuning) for a particular task can be computationally intensive as it involves updating all the LLM model parameters. Parameter-efficient fine-tuning (PEFT) updates only a small subset of parameters, allowing LLM fine-tuning with limited resources. Here, I have fine-tuned the [Llama-3-8B](meta-llama/Meta-Llama-3-8B) foundation model with Quantized Low-Rank Adaptation (qLoRA), a form of PEFT, by using NVIDIA L4 GPUs. Instead of updating all the weights of the pre-trained LLM, LoRA freezes the original model weights and applies changes to a separate set of weights. Quantization further reduces the memory footprint by quantizing the precision of the weights in the pre-trained LLM to 4-bit. These modified weights, known as the low-rank representation, are then added to the original weights, allowing for more efficient fine-tuning of the LLM without the need to retrain the entire model from scratch.  
+### Generative AI: Parameter-efficient fine-tuning of LLMs (Llama-3) with Quantized Low-Rank Adaptation (QLoRA)
+Fine-tuning an LLM (e.g. full fine-tuning) for a particular task can be computationally intensive as it involves updating all the LLM model parameters. Parameter-efficient fine-tuning (PEFT) updates only a small subset of parameters, allowing LLM fine-tuning with limited resources. Here, I have fine-tuned the [Llama-3-8B](meta-llama/Meta-Llama-3-8B) foundation model with QLoRA, a form of PEFT, by using NVIDIA L4 GPUs. In QLoRa, In QLoRA, the pre-trained model weights are first quantized with 4-bit NormalFloat (NF4). The original model weights are frozen while trainable low-rank decomposition weight matrices are introduced and modified during the fine-tuning process, allowing for memory-efficient fine-tuning of the LLM without the need to retrain the entire model from scratch.  
 
 [Check the model on Hugging Face hub!](https://huggingface.co/MuntasirHossain/Meta-Llama-3-8B-OpenOrca/edit/main/README.md)
 
@@ -60,19 +60,6 @@ Try the following conversational AI agent (developed with Gradio) that uses the 
 ---
 
 
-### Deep Learning: CNN-LSTM deep neural networks for energy usage forecasting
-Long short-term memory (LSTM) is a special type of recurrent neural network (RNN) that can be used for time-series forecasting. LSTM networks are capable of learning features from input sequences of data and can be used to predict multi-step sequences. In this example, I demonstrated a CNN-LSTM architecture for multistep time-series energy usage forecasting. A one-dimensional convolutional neural network (CNN) is used to read and encode the input sequence. An LSTM network is then used as a decoder to make a one-step prediction for each value in the output sequence. 
-
-<img src="images/time-series3.png?raw=true"/>  Figure: Actual and predicted energy usage over 12 weeks of time period
-
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/TensorFlow-white?logo=TensorFlow)](#) [![](https://img.shields.io/badge/-Keras-white?logo=Keras&logoColor=black)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#)
-
-[View code on GitHub](https://github.com/muntasirhsn/CNN-LSTM-model-for-energy-usage-forecasting)
-
-
----
-
-
 ### LLMs/Generative AI: Deploying open LLMs at scale with Amazon Sagemaker, FastAPI and AWS Lambda serverless services
 FastAPI is a modern web framework designed for building APIs with Python.  It emphasizes simplicity and ease of use while providing robust functionality, making it popular among developers for creating high-performance APIs. 
 In this example, I deployed a  Microsoft/Phi-2 LLM from the Hugging Face hub to an Amazon Sagemaker endpoint with GPU instances. To integrate the Sagemaker endpoint to consumer-facing APIs, I utilise FastAPI and AWS lambda as a serverless service.  
@@ -82,10 +69,9 @@ In this example, I deployed a  Microsoft/Phi-2 LLM from the Hugging Face hub to 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![AWS](https://img.shields.io/badge/AWS-Cloud-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/)  [![Amazon Sagemaker](https://img.shields.io/badge/Sagemaker-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/sagemaker/) [![Fast API](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](#)
 
 
-
 ---
 
-### Computer Vision: Deploying YOLOv8 model with Amazon Sagemaker
+### Computer Vision: Deploying YOLOv8 model at scale with Amazon Sagemaker Endpoints
 YOLO (you only look once) is a state-of-the-art, real-time object detection, segmentation and classification model used in computer vision. The latest model YOLOv8 is  known for its runtime efficiency as well as detection accuracy. To fully utilise its potential, deploying the model at scale is crucial. Here, a YOLOv8 model was hosted on the Amazon SageMaker endpoint and inference was run for input images/videos for object detection.
 
 <img src="images/highway1-detect3.gif?raw=true"/> Figure: Object detection with YOLOv8 model deployed to a real-time Amazon SageMaker endpoint
@@ -93,6 +79,7 @@ YOLO (you only look once) is a state-of-the-art, real-time object detection, seg
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#) [![YOLO](https://img.shields.io/badge/YOLO-Object%20Detection-white)](https://github.com/AlexeyAB/darknet) [![AWS](https://img.shields.io/badge/AWS-Cloud-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/) [![Amazon Sagemaker](https://img.shields.io/badge/Sagemaker-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/sagemaker/) 
 
 [View project on GitHub](https://github.com/muntasirhsn/Deploying-YOLOv8-model-on-Amazon-SageMaker-endpoint)
+
 
 ---
 
