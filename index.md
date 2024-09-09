@@ -1,9 +1,9 @@
-## Selected projects in machine learning, predictive modelling, deep learning, generative AI, NLP and computer vision. 
+## Selected demos in machine learning, predictive modelling, deep learning, generative AI, NLP and computer vision. 
 
 ---
 
 ### MLOps: Train and deploy model at scale with automated pipelines
-In this project, I developed an end-to-end machine learning (ML) workflow with automation for all the steps including data preprocessing, training models at scale with distributed computing (GPUs/CPUs), model evaluation, deploying in production, model monitoring and drift detection with Amazon SageMaker Pipeline - a purpose-built CI/CD service.
+Develop an end-to-end machine learning (ML) workflow with automation for all the steps including data preprocessing, training models at scale with distributed computing (GPUs/CPUs), model evaluation, deploying in production, model monitoring and drift detection with Amazon SageMaker Pipeline - a purpose-built CI/CD service.
 
 
 <img src="images/MLOps6_Muntasir Hossain.jpg?raw=true"/> Figure: ML orchestration reference architecture with AWS
@@ -27,7 +27,7 @@ RAG is a technique that combines a retriever and a generative LLM to deliver acc
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/HuggingFace_Transformers-white?logo=huggingface)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) 
 
-**Try below the RAG app I built using Gradio (hosted on Hugging Facce Hub)!**
+**Try the app below that uses the Llama 3 8B model and FAISS vector store for RAG on your PDF documents!**
 
 <script
 	type="module"
@@ -40,11 +40,11 @@ RAG is a technique that combines a retriever and a generative LLM to deliver acc
 ---
 
 ### Generative AI: Parameter-efficient fine-tuning of LLMs (Llama-3) with Quantized Low-Rank Adaptation (QLoRA)
-Fine-tuning an LLM (e.g. full fine-tuning) for a particular task can be computationally intensive as it involves updating all the LLM model parameters. Parameter-efficient fine-tuning (PEFT) updates only a small subset of parameters, allowing LLM fine-tuning with limited resources. Here, I have fine-tuned the [Llama-3-8B](meta-llama/Meta-Llama-3-8B) foundation model with QLoRA, a form of PEFT, by using NVIDIA L4 GPUs. In QLoRa, In QLoRA, the pre-trained model weights are first quantized with 4-bit NormalFloat (NF4). The original model weights are frozen while trainable low-rank decomposition weight matrices are introduced and modified during the fine-tuning process, allowing for memory-efficient fine-tuning of the LLM without the need to retrain the entire model from scratch.  
+Fine-tuning an LLM (e.g. full fine-tuning) for a particular task can be computationally intensive as it involves updating all the LLM model parameters. Parameter-efficient fine-tuning (PEFT) updates only a small subset of parameters, allowing LLM fine-tuning with limited resources. Here, I have fine-tuned the [Llama-3-8B](meta-llama/Meta-Llama-3-8B) foundation model with QLoRA, a form of PEFT, by using NVIDIA L4 GPUs. In QLoRA, the pre-trained model weights are first quantized with 4-bit NormalFloat (NF4). The original model weights are frozen while trainable low-rank decomposition weight matrices are introduced and modified during the fine-tuning process, allowing for memory-efficient fine-tuning of the LLM without the need to retrain the entire model from scratch.  
 
 [Check the model on Hugging Face hub!](https://huggingface.co/MuntasirHossain/Meta-Llama-3-8B-OpenOrca/edit/main/README.md)
 
-Try the following conversational AI agent (developed with Gradio) that uses the fine-tuned model in the backend! **Please note: the app is running on a basic CPU! A low-precision version of the fine-tuned LLM is deployed to overcome the hardware restrictions. Hence, performances may not be up to its full potential and responses may be slow!**
+Try the following conversational AI agent that uses the fine-tuned Llama 3 8B model in the backend! **Please note: the app is running on a basic CPU! A low-precision version of the fine-tuned LLM is deployed to overcome the hardware restrictions. Hence, performances may not be up to the model's full potential and responses may be slow!**
 
 <script
 	type="module"
@@ -61,7 +61,7 @@ Try the following conversational AI agent (developed with Gradio) that uses the 
 
 
 ### LLMs/Generative AI: Deploying LLMs at scale with Amazon Sagemaker, FastAPI and AWS Lambda serverless services
-FastAPI is a modern web framework designed for building APIs with Python.  It emphasizes simplicity and ease of use while providing robust functionality, making it popular among developers for creating high-performance APIs. 
+FastAPI is a modern web framework designed to build APIs with Python.  It emphasizes simplicity and ease of use while providing robust functionality, making it popular among developers for creating high-performance APIs. 
 In this example, I deployed a  Microsoft/Phi-2 LLM from the Hugging Face hub to an Amazon Sagemaker endpoint with GPU instances. To integrate the Sagemaker endpoint to consumer-facing APIs, I utilise FastAPI and AWS lambda as a serverless service.  
 
 ![image](https://github.com/muntasirhsn/muntasirhsn.github.io/assets/29087240/92bae7ad-6a12-4ff7-a026-2a17afcf7090) Figure: Deploying Amazon Sagemaker ML model endpoint with FastAPI and AWS Lambda
