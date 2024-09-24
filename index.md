@@ -25,6 +25,13 @@ Training a machine learning model is just the first step; deploying it for real-
 
 [Try the Docker app](https://mmhossain-ml-heart-disease.hf.space)
 
+<iframe
+	src="https://mmhossain-ml-heart-disease.hf.space"
+	frameborder="0"
+	width="850"
+	height="450"
+></iframe>
+
 
 ---
 
