@@ -28,8 +28,8 @@ Training a machine learning model is just the first step; deploying it for real-
 <iframe
 	src="https://mmhossain-predict-heart-disease.hf.space"
 	frameborder="0"
-	width="550"
-	height="850"
+	width="500"
+	height="900"
 ></iframe>
 
 
