@@ -28,7 +28,7 @@ Training a machine learning model is just the first step; deploying it for real-
 <iframe
 	src="https://mmhossain-ml-heart-disease.hf.space"
 	frameborder="0"
-	width="400"
+	width="450"
 	height="900"
 ></iframe>
 
