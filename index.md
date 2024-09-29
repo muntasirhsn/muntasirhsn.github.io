@@ -23,7 +23,7 @@ Training a machine learning model is just the first step; deploying it for real-
 
 [![](https://img.shields.io/badge/Docker-white?logo=Docker)](#) [![](https://img.shields.io/badge/Flask-white?logo=Flask)](#) [![](https://img.shields.io/badge/Python-white?logo=Python)](#)
 
-#### [Try the Docker app](https://mmhossain-ml-heart-disease.hf.space)
+#### Try the Docker app in real-time below!
 
 <iframe
 	src="https://mmhossain-ml-heart-disease.hf.space"
