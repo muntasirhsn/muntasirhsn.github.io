@@ -38,7 +38,8 @@ Training a machine learning model is just the first step; deploying it for real-
 ### End-to-end machine learning data pipeline with scikit-learn
 This comprehensive end-to-end machine learning pipeline efficiently handles data preprocessing, model training, and prediction on test/inference data. The pipeline integrates the data ingestion and feature engineering workflow to model deployment, ensuring robust and scalable machine learning solutions. 
 
-![image](https://github.com/user-attachments/assets/ad9274cb-489d-4307-9ca0-d375ebd48881) 
+![image](https://github.com/user-attachments/assets/df3bcc5f-5c1f-4eac-a8c5-d2f80fcd0c5f)
+
 
 Figure: A schematic presentation of the end-to-end ML pipeline
 
