@@ -51,6 +51,17 @@ Figure: A schematic presentation of the end-to-end ML pipeline
 
 ---
 
+### Deep Learning: CNN-LSTM deep neural networks for energy usage forecasting
+Long short-term memory (LSTM) is a special type of recurrent neural network (RNN) that can be used for time-series forecasting. LSTM networks are capable of learning features from input sequences of data and can be used to predict multi-step sequences. In this example, I demonstrated a CNN-LSTM architecture for multistep time-series energy usage forecasting. A one-dimensional convolutional neural network (CNN) is used to read and encode the input sequence. An LSTM network is then used as a decoder to make a one-step prediction for each value in the output sequence. 
+
+<img src="images/time-series3.png?raw=true"/>  Figure: Actual and predicted energy usage over 12 weeks of time period
+
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/TensorFlow-white?logo=TensorFlow)](#) [![](https://img.shields.io/badge/-Keras-white?logo=Keras&logoColor=black)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#)
+
+[View code on GitHub](https://github.com/muntasirhsn/CNN-LSTM-model-for-energy-usage-forecasting)
+
+---
+
 
 ### ML/LLMs: Deploying ML models and LLMs at scale with FastAPI, Amazon Sagemaker and AWS Lambda serverless services
 FastAPI is a modern web framework designed to build APIs with Python.  It emphasizes simplicity and ease of use while providing robust functionality, making it popular among developers for creating high-performance APIs. 
