@@ -48,7 +48,8 @@ Long short-term memory (LSTM) is a special type of recurrent neural network (RNN
 ### End-to-end machine learning data pipeline with scikit-learn
 This comprehensive end-to-end machine learning pipeline efficiently handles data preprocessing, model training, and prediction on test/inference data. The pipeline integrates the data ingestion and feature engineering workflow to model deployment, ensuring robust and scalable machine learning solutions. 
 
-![image](https://github.com/user-attachments/assets/82e65eb5-3dc3-4ad8-bd16-df47a6b45dab)
+![image](https://github.com/user-attachments/assets/466dbc57-31a1-4046-82b2-6ff9f8e96d14)
+
 
 Figure: A schematic presentation of the end-to-end ML pipeline
 
