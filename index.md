@@ -19,7 +19,7 @@ Develop an end-to-end machine learning (ML) workflow with automation for all the
 
 ### Deploying ML Models via Flask and Docker Containerisation
 
-Training a machine learning model is just the first step; deploying it for real-world use is equally important. To make a trained model accessible, I deployed it as an API using Flask and containerized the entire application using Docker. This process ensures cross-environment compatibility, allowing the model to be reliably consumed in various production setups. A demo of the deployed model is available below.
+Training a machine learning model is just the first step; deploying it for real-world use is equally important. To make a trained model accessible, I deployed it as an API using Flask and containerized the entire application using Docker. This process ensures cross-environment compatibility, allowing the model to be reliably consumed in various production setups. A demo of the deployed model is available below. Disclaimer: A publicly available, simple [heart disease data](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset/data) was utilised for training the model.  
 
 [![](https://img.shields.io/badge/Docker-white?logo=Docker)](#) [![](https://img.shields.io/badge/Flask-white?logo=Flask)](#) [![](https://img.shields.io/badge/Python-white?logo=Python)](#)
 
