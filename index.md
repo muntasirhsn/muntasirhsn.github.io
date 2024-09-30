@@ -40,18 +40,13 @@ Long short-term memory (LSTM) is a special type of recurrent neural network (RNN
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/TensorFlow-white?logo=TensorFlow)](#) [![](https://img.shields.io/badge/-Keras-white?logo=Keras&logoColor=black)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#)
 
-[View code on GitHub](https://github.com/muntasirhsn/CNN-LSTM-model-for-energy-usage-forecasting)
+[View codes on GitHub](https://github.com/muntasirhsn/CNN-LSTM-model-for-energy-usage-forecasting)
 
 ---
 
 
 ### End-to-end machine learning data pipeline with scikit-learn
 This comprehensive end-to-end machine learning pipeline efficiently handles data preprocessing, model training, and prediction on test/inference data. The pipeline integrates the data ingestion and feature engineering workflow to model deployment, ensuring robust and scalable machine learning solutions. 
-
-![image](https://github.com/user-attachments/assets/466dbc57-31a1-4046-82b2-6ff9f8e96d14)
-
-
-Figure: A schematic presentation of the end-to-end ML pipeline
 
 [View codes on GitHub](https://github.com/muntasirhsn/End-to-end-ML-pipeline-with-scikit-learn)
 
