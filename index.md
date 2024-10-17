@@ -60,18 +60,6 @@ This comprehensive end-to-end machine learning pipeline efficiently handles data
 ---
 
 
-### ML/LLMs: Deploying ML models and LLMs at scale with FastAPI, Amazon Sagemaker and AWS Lambda serverless services
-FastAPI is a modern web framework designed to build APIs with Python.  It emphasizes simplicity and ease of use while providing robust functionality, making it popular among developers for creating high-performance APIs. 
-In this example, I deployed a  Microsoft/Phi-2 LLM from the Hugging Face hub to an Amazon Sagemaker endpoint with GPU instances. To integrate the Sagemaker endpoint to consumer-facing APIs, I utilise FastAPI and AWS lambda as a serverless service.  
-
-![image](https://github.com/muntasirhsn/muntasirhsn.github.io/assets/29087240/92bae7ad-6a12-4ff7-a026-2a17afcf7090) Figure: Deploying Amazon Sagemaker ML model endpoint with FastAPI and AWS Lambda
-
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![AWS](https://img.shields.io/badge/AWS-Cloud-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/)  [![Amazon Sagemaker](https://img.shields.io/badge/Sagemaker-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/sagemaker/) [![Fast API](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](#)
-
-
----
-
-
 ### Generative AI: Retrieval-Augmented Generation (RAG) with LLMs, embeddings, vector databases and LangChain
 RAG is a technique that combines a retriever and a generative LLM to deliver accurate responses to queries. It involves retrieving relevant information from a large corpus and then generating contextually appropriate responses to queries. Here, I used the Llama 2 LLM and LangChain with GPU acceleration to perform generative question-answering (QA) with RAG.
 
@@ -89,6 +77,30 @@ RAG is a technique that combines a retriever and a generative LLM to deliver acc
 ></script>
 
 <gradio-app src="https://muntasirhossain-rag-pdf-chatbot.hf.space"></gradio-app>
+
+
+---
+
+### Computer Vision: Deploying YOLOv8 model at scale with Amazon Sagemaker Endpoints
+YOLO (you only look once) is a state-of-the-art, real-time object detection and image segmentation model used in computer vision. The latest model YOLOv8 is  known for its runtime efficiency as well as detection accuracy. To fully utilise its potential, deploying the model at scale is crucial. Here, a YOLOv8 model was hosted on the Amazon SageMaker endpoint and inference was run for input images/videos for object detection.
+
+<img src="images/highway1-detect3.gif?raw=true"/> Figure: Object detection with YOLOv8 model deployed to a real-time Amazon SageMaker endpoint
+
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#) [![YOLO](https://img.shields.io/badge/YOLO-Object%20Detection-white)](https://github.com/AlexeyAB/darknet) [![AWS](https://img.shields.io/badge/AWS-Cloud-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/) [![Amazon Sagemaker](https://img.shields.io/badge/Sagemaker-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/sagemaker/) 
+
+[View project on GitHub](https://github.com/muntasirhsn/Deploying-YOLOv8-model-on-Amazon-SageMaker-endpoint)
+
+
+---
+
+
+### ML/LLMs: Deploying ML models and LLMs at scale with FastAPI, Amazon Sagemaker and AWS Lambda serverless services
+FastAPI is a modern web framework designed to build APIs with Python.  It emphasizes simplicity and ease of use while providing robust functionality, making it popular among developers for creating high-performance APIs. 
+In this example, I deployed a  Microsoft/Phi-2 LLM from the Hugging Face hub to an Amazon Sagemaker endpoint with GPU instances. To integrate the Sagemaker endpoint to consumer-facing APIs, I utilise FastAPI and AWS lambda as a serverless service.  
+
+![image](https://github.com/muntasirhsn/muntasirhsn.github.io/assets/29087240/92bae7ad-6a12-4ff7-a026-2a17afcf7090) Figure: Deploying Amazon Sagemaker ML model endpoint with FastAPI and AWS Lambda
+
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![AWS](https://img.shields.io/badge/AWS-Cloud-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/)  [![Amazon Sagemaker](https://img.shields.io/badge/Sagemaker-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/sagemaker/) [![Fast API](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](#)
 
 
 ---
@@ -113,20 +125,8 @@ Try the following conversational AI agent that uses the fine-tuned Llama 3 8B mo
 
 ---
 
-### Computer Vision: Deploying YOLOv8 model at scale with Amazon Sagemaker Endpoints
-YOLO (you only look once) is a state-of-the-art, real-time object detection and image segmentation model used in computer vision. The latest model YOLOv8 is  known for its runtime efficiency as well as detection accuracy. To fully utilise its potential, deploying the model at scale is crucial. Here, a YOLOv8 model was hosted on the Amazon SageMaker endpoint and inference was run for input images/videos for object detection.
 
-<img src="images/highway1-detect3.gif?raw=true"/> Figure: Object detection with YOLOv8 model deployed to a real-time Amazon SageMaker endpoint
-
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#) [![YOLO](https://img.shields.io/badge/YOLO-Object%20Detection-white)](https://github.com/AlexeyAB/darknet) [![AWS](https://img.shields.io/badge/AWS-Cloud-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/) [![Amazon Sagemaker](https://img.shields.io/badge/Sagemaker-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/sagemaker/) 
-
-[View project on GitHub](https://github.com/muntasirhsn/Deploying-YOLOv8-model-on-Amazon-SageMaker-endpoint)
-
-
----
-
-
-### Generative AI/LLMs: Reinforcement Learning with Human Feedback (RLHF) 
+### LLMs: Reinforcement Learning with Human Feedback (RLHF) 
 Reinforcement Learning with Human Feedback (RLHF) is a cutting-edge approach used to fine-tune Large Language Models (LLMs) to generate outputs that align more closely with human preferences and expectations. Here, I utilised RLHF to further fine-tune a [Google Flan-T5 Large](https://huggingface.co/MuntasirHossain/flan-t5-large-samsum-qlora) and generate less toxic content. The model was previously fine-tuned for generative summarisation with PEFT. A [binary classifier model](https://huggingface.co/facebook/roberta-hate-speech-dynabench-r4-target) from Meta AI was used as the reward model to score and reward the LLM output based on the toxicity level. The LLM was fine-tuned with Proximal Policy Optimization (PPO) using those reward values. The iterative process for maximising cumulative rewards and fine-tuning with PPO enables detoxified LLM outputs. To ensure that the model does not deviate from generating content that is too far from the original LLM, KL-divergence was employed during the iterative training process.
 
 [Check the model on Hugging Face hub!](https://huggingface.co/MuntasirHossain/flan-t5-large-samsum-qlora-ppo)
