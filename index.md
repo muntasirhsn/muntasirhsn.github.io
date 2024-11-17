@@ -31,6 +31,25 @@ Long short-term memory (LSTM) is a special type of recurrent neural network (RNN
 
 
 
+### Deploying ML Models via FastAPI and Docker Containerisation
+
+Training a machine learning model is just the first step; deploying it for real-world use is equally important. To make a trained model accessible, I deployed it as an API using FastAPI and containerised the entire application using Docker. This process ensures cross-environment compatibility, allowing the model to be reliably consumed in various production setups. A demo of the deployed model is available below. Disclaimer: A publicly available [heart disease data](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset/data) was utilised for training the model.  
+
+[![](https://img.shields.io/badge/Docker-white?logo=Docker)](#) [![Fast API](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](#) [![](https://img.shields.io/badge/Python-white?logo=Python)](#)
+
+#### Try the Docker app in real-time below!
+<iframe
+	src="https://mmhossain-predict-heart-disease.hf.space"
+	frameborder="0"
+	width="850"
+	height="450"
+></iframe>
+
+
+---
+
+
+
 ### End-to-end machine learning data pipeline with scikit-learn
 This comprehensive end-to-end machine learning pipeline efficiently handles data preprocessing, model training, and prediction on test/inference data. The pipeline integrates the data ingestion and feature engineering workflow to model deployment, ensuring robust and scalable machine learning solutions. 
 
@@ -76,17 +95,6 @@ YOLO (you only look once) is a state-of-the-art, real-time object detection and 
 
 ---
 
-
-### ML/LLMs: Deploying ML models and LLMs at scale with FastAPI, Amazon Sagemaker and AWS Lambda serverless services
-FastAPI is a modern web framework designed to build APIs with Python.  It emphasizes simplicity and ease of use while providing robust functionality, making it popular among developers for creating high-performance APIs. 
-In this example, I deployed a  Microsoft/Phi-2 LLM from the Hugging Face hub to an Amazon Sagemaker endpoint with GPU instances. To integrate the Sagemaker endpoint to consumer-facing APIs, I utilise FastAPI and AWS lambda as a serverless service.  
-
-![image](https://github.com/muntasirhsn/muntasirhsn.github.io/assets/29087240/92bae7ad-6a12-4ff7-a026-2a17afcf7090) Figure: Deploying Amazon Sagemaker ML model endpoint with FastAPI and AWS Lambda
-
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![AWS](https://img.shields.io/badge/AWS-Cloud-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/)  [![Amazon Sagemaker](https://img.shields.io/badge/Sagemaker-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/sagemaker/) [![Fast API](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](#)
-
-
----
 
 ### Generative AI: Parameter-efficient fine-tuning of LLMs (Llama-3) with Quantized Low-Rank Adaptation (QLoRA)
 Fine-tuning an LLM (e.g. full fine-tuning) for a particular task can be computationally intensive as it involves updating all the LLM model parameters. Parameter-efficient fine-tuning (PEFT) updates only a small subset of parameters, allowing LLM fine-tuning with limited resources. Here, I have fine-tuned the [Llama-3-8B](meta-llama/Meta-Llama-3-8B) foundation model with QLoRA, a form of PEFT, by using NVIDIA L4 GPUs. In QLoRA, the pre-trained model weights are first quantized with 4-bit NormalFloat (NF4). The original model weights are frozen while trainable low-rank decomposition weight matrices are introduced and modified during the fine-tuning process, allowing for memory-efficient fine-tuning of the LLM without the need to retrain the entire model from scratch.  
