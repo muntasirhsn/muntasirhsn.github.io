@@ -31,25 +31,6 @@ Long short-term memory (LSTM) is a special type of recurrent neural network (RNN
 
 
 
-### Deploying ML Models with FastAPI and Docker Containerisation
-
-Training a machine learning model is just the first step; deploying it for real-world use is equally important. To make a trained model accessible, I deployed it as an API using FastAPI and containerised the entire application using Docker. This process ensures cross-environment compatibility, allowing the model to be reliably consumed in various production setups. A demo of the deployed model is available below. Disclaimer: A publicly available [heart disease data](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset/data) was utilised for training the model.  
-
-[![](https://img.shields.io/badge/Docker-white?logo=Docker)](#) [![Fast API](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](#) [![](https://img.shields.io/badge/Python-white?logo=Python)](#)
-
-#### Try the Docker app in real-time below!
-<iframe
-	src="https://mmhossain-predict-heart-disease.hf.space"
-	frameborder="0"
-	width="450"
-	height="900"
-></iframe>
-
-
----
-
-
-
 ### End-to-end machine learning data pipeline with scikit-learn
 This comprehensive end-to-end machine learning pipeline efficiently handles data preprocessing, model training, and prediction on test/inference data. The pipeline integrates the data ingestion and feature engineering workflow to model deployment, ensuring robust and scalable machine learning solutions. 
 
