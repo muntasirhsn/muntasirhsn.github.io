@@ -15,7 +15,7 @@ Long short-term memory (LSTM) is a special type of recurrent neural network (RNN
 
 ---
 
-### Train and deploy machine learning model at scale with automated pipelines
+### Predictive Modelling: Train and deploy machine learning model at scale with automated pipelines
 Develop an end-to-end machine learning (ML) workflow with automation for all the steps including data preprocessing, training models at scale with distributed computing (GPUs/CPUs), model evaluation, deploying in production, model monitoring and drift detection with Amazon SageMaker Pipeline - a purpose-built CI/CD service.
 
 
