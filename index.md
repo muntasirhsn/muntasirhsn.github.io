@@ -3,7 +3,7 @@
 
 ---
 
-### Deep Learning: CNN-LSTM deep neural networks for energy usage forecasting
+### Energy usage forecasting with CNN-LSTM deep neural networks
 Long short-term memory (LSTM) is a special type of recurrent neural network (RNN) that can be used for time-series forecasting. LSTM networks are capable of learning features from input sequences of data and can be used to predict multi-step sequences. In this example, I demonstrated a CNN-LSTM architecture for multistep time-series energy usage forecasting. A one-dimensional convolutional neural network (CNN) is used to read and encode the input sequence. An LSTM network is then used as a decoder to make a one-step prediction for each value in the output sequence. 
 
 <img src="images/time-series3.png?raw=true"/>  Figure: Actual and predicted energy usage over 12 weeks of time period
@@ -15,7 +15,7 @@ Long short-term memory (LSTM) is a special type of recurrent neural network (RNN
 
 ---
 
-### MLOps: Train and deploy machine learning model at scale with automated pipelines
+### Train and deploy machine learning model at scale with automated pipelines
 Develop an end-to-end machine learning (ML) workflow with automation for all the steps including data preprocessing, training models at scale with distributed computing (GPUs/CPUs), model evaluation, deploying in production, model monitoring and drift detection with Amazon SageMaker Pipeline - a purpose-built CI/CD service.
 
 
@@ -29,7 +29,6 @@ Develop an end-to-end machine learning (ML) workflow with automation for all the
 
 
 ---
-
 
 
 ### End-to-end machine learning data pipeline with scikit-learn
