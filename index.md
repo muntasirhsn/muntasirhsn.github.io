@@ -21,7 +21,7 @@ Develop an end-to-end machine learning (ML) workflow with automation for all the
 ### Multi-step energy usage forecasting with CNN-LSTM architecture
 TThis project implements a multi-step time-series forecasting model using a hybrid CNN-LSTM architecture. The 1D convolutional neural network (CNN) extracts local patterns (e.g., short-term fluctuations, trends) from the input sequence, while the LSTM network captures long-term temporal dependencies. Unlike recursive single-step prediction, the model performs direct multi-step forecasting (Seq2Seq), outputting am entire future sequence of values at once. Trained on historical energy data, the model forecasts weekly consumption over a 10-week horizon, achieving a Mean Absolute Percentage Error (MAPE) of 12% (equivalent to 88% accuracy). The results demonstrate robust performance for long-range forecasting, highlighting the effectiveness of combining CNNs for feature extraction and LSTMs for sequential modeling in energy demand prediction.
 
-![image](https://github.com/user-attachments/assets/d26e2fd8-40be-46b3-aebf-cc0c8345fdef)
+![image](https://github.com/user-attachments/assets/62a80a60-52be-4bc2-af46-48d9f44935ca)
 Figure: Actual and predicted energy usage over 10 weeks of time period.
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/TensorFlow-white?logo=TensorFlow)](#) [![](https://img.shields.io/badge/-Keras-white?logo=Keras&logoColor=black)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#)
