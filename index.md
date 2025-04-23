@@ -18,10 +18,13 @@ Develop an end-to-end machine learning (ML) workflow with automation for all the
 ---
 
 
-### Energy usage forecasting with CNN-LSTM deep neural networks
-Long short-term memory (LSTM) is a special type of recurrent neural network (RNN) that can be used for time-series forecasting. LSTM networks are capable of learning features from input sequences of data and can be used to predict multi-step sequences. In this example, I demonstrated a CNN-LSTM architecture for multistep time-series energy usage forecasting. A one-dimensional convolutional neural network (CNN) is used to read and encode the input sequence. An LSTM network is then used as a decoder to make a one-step prediction for each value in the output sequence. 
+### Multi-step energy usage forecasting with CNN-LSTM architecture
+This project showcases a multistep time-series forecasting model using a hybrid CNN-LSTM architecture. Long Short-Term Memory (LSTM) networks, a type of recurrent neural network (RNN), are well-suited for capturing long-term dependencies in sequential data. In this approach, a one-dimensional convolutional neural network (CNN) extracts temporal features from a fixed window of historical energy usage, which are then passed to an LSTM network that outputs predictions for the next full week of energy usage.
 
-<img src="images/time-series3.png?raw=true"/>  Figure: Actual and predicted energy usage over 12 weeks of time period
+Rather than predicting one step at a time, the model performs **direct multi-step forecasting**, generating a full sequence of future values in parallel. The model forecasts weekly energy consumption over a 10-week horizon and achieves a **Mean Absolute Percentage Error (MAPE) of 12%**, corresponding to an overall accuracy of **88%**, demonstrating strong forecasting performance for this type of long-range, multi-step prediction. The accompanying plot shows how closely the predicted values track actual energy usage over the forecast period.
+
+![image](https://github.com/user-attachments/assets/ba04313f-abd2-4a1d-9d9b-7c4b677ea3b7)
+Figure: Actual and predicted energy usage over 10 weeks of time period.
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/TensorFlow-white?logo=TensorFlow)](#) [![](https://img.shields.io/badge/-Keras-white?logo=Keras&logoColor=black)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#)
 
