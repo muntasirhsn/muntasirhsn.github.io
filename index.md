@@ -21,7 +21,7 @@ Develop an end-to-end machine learning (ML) workflow with automation for all the
 ### Multi-step energy usage forecasting with CNN-LSTM architecture
 TThis project implements a multi-step time-series forecasting model using a hybrid CNN-LSTM architecture. The 1D convolutional neural network (CNN) extracts local patterns (e.g., short-term fluctuations, trends) from the input sequence, while the LSTM network captures long-term temporal dependencies. Unlike recursive single-step prediction, the model performs direct multi-step forecasting (Seq2Seq), outputting am entire future sequence of values at once. Trained on historical energy data, the model forecasts weekly consumption over a 10-week horizon, achieving a Mean Absolute Percentage Error (MAPE) of 12% (equivalent to 88% accuracy). The results demonstrate robust performance for long-range forecasting, highlighting the effectiveness of combining CNNs for feature extraction and LSTMs for sequential modeling in energy demand prediction.
 
-![image](https://github.com/user-attachments/assets/b0d6e77d-779f-477e-8a4f-cbf13e4048b0)
+![image](https://github.com/user-attachments/assets/fd52b3a6-c764-49ee-9fa2-ec6d73891c4e)
 Figure: Actual and predicted energy usage over 10 weeks of time period.
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/TensorFlow-white?logo=TensorFlow)](#) [![](https://img.shields.io/badge/-Keras-white?logo=Keras&logoColor=black)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#)
@@ -32,7 +32,7 @@ Figure: Actual and predicted energy usage over 10 weeks of time period.
 ---
 
 
-### Retrieval-Augmented Generation (RAG) with LLMs, embeddings, vector databases and LangChain
+### Retrieval-Augmented Generation (RAG) with LLMs, embeddings, vector databases, and LangChain
 RAG is a technique that combines a retriever and a generative LLM to deliver accurate responses to queries. It involves retrieving relevant information from a large corpus and then generating contextually appropriate responses to queries. Here, I used the Llama 2 LLM and LangChain with GPU acceleration to perform generative question-answering (QA) with RAG.
 
 ![image](https://github.com/muntasirhsn/muntasirhsn.github.io/assets/29087240/cb5f2892-68a5-4d68-b9b4-568959b2595a) Figure: A schematic representation of RAG with a retriever and an LLM
@@ -54,7 +54,7 @@ To get a hands-on introduction to RAG, [view my codes on GitHub](https://github.
 ---
 
 
-### Deployment and API integration of LLMs and ML models with FastAPI and AWS Lambda serverless services
+### Deployment and API integration of ML models and LLMs with, Amazon Sagemaker, FastAPI, and AWS Lambda serverless services
 FastAPI is a modern web framework designed for building APIs with Python.  It emphasizes simplicity and ease of use while providing robust functionality, making it popular among developers for creating high-performance APIs. 
 In this example, I deployed a  Microsoft/Phi-2 LLM from the Hugging Face hub to an Amazon Sagemaker endpoint with GPU instances. To integrate the Sagemaker endpoint to consumer-facing APIs, I utilise FastAPI and AWS lambda as a serverless service.  
 
