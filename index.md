@@ -65,9 +65,28 @@ In this example, I deployed a  Microsoft/Phi-2 LLM from the Hugging Face hub to 
 
 ---
 
-[🌍 View interactive CO₂ emissions map](images/co2_emissions_animation.html)
+## 🌍 Interactive CO₂ Emissions Map
 
-[🌍 View interactive CO₂ emissions map](images/co2_emissions_radio.html)
+Here is an interactive visualization of global CO₂ emissions by country and year. Use the buttons to explore historical data.
+
+<iframe src="images/co2_emissions_animation.html"
+        width="100%"
+        height="750"
+        frameborder="0"
+        scrolling="no">
+</iframe>
+
+## 🌍 Interactive CO₂ Emissions Map
+
+Here is an interactive visualization of global CO₂ emissions by country and year. Use the buttons to explore historical data.
+
+<iframe src="images/co2_emissions_radio.html"
+        width="100%"
+        height="750"
+        frameborder="0"
+        scrolling="no">
+</iframe>
+
 
 ---
 
