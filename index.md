@@ -62,7 +62,29 @@ In this example, I deployed a  Microsoft/Phi-2 LLM from the Hugging Face hub to 
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![AWS](https://img.shields.io/badge/AWS-Cloud-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/)  [![Amazon Sagemaker](https://img.shields.io/badge/Sagemaker-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/sagemaker/) [![Fast API](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](#)
 
+---
 
+## 🌍 Interactive CO₂ Emissions Map
+
+Here is an interactive visualization of global CO₂ emissions by country and year. Use the buttons to explore historical data.
+
+<iframe src="images/co2_emissions_animation.html"
+        width="100%"
+        height="750"
+        frameborder="0"
+        scrolling="no">
+</iframe>
+
+## 🌍 Interactive CO₂ Emissions Map
+
+Here is an interactive visualization of global CO₂ emissions by country and year. Use the buttons to explore historical data.
+
+<iframe src="images/co2_emissions_radio.html"
+        width="100%"
+        height="750"
+        frameborder="0"
+        scrolling="no">
+</iframe>
 
 ---
 
