@@ -69,7 +69,7 @@ In this example, I deployed a  Microsoft/Phi-2 LLM from the Hugging Face hub to 
 Here is an interactive visualization of global CO₂ emissions by country and year. Use the buttons to explore historical data.
 
 <iframe src="images/co2_emissions_animation_new.html"
-        width="100%"
+        width="60%"
         height="750"
         frameborder="0"
         scrolling="no">
