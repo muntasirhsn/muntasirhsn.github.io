@@ -17,35 +17,46 @@
 
   {% seo %}
   <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-  <style>
-  /* Force vertical layout and disable leftover theme sidebar styles */
+<style>
+  /* Absolute theme override — kill fixed sidebar and flex layout */
+  * {
+    box-sizing: border-box;
+  }
+
   body {
-    display: block;
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
+    background: #fff;
   }
 
   .wrapper, .container {
-    display: block !important;
+    all: unset;
+    display: block;
     margin: 0 auto;
-    padding: 20px;
     max-width: 1000px;
+    padding: 20px;
     width: 100%;
   }
 
   header {
-    position: relative !important; /* Remove sticky/fixed */
-    float: none;
+    all: unset;
+    display: block;
     width: 100%;
     text-align: center;
     margin-bottom: 40px;
   }
 
+  header h1, header p {
+    margin: 0 0 10px 0;
+  }
+
   section, main {
+    display: block;
     width: 100%;
-    margin: 0 auto;
   }
 </style>
+
 </head>
 
 <body>
