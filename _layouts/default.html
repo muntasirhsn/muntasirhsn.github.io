@@ -17,6 +17,35 @@
 
   {% seo %}
   <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+  <style>
+  /* Force vertical layout and disable leftover theme sidebar styles */
+  body {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .wrapper, .container {
+    display: block !important;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1000px;
+    width: 100%;
+  }
+
+  header {
+    position: relative !important; /* Remove sticky/fixed */
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  section, main {
+    width: 100%;
+    margin: 0 auto;
+  }
+</style>
 </head>
 
 <body>
