@@ -9,6 +9,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   <a href="https://www.linkedin.com/in/-muntasir-hossain/">View my LinkedIn profile</a> 
   
 
-theme: null  # Disable built-in Jekyll theme
-plugins: []  # No remote theme needed
+markdown: kramdown
+theme: null
+plugins: []
 
