@@ -1,5 +1,66 @@
 ## Selected demos in machine learning (ML), predictive modelling, deep learning, generative AI, NLP and computer vision. 
 
+
+---
+
+### Analysing the global CO₂ emission: How did countries, regions and economic zones evolve over time?
+
+The World Bank provides carbon dioxide (CO₂) emissions, specifically total CO₂ emissions excluding Land Use, Land-Use Change, and Forestry (LULUCF), measured in million metric tons of CO₂ equivalent (Mt CO₂e). It provides key insights into environmental impact at both national, regional and economic levels over the past six decades. 
+* Many countries and regions show a clear upward trend in carbon dioxide emissions from 1960 to 2024. For instance, emission from China increased from 909 Mt CO₂e in 1970 to over 13K Mt CO₂e in recent years, reflecting rapid industrialization and population growth.
+* There is significant variation between countries. Highly industrialized or resource-rich nations (e.g., Saudi Arabia, United Arab Emirates) emit far more CO₂ than smaller or less industrialized countries (e.g., Aruba, Burundi).
+* The data suggests a strong link between economic development and emissions growth. Countries experiencing rapid economic expansion (e.g., Vietnam, United Arab Emirates) show marked increases in emissions, while some developed countries (e.g., Germany, Austria, Belgium) have stabilized or slightly reduced their emissions in recent years, likely due to policy interventions or shifts to cleaner energy.
+* While ‘High Income’ regions dominated the CO2 emissions pre-2020, the ‘Middle Income’ and ‘Upper Middle Income’ regions rapidly increased CO2 emissions after 2000, exceeding the emissions from ‘High Income’ regions. 
+
+#### Global CO₂ emissions
+<iframe src="images/co2_emissions_world_animation.html"
+        width="1050"
+        height="750"
+        frameborder="0"
+        scrolling="no">
+</iframe>
+Figure: Interactive visualization of global CO₂ emissions by country and year
+
+#### Time sereis CO₂ emissions
+<iframe src="images/co2_emissions_timeseries.html"
+        width="1050"
+        height="750"
+        frameborder="0"
+        scrolling="no">
+</iframe>
+Figure: Time sereis CO₂ emissions for selected countries
+
+#### CO₂ emissions by income groups
+<iframe src="images/co2_emissions_bar_income_zone_cleaned.html"
+        width="1050"
+        height="750"
+        frameborder="0"
+        scrolling="no">
+</iframe>
+Figure: Interactive visualization of CO₂ emissions for different income zones from 1970 to 2023
+
+#### CO₂ emissions by geographic regions
+<iframe src="images/co2_emissions_bar_geo_cleaned.html"
+        width="1050"
+        height="750"
+        frameborder="0"
+        scrolling="no">
+</iframe>
+Figure: Interactive visualization of CO₂ emissions for different geographic regions from 1970 to 2023
+
+---
+
+### Multi-step energy usage forecasting with CNN-LSTM architecture
+TThis project implements a multi-step time-series forecasting model using a hybrid CNN-LSTM architecture. The 1D convolutional neural network (CNN) extracts local patterns (e.g., short-term fluctuations, trends) from the input sequence, while the LSTM network captures long-term temporal dependencies. Unlike recursive single-step prediction, the model performs direct multi-step forecasting (Seq2Seq), outputting am entire future sequence of values at once. Trained on historical energy data, the model forecasts weekly consumption over a 10-week horizon, achieving a Mean Absolute Percentage Error (MAPE) of 12% (equivalent to 88% accuracy). The results demonstrate robust performance for long-range forecasting, highlighting the effectiveness of combining CNNs for feature extraction and LSTMs for sequential modeling in energy demand prediction.
+
+![image](https://github.com/user-attachments/assets/fd52b3a6-c764-49ee-9fa2-ec6d73891c4e)
+Figure: Actual and predicted energy usage over 10 weeks of time period.
+
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/TensorFlow-white?logo=TensorFlow)](#) [![](https://img.shields.io/badge/-Keras-white?logo=Keras&logoColor=black)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#)
+
+[View codes on GitHub](https://github.com/muntasirhsn/CNN-LSTM-model-for-energy-usage-forecasting)
+
+
+
 ---
 
 ### MLOps with AWS: Train and deploy ML models at scale with automated pipelines
@@ -13,20 +74,6 @@ Develop an end-to-end machine learning (ML) workflow with automation for all the
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![AWS](https://img.shields.io/badge/AWS-Cloud-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/)  [![Amazon Sagemaker](https://img.shields.io/badge/Sagemaker-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/sagemaker/) [![Amazon API Gateway](https://img.shields.io/badge/API_Gateway-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/api-gateway/) 
 
 [View codes on GitHub](https://github.com/muntasirhsn/MLOps-with-AWS)
-
-
----
-
-
-### Multi-step energy usage forecasting with CNN-LSTM architecture
-TThis project implements a multi-step time-series forecasting model using a hybrid CNN-LSTM architecture. The 1D convolutional neural network (CNN) extracts local patterns (e.g., short-term fluctuations, trends) from the input sequence, while the LSTM network captures long-term temporal dependencies. Unlike recursive single-step prediction, the model performs direct multi-step forecasting (Seq2Seq), outputting am entire future sequence of values at once. Trained on historical energy data, the model forecasts weekly consumption over a 10-week horizon, achieving a Mean Absolute Percentage Error (MAPE) of 12% (equivalent to 88% accuracy). The results demonstrate robust performance for long-range forecasting, highlighting the effectiveness of combining CNNs for feature extraction and LSTMs for sequential modeling in energy demand prediction.
-
-![image](https://github.com/user-attachments/assets/fd52b3a6-c764-49ee-9fa2-ec6d73891c4e)
-Figure: Actual and predicted energy usage over 10 weeks of time period.
-
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/TensorFlow-white?logo=TensorFlow)](#) [![](https://img.shields.io/badge/-Keras-white?logo=Keras&logoColor=black)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#)
-
-[View codes on GitHub](https://github.com/muntasirhsn/CNN-LSTM-model-for-energy-usage-forecasting)
 
 
 ---
