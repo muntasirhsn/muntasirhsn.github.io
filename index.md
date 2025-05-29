@@ -13,8 +13,8 @@ The World Bank provides carbon dioxide (CO₂) emissions, specifically total CO�
 
 #### Global CO₂ emissions
 <iframe src="images/co2_emissions_world_animation_fixed_2023.html"
-        width="1050"
-        height="750"
+        width="550"
+        height="650"
         frameborder="0"
         scrolling="no">
 </iframe>
@@ -22,8 +22,8 @@ Figure: Interactive visualization of global CO₂ emissions by country and year
 
 #### Time sereis CO₂ emissions
 <iframe src="images/co2_emissions_timeseries_trend.html"
-        width="1050"
-        height="750"
+        width="550"
+        height="650"
         frameborder="0"
         scrolling="no">
 </iframe>
@@ -31,8 +31,8 @@ Figure: Time sereis CO₂ emissions for selected countries
 
 #### Time sereis Population Growth
 <iframe src="images/Population_timeseries.html"
-        width="1050"
-        height="750"
+        width="550"
+        height="650"
         frameborder="0"
         scrolling="no">
 </iframe>
@@ -40,8 +40,8 @@ Figure: Time sereis CO₂ emissions for selected countries
 
 #### CO₂ emissions by income groups
 <iframe src="images/co2_emissions_bar_income_zone_cleaned.html"
-        width="1050"
-        height="750"
+        width="550"
+        height="650"
         frameborder="0"
         scrolling="no">
 </iframe>
@@ -49,8 +49,8 @@ Figure: Interactive visualization of CO₂ emissions for different income zones 
 
 #### CO₂ emissions by geographic regions
 <iframe src="images/co2_emissions_pie_fixed_colors_position.html"
-        width="1050"
-        height="750"
+        width="550"
+        height="650"
         frameborder="0"
         scrolling="no">
 </iframe>
