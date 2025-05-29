@@ -6,7 +6,7 @@
 ### Analysing the global CO₂ emission: How did countries, regions and economic zones evolve over time?
 
 The World Bank provides carbon dioxide (CO₂) emissions, specifically total CO₂ emissions excluding Land Use, Land-Use Change, and Forestry (LULUCF), measured in million metric tons of CO₂ equivalent (Mt CO₂e). It provides key insights into environmental impact at both national, regional and economic levels over the past six decades. 
-* Many countries and regions show a clear upward trend in carbon dioxide emissions from 1960 to 2024. For instance, emission from China increased from 909 Mt CO₂e in 1970 to over 13K Mt CO₂e in recent years, reflecting rapid industrialization.
+* Many countries (e.g. China, India) and regions show a clear upward trend in carbon dioxide emissions from 1960 to 2024. For instance, emission from China increased from 909 Mt CO₂e in 1970 to over 13K Mt CO₂e in recent years, reflecting rapid industrialization. While the population of China adn India in 2023 are nearly the same, the CO₂ emission from China is 4.5 fold to that of India. 
 * There is significant variation between countries. Highly industrialized or resource-rich nations (e.g., Saudi Arabia, United Arab Emirates) emit far more CO₂ than smaller or less industrialized countries (e.g., Aruba, Burundi).
 * The data suggests a strong link between economic development and emissions growth. Countries experiencing rapid economic expansion (e.g., Vietnam, United Arab Emirates) show marked increases in emissions, while some developed countries (e.g., Germany, Austria, Belgium) have stabilized or slightly reduced their emissions in recent years, likely due to policy interventions or shifts to cleaner energy.
 * While ‘High Income’ regions dominated the CO2 emissions pre-2020, the ‘Middle Income’ and ‘Upper Middle Income’ regions rapidly increased CO2 emissions after 2000, exceeding the emissions from ‘High Income’ regions. 
@@ -21,7 +21,7 @@ The World Bank provides carbon dioxide (CO₂) emissions, specifically total CO�
 Figure: Interactive visualization of global CO₂ emissions by country and year
 
 #### Time sereis CO₂ emissions
-<iframe src="images/co2_emissions_timeseries.html"
+<iframe src="images/co2_emissions_timeseries_trend.html"
         width="1050"
         height="750"
         frameborder="0"
