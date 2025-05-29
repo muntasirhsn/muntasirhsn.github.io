@@ -29,14 +29,14 @@ Figure: Interactive visualization of global CO₂ emissions by country and year
 </iframe>
 Figure: Time sereis CO₂ emissions for selected countries
 
-#### Time sereis Population Growth
+#### Population Growth
 <iframe src="images/Population_timeseries.html"
         width="550"
         height="650"
         frameborder="0"
         scrolling="no">
 </iframe>
-Figure: Time sereis CO₂ emissions for selected countries
+Figure: Population growth for selected countries
 
 #### CO₂ emissions by income groups
 <iframe src="images/co2_emissions_bar_income_zone_cleaned.html"
