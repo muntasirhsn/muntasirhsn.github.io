@@ -12,7 +12,7 @@ The World Bank provides carbon dioxide (CO₂) emissions, specifically total CO�
 * While ‘High Income’ regions dominated the CO2 emissions pre-2020, the ‘Middle Income’ and ‘Upper Middle Income’ regions rapidly increased CO2 emissions after 2000, exceeding the emissions from ‘High Income’ regions. 
 
 #### Global CO₂ emissions
-<iframe src="images/co2_emissions_world_animation_fixed_2023_2.html"
+<iframe src="images/co2_emissions_world_animation_start_on_2023_fixed.html"
         width="700"
         height="650"
         frameborder="0"
