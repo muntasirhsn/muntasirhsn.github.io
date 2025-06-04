@@ -1,4 +1,4 @@
-# Selected demos in data analysis, machine learning (ML), predictive modelling, generative AI, NLP and computer vision. 
+# Selected demos in data analysis, machine learning (ML), deep learning, generative AI, NLP and computer vision. 
 
 
 ---
