@@ -1,4 +1,4 @@
-# Selected projects in data analysis, machine learning (ML), deep learning, generative AI, NLP and computer vision. 
+# Selected projects in data science, machine learning (ML), deep learning, generative AI, NLP and computer vision. 
 
 
 ---
