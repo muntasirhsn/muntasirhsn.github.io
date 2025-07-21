@@ -121,7 +121,7 @@ RAG is a technique that combines a retriever and a generative LLM to deliver acc
 	src="https://muntasirhossain-rag-pdf-chatbot-3.hf.space"
 	frameborder="0"
 	width="650"
-	height="650"
+	height="800"
 ></iframe>
 
 
