@@ -108,12 +108,6 @@ RAG is a technique that combines a retriever and a generative LLM to deliver acc
 
 **Try my app below that uses the Llama 3/Mistral v2 models and FAISS vector store for RAG on your PDF documents!**
 
-<iframe
-	src="https://muntasirhossain-rag-pdf-chatbot-3.hf.space"
-	frameborder="0"
-	width="550"
-	height="1150"
-></iframe>
 
 ---
 <div>
@@ -129,7 +123,7 @@ RAG is a technique that combines a retriever and a generative LLM to deliver acc
 <div>
   <iframe 
     src="https://muntasirhossain-rag-pdf-chatbot.hf.space" 
-    width="800" 
+    width="770" 
     height="1100"
     style="border: 1px solid #d1d5db; border-radius: 8px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);"
   ></iframe>
