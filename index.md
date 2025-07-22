@@ -122,7 +122,7 @@ RAG is a technique that combines a retriever and a generative LLM to deliver acc
 <iframe
 	src="https://muntasirhossain-rag-pdf-chatbot.hf.space"
 	frameborder="0"
-	width="550"
+	width="950"
 	height="950"
 ></iframe>
 
@@ -141,24 +141,14 @@ RAG is a technique that combines a retriever and a generative LLM to deliver acc
   <iframe 
     src="https://muntasirhossain-rag-pdf-chatbot.hf.space" 
     width="100%" 
-    height="800"
+    height="950"
     style="border:none; transform:scale(0.95); transform-origin:0 0"
   ></iframe>
 </div>
 
 ---
 
-<div class="project">
-  <a href="https://muntasirhossain-rag-pdf-chatbot.hf.space" target="_blank">
-    <img src="screenshot.jpg" style="width:100%; border:1px solid #ddd">
-    <div class="project-buttons">
-      <button class="live-demo">Live Demo →</button>
-      <button class="view-code">View Code</button>
-    </div>
-  </a>
-</div>
 
----
 
 ## Parameter-efficient fine-tuning of LLMs (Llama-3) with Quantized Low-Rank Adaptation (QLoRA)
 Fine-tuning an LLM (e.g. full fine-tuning) for a particular task can be computationally intensive as it involves updating all the LLM model parameters. Parameter-efficient fine-tuning (PEFT) updates only a small subset of parameters, allowing LLM fine-tuning with limited resources. Here, I have fine-tuned the [Llama-3-8B](meta-llama/Meta-Llama-3-8B) foundation model with QLoRA, a form of PEFT, by using NVIDIA L4 GPUs. In QLoRA, the pre-trained model weights are first quantized with 4-bit NormalFloat (NF4). The original model weights are frozen while trainable low-rank decomposition weight matrices are introduced and modified during the fine-tuning process, allowing for memory-efficient fine-tuning of the LLM without the need to retrain the entire model from scratch.  
