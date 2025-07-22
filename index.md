@@ -120,7 +120,7 @@ RAG is a technique that combines a retriever and a generative LLM to deliver acc
   <iframe 
     src="https://muntasirhossain-rag-pdf-chatbot.hf.space" 
     width="550" 
-    height="950"
+    height="1150"
     style="border:none; transform:scale(0.95); transform-origin:0 0"
   ></iframe>
 </div>
@@ -132,7 +132,7 @@ RAG is a technique that combines a retriever and a generative LLM to deliver acc
 	src="https://muntasirhossain-rag-pdf-chatbot.hf.space"
 	frameborder="0"
 	width="950"
-	height="950"
+	height="1150"
 ></iframe>
 
 ---
@@ -150,7 +150,7 @@ RAG is a technique that combines a retriever and a generative LLM to deliver acc
   <iframe 
     src="https://muntasirhossain-rag-pdf-chatbot.hf.space" 
     width="100%" 
-    height="950"
+    height="1150"
     style="border:none; transform:scale(0.95); transform-origin:0 0"
   ></iframe>
 </div>
