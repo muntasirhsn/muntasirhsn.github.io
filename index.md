@@ -13,7 +13,7 @@ The World Bank provides data for greenhouse gas emissions in million metric tons
 
 ### Global CO₂ emissions
 <iframe src="images/co2_emissions_world_animation_start_on_2023_fixed.html"
-        width="500"
+        width="650"
         height="650"
         frameborder="0"
         scrolling="no">
@@ -24,7 +24,7 @@ Figure: Interactive visualization of global CO₂ emissions by country and year
 <div>
   <iframe 
     src="images/co2_emissions_world_animation_start_on_2023_fixed.html"
-    width="500" 
+    width="650" 
     height="550"
     style="border:none; transform:scale(0.95); transform-origin:0 0"
   ></iframe>
@@ -34,7 +34,7 @@ Figure: Interactive visualization of global CO₂ emissions by country and year
 
 ### Time sereis CO₂ emissions
 <iframe src="images/co2_emissions_timeseries_trend.html"
-        width="400"
+        width="650"
         height="550"
         frameborder="0"
         scrolling="no">
@@ -45,7 +45,7 @@ Figure: Time sereis CO₂ emissions for selected countries
 
 ### Population Growth
 <iframe src="images/Population_timeseries.html"
-        width="400"
+        width="650"
         height="550"
         frameborder="0"
         scrolling="no">
@@ -56,7 +56,7 @@ Figure: Population growth for selected countries
 
 ### CO₂ emissions by income groups
 <iframe src="images/co2_emissions_bar_income_zone_cleaned.html"
-        width="600"
+        width="650"
         height="550"
         frameborder="0"
         scrolling="no">
@@ -87,15 +87,6 @@ This project implements a multi-step time-series forecasting model using a hybri
 </iframe>
 Figure: Actual and predicted energy usage over 10 weeks of time period.
 
----
-<div>
-  <iframe 
-    src="images/forecasting_2.html" 
-    width="500" 
-    height="350"
-    style="border:none; transform:scale(0.95); transform-origin:0 0"
-  ></iframe>
-</div>
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/TensorFlow-white?logo=TensorFlow)](#) [![](https://img.shields.io/badge/-Keras-white?logo=Keras&logoColor=black)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#)
 
