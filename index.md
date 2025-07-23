@@ -77,6 +77,16 @@ This project implements a multi-step time-series forecasting model using a hybri
 </iframe>
 Figure: Actual and predicted energy usage over 10 weeks of time period.
 
+---
+<div>
+  <iframe 
+    src="images/forecasting_2.html" 
+    width="650" 
+    height="350"
+    style="border:none"
+  ></iframe>
+</div>
+
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/TensorFlow-white?logo=TensorFlow)](#) [![](https://img.shields.io/badge/-Keras-white?logo=Keras&logoColor=black)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#)
 
 [View sample codes on GitHub](https://github.com/muntasirhsn/CNN-LSTM-model-for-energy-usage-forecasting)
