@@ -13,7 +13,7 @@ The World Bank provides data for greenhouse gas emissions in million metric tons
 
 ### Global CO₂ emissions
 <iframe src="images/co2_emissions_world_animation_start_on_2023_fixed.html"
-        width="650"
+        width="700"
         height="650"
         frameborder="0"
         scrolling="no">
