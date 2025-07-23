@@ -20,6 +20,16 @@ The World Bank provides data for greenhouse gas emissions in million metric tons
 </iframe>
 Figure: Interactive visualization of global CO₂ emissions by country and year
 
+---
+<div>
+  <iframe 
+    src="images/co2_emissions_world_animation_start_on_2023_fixed.html"
+    width="500" 
+    height="550"
+    style="border:none; transform:scale(0.95); transform-origin:0 0"
+  ></iframe>
+</div>
+
 
 
 ### Time sereis CO₂ emissions
@@ -70,7 +80,7 @@ Figure: Interactive visualization of CO₂ emissions for different geographic re
 This project implements a multi-step time-series forecasting model using a hybrid CNN-LSTM architecture. The 1D convolutional neural network (CNN) extracts local patterns (e.g., short-term fluctuations, trends) from the input sequence, while the LSTM network captures long-term temporal dependencies. Unlike recursive single-step prediction, the model performs direct multi-step forecasting (Seq2Seq), outputting am entire future sequence of values at once. Trained on historical energy data, the model forecasts weekly energy consumption over a consecutive 10-week horizon, achieving a Mean Absolute Percentage Error (MAPE) of 10% (equivalent to an overall accuracy of 90%). The results demonstrate robust performance for long-range forecasting, highlighting the effectiveness of combining CNNs for feature extraction and LSTMs for sequential modeling in energy demand prediction.
 
 <iframe src="images/forecasting_2.html"
-        width="650"
+        width="500"
         height="350"
         frameborder="0"
         scrolling="no">
@@ -81,7 +91,7 @@ Figure: Actual and predicted energy usage over 10 weeks of time period.
 <div>
   <iframe 
     src="images/forecasting_2.html" 
-    width="650" 
+    width="500" 
     height="350"
     style="border:none; transform:scale(0.95); transform-origin:0 0"
   ></iframe>
