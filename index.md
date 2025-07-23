@@ -13,7 +13,7 @@ The World Bank provides data for greenhouse gas emissions in million metric tons
 
 ### Global CO₂ emissions
 <iframe src="images/co2_emissions_world_animation_start_on_2023_fixed.html"
-        width="700"
+        width="600"
         height="650"
         frameborder="0"
         scrolling="no">
@@ -24,7 +24,7 @@ Figure: Interactive visualization of global CO₂ emissions by country and year
 
 ### Time sereis CO₂ emissions
 <iframe src="images/co2_emissions_timeseries_trend.html"
-        width="650"
+        width="600"
         height="550"
         frameborder="0"
         scrolling="no">
@@ -35,7 +35,7 @@ Figure: Time sereis CO₂ emissions for selected countries
 
 ### Population Growth
 <iframe src="images/Population_timeseries.html"
-        width="650"
+        width="600"
         height="550"
         frameborder="0"
         scrolling="no">
@@ -46,7 +46,7 @@ Figure: Population growth for selected countries
 
 ### CO₂ emissions by income groups
 <iframe src="images/co2_emissions_bar_income_zone_cleaned.html"
-        width="650"
+        width="600"
         height="550"
         frameborder="0"
         scrolling="no">
@@ -57,7 +57,7 @@ Figure: Interactive visualization of CO₂ emissions for different income zones 
 
 ### CO₂ emissions by geographic regions
 <iframe src="images/co2_emissions_pie_fixed_colors_position.html"
-        width="650"
+        width="600"
         height="550"
         frameborder="0"
         scrolling="no">
