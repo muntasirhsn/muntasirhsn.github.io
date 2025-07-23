@@ -20,17 +20,6 @@ The World Bank provides data for greenhouse gas emissions in million metric tons
 </iframe>
 Figure: Interactive visualization of global CO₂ emissions by country and year
 
----
-<div>
-  <iframe 
-    src="images/co2_emissions_world_animation_start_on_2023_fixed.html"
-    width="650" 
-    height="550"
-    style="border:none; transform:scale(0.95); transform-origin:0 0"
-  ></iframe>
-</div>
-
-
 
 ### Time sereis CO₂ emissions
 <iframe src="images/co2_emissions_timeseries_trend.html"
