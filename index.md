@@ -83,7 +83,7 @@ Figure: Actual and predicted energy usage over 10 weeks of time period.
     src="images/forecasting_2.html" 
     width="650" 
     height="350"
-    style="border:none"
+    style="border:none; transform:scale(0.95); transform-origin:0 0"
   ></iframe>
 </div>
 
