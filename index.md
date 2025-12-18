@@ -1,6 +1,6 @@
 # Selected projects in data science, machine learning, deep learning, and computer vision. 
 
-
+---
 
 ## Exploratory Spatial and Environmental Data Analysis with Interactive Visualisation
 
