@@ -1,8 +1,8 @@
-# Selected projects in data science, machine learning, deep learning, generative AI, NLP and computer vision. 
+# Selected projects in data science, machine learning, deep learning, and computer vision. 
 
 
 
-## Analysing the global CO₂ emission: How did countries, regions and economic zones evolve over time?
+## Exploratory Spatial and Environmental Data Analysis with Interactive Visualisation
 
 The World Bank provides data for greenhouse gas emissions in million metric tons of CO₂ equivalent (Mt CO₂e) based on the AR5 global warming potential (GWP). It provides information on environmental impact at both national, regional and economic levels over the past six decades. 
 ### Analytical approach:
@@ -70,7 +70,7 @@ Figure: Interactive visualization of CO₂ emissions for different geographic re
 
 ---
 
-## Computer Vision & ML Deployment: Building and Deploying YOLOv8 at scale with Amazon SageMaker Endpoints
+## Computer Vision: Building and Deploying YOLOv8 models for object detection at scale
 Deployed a state-of-the-art YOLOv8 object detection model to real-time Amazon SageMaker endpoints, enabling scalable, low-latency inference for image and video inputs. Focused on model serving, endpoint configuration, and operational inference rather than model training.
 
 <img src="images/highway1-detect3.gif?raw=true"/> Figure: Object detection with YOLOv8 model deployed to a real-time Amazon SageMaker endpoints.
@@ -81,7 +81,7 @@ Deployed a state-of-the-art YOLOv8 object detection model to real-time Amazon Sa
 
 ---
 
-## Multi-step energy usage forecasting with CNN-LSTM neural networks
+## Advanced forecasting models with deep CNN-LSTM neural networks
 This project implements a multi-step time-series forecasting model using a hybrid CNN-LSTM architecture. The 1D convolutional neural network (CNN) extracts spatial features (e.g., local fluctuations) from the input sequence, while the LSTM network captures long-term temporal dependencies. Unlike recursive single-step prediction, the model performs direct multi-step forecasting (Seq2Seq), outputting am entire future sequence of values at once. Trained on historical energy data, the model forecasts weekly energy consumption over a consecutive 10-week horizon, achieving a Mean Absolute Percentage Error (MAPE) of 10% (equivalent to an overall accuracy of 90%). The results demonstrate robust performance for long-range forecasting, highlighting the effectiveness of combining CNNs for feature extraction and LSTMs for sequential modeling in energy demand prediction.
 
 <iframe src="images/forecasting_2.html"
