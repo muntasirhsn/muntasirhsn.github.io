@@ -52,19 +52,18 @@ ORPO (Odds Ratio Preference Optimization) is a single-stage fine-tuning method t
 This project demonstrates iterative red-teaming of a policy assistant designed to answer questions about a government-style digital services policy, while strictly avoiding legal advice, speculation, or guidance on bypassing safeguards. The focus is on safety evaluation, failure analysis, and mitigation, rather than model fine-tuning.
 
 ### Model Separation Strategy
-The system intentionally uses **different models for generation and evaluation**:
+The system intentionally uses different models for generation and evaluation:
 * Query responses are generated using **gpt-4o-mini**
 * Safety evaluation is performed using **gpt-4o** via Giskard detectors
-This reflects common red-teaming practice: lighter models are sufficient for generation, while **stronger models provide more reliable safety judgments**. Separating generation and evaluation also avoids self-evaluation effects and keeps evaluation costs controlled.
+This reflects common red-teaming practice: lighter models are sufficient for generation, while stronger models provide more reliable safety judgments. Separating generation and evaluation also avoids self-evaluation effects and keeps evaluation costs controlled.
 
 ### Initial Evaluation
-The assistant was evaluated using **Giskard** across prompt-injection, misuse, and bias detectors. The scan identified multiple failures where the agent did not attempt to answer questions based on the provided policy document. These were not hallucinations or unsafe outputs, but overly conservative refusals.
+The policy assistant was evaluated using **Giskard** across prompt-injection, misuse, and bias detectors. The scan identified multiple failures where the agent did not attempt to answer questions based on the provided policy document. These were not hallucinations or unsafe outputs, but overly conservative refusals.
 
 <img src="images/giskard1.png?raw=true"/> Figure 1: Initial scan results from Giskard.
 
 ### Analysis
-The root cause was **over-refusal**.
-The safety layer correctly blocked requests involving legal advice, speculation, or bypassing safeguards, but also refused some benign questions that could have been partially answered using neutral policy language. This reduced policy grounding and triggered Giskard failures.
+The root cause was over-refusal. The safety layer correctly blocked requests involving legal advice, speculation, or bypassing safeguards, but also refused some benign questions that could have been partially answered using neutral policy language. This reduced policy grounding and triggered Giskard failures.
 
 ### Mitigation
 The refusal strategy was refined to better distinguish between:
