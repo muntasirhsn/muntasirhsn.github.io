@@ -84,6 +84,27 @@ This project demonstrates a complete red-teaming loop — evaluation, failure an
 
 [View project and source codes on GitHub](https://github.com/muntasirhsn/Red-Teaming-a-Policy-Assistant-with-Giskard)
 
+
+---
+
+## Retrieval-Augmented Generation (RAG) with LLMs and Vector Databases
+RAG is a technique that combines a retriever and a generative LLM to deliver accurate responses to queries. It involves retrieving relevant information from a large corpus and then generating contextually appropriate responses to queries. Here, I used the open-source Llama 3 and Mistral v2 models and LangChain with GPU acceleration to perform generative question-answering (QA) with RAG.
+
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/HuggingFace_Transformers-white?logo=huggingface)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#)
+
+[View example codes for introduction to RAG on GitHub](https://github.com/muntasirhsn/Introduction-to-Retrieval-Augmented-Generation)
+
+**Try my app below that uses the Llama 3/Mistral v2 models and FAISS vector store for RAG on your PDF documents!**
+
+<div>
+  <iframe 
+    src="https://muntasirhossain-rag-pdf-chatbot.hf.space" 
+    width="770" 
+    height="1000"
+    style="border: 1px solid #d1d5db; border-radius: 8px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); transform:scale(0.95); transform-origin:0 0"
+  ></iframe>
+</div>
+
 ---
 
 
