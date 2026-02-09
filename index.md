@@ -22,7 +22,7 @@ Figure: Actual and predicted energy usage over 10 weeks of time period.
 
 ---
 
-## MLOps with AWS: End-to-End ML Pipelines and Deploymen
+## End-to-End ML Pipelines and Deployment at Scale
 Develop an end-to-end machine learning (ML) workflow with automation for all the steps including data preprocessing, training models at scale with distributed computing (GPUs/CPUs), model evaluation, deploying in production, model monitoring and drift detection with Amazon SageMaker Pipeline - a purpose-built CI/CD service.
 
 
