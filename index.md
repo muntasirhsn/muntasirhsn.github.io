@@ -44,8 +44,25 @@ ORPO (Odds Ratio Preference Optimization) is a single-stage fine-tuning method t
 
 [Check the model on Hugging Face hub!](https://huggingface.co/MuntasirHossain/Orpo-Mistral-7B-v0.3)
 
+---
+
+## Collaborative AI Agents for Structured Research Report
+This multi-agent system orchestrates a sophisticated research workflow by deploying a coordinated team of AI specialists. Starting from a single topic, the planner agent intelligently maps out a customized research strategy, breaking complex questions into logical subtasks. An executor agent then dynamically routes each task to the right specialist: the research agent systematically gathers evidence by intelligently querying web content, academic papers via arXiv, and Wikipedia summaries; the writer agent synthesizes findings into a coherent draft; and the editor agent polishes the language and ensures analytical rigor. The entire process unfolds autonomously—agents collaborate seamlessly, passing context forward, while the system decides in real-time which research tools to deploy and when. The result is a thoroughly researched, professionally formatted Markdown report that users can instantly download as a polished PDF.
+
+Please try the agentic app below:
+
+<iframe 
+    src="https://multi-agent-research-workflow-production.up.railway.app/" 
+    width="650" 
+    height="900px" 
+    frameborder="0"
+    style="border: 1px solid #ddd; border-radius: 8px;"
+></iframe>
+
 
 ---
+
+
 ## Evaluating Safety and Vulnerabilities of LLM apps
 
 ### Overview
