@@ -132,15 +132,21 @@ Retrieval-Augmented Generation (RAG) is a technique that combines a retriever an
 
 ## Analysis & Interactive Visualisation of Global CO₂ Emissions
 
-The World Bank provides data for greenhouse gas emissions in million metric tons of CO₂ equivalent (Mt CO₂e) based on the AR5 global warming potential (GWP). It provides information on environmental impact at both national, regional and economic levels over the past six decades. 
-### Analytical approach:
-Time-series aggregation and normalisation across countries, regions, and income groups; comparative cohort analysis across geographic and economic categories; interactive filtering and visual exploration to support exploratory analysis and pattern discovery.
+The World Bank provides greenhouse gas emissions data in million metric tons of CO₂ equivalent (Mt CO₂e), calculated using AR5 global warming potential (GWP). The dataset captures environmental impact at national, regional, and income-group levels over more than six decades.
 
-Some key insights from the data:  
-* Many countries (e.g. China, India) and regions show a clear upward trend in carbon dioxide emissions from 1960 to 2024. For instance, although the population of China increased from 0.82 billion in 1970 to only 1.41 billion in 2023, emission drastically increased from 909 Mt CO₂e to over 13000 Mt CO₂e, reflecting rapid industrialization. While the population of China and India in 2023 were nearly the same, the CO₂ emission from China was 4.5 fold to that of India. 
-* There is significant variation between countries. Highly industrialized or resource-rich nations (e.g., Saudi Arabia, United Arab Emirates) emit far more CO₂ than smaller or less industrialized countries (e.g., Aruba, Burundi).
-* The data suggests a strong link between economic development and emissions growth. Countries experiencing rapid economic expansion (e.g., Vietnam, United Arab Emirates) show marked increases in emissions, while some developed countries (e.g., Germany, Austria, Belgium) have stabilized or slightly reduced their emissions in recent years, likely due to policy interventions or shifts to cleaner energy.
-* While ‘High Income’ regions dominated the CO2 emissions pre-2020, the ‘Middle Income’ and ‘Upper Middle Income’ regions rapidly increased CO2 emissions after 2000, exceeding the emissions from ‘High Income’ regions.
+### Analytical approach
+
+Time-series aggregation and normalisation across countries, regions, and income groups; comparative cohort analysis across geographic and economic classifications; and interactive filtering to support exploratory pattern detection and trend analysis.
+
+### Key insights
+
+* Several rapidly industrialising countries, including China, India, and Indonesia, exhibit sustained and substantial emissions growth between 1960 and 2024. For instance, while China’s population increased from 0.82 billion in 1970 to 1.41 billion in 2023 (72% growth), its emissions rose from 909 Mt CO₂e to over 13,000 Mt CO₂e, a 1,330% increase (approximately 14.3-fold). This divergence between population growth and emissions growth reflects the scale and intensity of industrial expansion. Despite near-equal population sizes in 2023, China’s emissions were approximately 4.5 times those of India.
+
+* Emissions levels display pronounced cross-country dispersion. Highly industrialised or resource-rich economies, such as Saudi Arabia and United Arab Emirates, record substantially higher emissions than smaller or less industrialised nations, including Aruba and Burundi.
+
+* The analysis suggests a strong association between economic expansion and emissions growth. Rapidly growing economies, such as Vietnam and United Arab Emirates, show marked upward trajectories in emissions. In contrast, several advanced economies, including Germany, Austria, and Belgium, demonstrate stabilisation or modest declines in recent years, consistent with structural energy transitions and policy interventions.
+
+* While ‘High Income’ regions accounted for the largest share of global emissions prior to 2020, ‘Middle Income’ and ‘Upper Middle Income’ regions experienced accelerated post-2000 growth, ultimately surpassing the contribution of ‘High Income’ regions.
 
 ### Global CO₂ emissions
 <iframe src="images/co2_emissions_world_animation_start_on_2023_fixed.html"
@@ -160,17 +166,6 @@ Figure: Interactive visualization of global CO₂ emissions by country and year
         scrolling="no">
 </iframe>
 Figure: Time sereis CO₂ emissions for selected countries
-
-
-
-### Population Growth
-<iframe src="images/Population_timeseries.html"
-        width="650"
-        height="550"
-        frameborder="0"
-        scrolling="no">
-</iframe>
-Figure: Population growth for selected countries
 
 
 
