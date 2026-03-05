@@ -13,10 +13,10 @@ This project implements a multi-step time-series forecasting model using a hybri
 </iframe>
 Figure: Actual and predicted energy usage over 10 weeks of time period.
 
+[View sample codes on GitHub](https://github.com/muntasirhsn/CNN-LSTM-model-for-energy-usage-forecasting)
+
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/TensorFlow-white?logo=TensorFlow)](#) [![](https://img.shields.io/badge/-Keras-white?logo=Keras&logoColor=black)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#)
-
-[View sample codes on GitHub](https://github.com/muntasirhsn/CNN-LSTM-model-for-energy-usage-forecasting)
 
 
 
@@ -30,9 +30,10 @@ Develop an end-to-end machine learning (ML) workflow with automation for all the
 
 <img src="images/Sageaker Pipeline5.png?raw=true"/> Figure: CI/CD pipeline with Amazon Sagemaker 
 
+[View sample codes on GitHub](https://github.com/muntasirhsn/MLOps-with-AWS)
+
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![AWS](https://img.shields.io/badge/AWS-Cloud-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/)  [![Amazon Sagemaker](https://img.shields.io/badge/Sagemaker-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/sagemaker/) [![Amazon API Gateway](https://img.shields.io/badge/API_Gateway-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/api-gateway/) 
 
-[View sample codes on GitHub](https://github.com/muntasirhsn/MLOps-with-AWS)
 
 
 
@@ -105,7 +106,7 @@ This project demonstrates a complete red-teaming loop — evaluation, failure an
 
 [View project and source codes on GitHub](https://github.com/muntasirhsn/Red-Teaming-a-Policy-Assistant-with-Giskard)
 
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/OpenAI-000000?logo=openai&logoColor=white)](#)
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/OpenAI-000000?logo=openai&logoColor=white)](#) [![](https://img.shields.io/badge/Giskard-4B2E83?logo=giskard&logoColor=white)](#)
 
 ---
 
@@ -129,6 +130,8 @@ Retrieval-Augmented Generation (RAG) is a technique that combines a retriever an
 
 ---
 
+
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#) [![](https://img.shields.io/badge/Transformers-white?logo=huggingface)](#) [![](https://img.shields.io/badge/Hugging%20Face-FFD21E?logo=huggingface&logoColor=black)](#)
 
 
 ## Analysis & Interactive Visualisation of Global CO₂ Emissions
@@ -190,6 +193,8 @@ Figure: Interactive visualization of CO₂ emissions for different income zones 
 </iframe>
 Figure: Interactive visualization of CO₂ emissions for different geographic regions from 1970 to 2023
 
+
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)](#) [![](https://img.shields.io/badge/Plotly-3F4F75?logo=plotly&logoColor=white)](#)
 
 
 ---
