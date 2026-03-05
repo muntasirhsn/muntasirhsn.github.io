@@ -75,12 +75,12 @@ This project demonstrates iterative red-teaming of a policy assistant designed t
 
 ### Model Separation Strategy
 The system intentionally uses different models for generation and evaluation:
-* Query responses are generated using **gpt-4o-mini**
-* Safety evaluation is performed using **gpt-4o** via Giskard detectors
+* Query responses are generated using gpt-4o-mini
+* Safety evaluation is performed using gpt-4o via Giskard detectors
 This reflects common red-teaming practice: lighter models are sufficient for generation, while stronger models provide more reliable safety judgments. Separating generation and evaluation also avoids self-evaluation effects and keeps evaluation costs controlled.
 
 ### Initial Evaluation
-The policy assistant was evaluated using **Giskard** across prompt-injection, misuse, and bias detectors. The scan identified multiple failures where the agent did not attempt to answer questions based on the provided policy document. These were not hallucinations or unsafe outputs, but overly conservative refusals.
+The policy assistant was evaluated using Giskard across prompt-injection, misuse, and bias detectors. The scan identified multiple failures where the agent did not attempt to answer questions based on the provided policy document. These were not hallucinations or unsafe outputs, but overly conservative refusals.
 
 <img src="images/giskard1.png?raw=true"/> Figure 1: Initial scan results from Giskard.
 
