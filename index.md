@@ -101,7 +101,7 @@ Figure 4: Interactive visualization of global CO₂ emissions by country and yea
 
 ### Time sereis CO₂ emissions
 <iframe src="images/co2_emissions_timeseries_trend2.html"
-        width="650"
+        width="600"
         height="750"
         frameborder="0"
         scrolling="no">
