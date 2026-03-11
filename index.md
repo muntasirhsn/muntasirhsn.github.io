@@ -199,14 +199,6 @@ Figure: Interactive visualization of CO₂ emissions for different geographic re
 
 ---
 
-## Computer Vision: Building and Deploying YOLOv8 models for object detection at scale
-Deployed a state-of-the-art YOLOv8 object detection model to real-time Amazon SageMaker endpoints, enabling scalable, low-latency inference for image and video inputs. Focused on model serving, endpoint configuration, and operational inference rather than model training.
-
-<img src="images/highway1-detect3.gif?raw=true"/> Figure: Object detection with YOLOv8 model deployed to a real-time Amazon SageMaker endpoints.
-
-[View project on GitHub](https://github.com/muntasirhsn/Deploying-YOLOv8-model-on-Amazon-SageMaker-endpoint)
-
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#) [![YOLO](https://img.shields.io/badge/YOLO-Object%20Detection-white)](https://github.com/AlexeyAB/darknet) [![AWS](https://img.shields.io/badge/AWS-Cloud-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/) [![Amazon Sagemaker](https://img.shields.io/badge/Sagemaker-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/sagemaker/) 
 
 
 
