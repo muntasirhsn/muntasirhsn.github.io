@@ -91,8 +91,8 @@ Time-series aggregation and normalisation across countries, regions, and income 
 
 ### Global CO₂ emissions
 <iframe src="images/co2_emissions_world_animation_start_on_2023_fixed.html"
-        width="700"
-        height="650"
+        width="650"
+        height="750"
         frameborder="0"
         scrolling="no">
 </iframe>
