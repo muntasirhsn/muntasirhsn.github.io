@@ -11,7 +11,7 @@ This project implements a multi-step time-series forecasting model using a hybri
         frameborder="0"
         scrolling="no">
 </iframe>
-Figure: Actual and predicted energy usage over 10 weeks of time period.
+Figure 1: Actual and predicted energy usage over 10 weeks of time period.
 
 [View sample codes on GitHub](https://github.com/muntasirhsn/CNN-LSTM-model-for-energy-usage-forecasting)
 
@@ -26,9 +26,9 @@ Figure: Actual and predicted energy usage over 10 weeks of time period.
 Develop an end-to-end machine learning (ML) workflow with automation for all the steps including data preprocessing, training models at scale with distributed computing (GPUs/CPUs), model evaluation, deploying in production, model monitoring and drift detection with Amazon SageMaker Pipeline - a purpose-built CI/CD service.
 
 
-<img src="images/MLOps6_Muntasir Hossain.jpg?raw=true"/> Figure: ML orchestration reference architecture with AWS
+<img src="images/MLOps6_Muntasir Hossain.jpg?raw=true"/> Figure 2: ML orchestration reference architecture with AWS
 
-<img src="images/Sageaker Pipeline5.png?raw=true"/> Figure: CI/CD pipeline with Amazon Sagemaker 
+<img src="images/Sageaker Pipeline5.png?raw=true"/> Figure 3: CI/CD pipeline with Amazon Sagemaker 
 
 [View sample codes on GitHub](https://github.com/muntasirhsn/MLOps-with-AWS)
 
@@ -66,47 +66,73 @@ This multi-agent system orchestrates a sophisticated research workflow by deploy
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/OpenAI-000000?logo=openai&logoColor=white)](#) [![](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)](#)
 
+
 ---
 
+## Analysis & Interactive Visualisation of Global CO₂ Emissions
 
-## Evaluating Safety and Vulnerabilities of LLM apps
+The World Bank provides greenhouse gas emissions data in million metric tons of CO₂ equivalent (Mt CO₂e), calculated using AR5 global warming potential (GWP). The dataset captures environmental impact at national, regional, and income-group levels over more than six decades.
 
-### Overview
-This project demonstrates iterative red-teaming of a policy assistant designed to answer questions about a government-style digital services policy, while strictly avoiding legal advice, speculation, or guidance on bypassing safeguards. The focus is on safety evaluation, failure analysis, and mitigation, rather than model fine-tuning.
+### Analytical approach
 
-### Model Separation Strategy
-The system intentionally uses different models for generation and evaluation:
-* Query responses are generated using gpt-4o-mini
-* Safety evaluation is performed using gpt-4o via Giskard detectors
-This reflects common red-teaming practice: lighter models are sufficient for generation, while stronger models provide more reliable safety judgments. Separating generation and evaluation also avoids self-evaluation effects and keeps evaluation costs controlled.
+Time-series aggregation and normalisation across countries, regions, and income groups; comparative cohort analysis across geographic and economic classifications; and interactive filtering to support exploratory pattern detection and trend analysis.
 
-### Initial Evaluation
-The policy assistant was evaluated using Giskard across prompt-injection, misuse, and bias detectors. The scan identified multiple failures where the agent did not attempt to answer questions based on the provided policy document. These were not hallucinations or unsafe outputs, but overly conservative refusals.
+### Key insights
 
-<img src="images/giskard1.png?raw=true"/> Figure 1: Initial scan results from Giskard.
+* Several rapidly industrialising countries, including China, India, and Indonesia, exhibit sustained and substantial emissions growth between 1960 and 2024. For instance, while China’s population increased from 0.82 billion in 1970 to 1.41 billion in 2023 (72% growth), its emissions rose from 909 Mt CO₂e to over 13,000 Mt CO₂e, a 1,330% increase (approximately 14.3-fold). This divergence between population growth and emissions growth reflects the scale and intensity of industrial expansion. Despite near-equal population sizes in 2023, China’s emissions were approximately 4.5 times those of India (Figure 5).
 
-### Analysis
-The root cause was over-refusal. The safety layer correctly blocked requests involving legal advice, speculation, or bypassing safeguards, but also refused some benign questions that could have been partially answered using neutral policy language. This reduced policy grounding and triggered Giskard failures.
+* Emissions levels display pronounced cross-country dispersion. Highly industrialised or resource-rich economies, such as Saudi Arabia and United Arab Emirates, record substantially higher emissions than smaller or less industrialised nations, including Aruba and Burundi.
 
-### Mitigation
-The refusal strategy was refined to better distinguish between:
-* questions requiring refusal, and
-* questions that can be answered safely using policy text alone.
-Refusals were standardized using fixed, auditable messages, while benign queries now trigger policy-based responses where possible. Safety guarantees were preserved.
+* The analysis suggests a strong association between economic expansion and emissions growth. Rapidly growing economies such as Vietnam, Saudi Arabia, and the United Arab Emirates show pronounced upward trajectories in CO₂ emissions. These increases may reflect different underlying drivers, ranging from coal-based electricity expansion and export-oriented manufacturing in Vietnam to oil extraction and refining, energy-intensive industries, and fossil-fuel-based electricity generation in the Gulf economies. In contrast, several advanced economies, including United Kingdom, Germany, Japan, Austria, and Belgium, demonstrate stabilisation or modest declines in recent years, consistent with structural energy transitions and policy interventions (Figure 5).
 
-### Outcome
-A follow-up Giskard scan showed improved behavior:
-* fewer false positives for “did not attempt to answer”
-* stronger grounding in policy text
-* no regression in prompt-injection or misuse resistance
+* While ‘High Income’ regions accounted for the largest share of global emissions prior to 2020, ‘Middle Income’ and ‘Upper Middle Income’ regions experienced accelerated post-2000 growth, ultimately surpassing the contribution of ‘High Income’ regions (Figure 6).
+  
+* Europe and North America dominated global CO₂ emissions during the final decades of the 20th century. By 2023, however, the East Asia & Pacific region had become the largest emitter, accounting for 46.6% of global emissions, compared with about 14% each from North America and Europe (Figure 7).
 
-<img src="images/giskard2.png?raw=true"/> Figure 2: Post mitigation scan results from Giskard.
+### Global CO₂ emissions
+<iframe src="images/co2_emissions_world_animation_start_on_2023_fixed.html"
+        width="700"
+        height="650"
+        frameborder="0"
+        scrolling="no">
+</iframe>
+Figure 4: Interactive visualization of global CO₂ emissions by country and year
 
-This project demonstrates a complete red-teaming loop — evaluation, failure analysis, mitigation, and re-evaluation — and shows how safety behavior can be systematically improved without increasing risk or cost.
 
-[View project and source codes on GitHub](https://github.com/muntasirhsn/Red-Teaming-a-Policy-Assistant-with-Giskard)
+### Time sereis CO₂ emissions
+<iframe src="images/co2_emissions_timeseries_trend2.html"
+        width="650"
+        height="550"
+        frameborder="0"
+        scrolling="no">
+</iframe>
+Figure 5: Time sereis CO₂ emissions for selected countries
 
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/OpenAI-000000?logo=openai&logoColor=white)](#) [![](https://img.shields.io/badge/Giskard-4B2E83?logo=giskard&logoColor=white)](#)
+
+
+### CO₂ emissions by income groups
+<iframe src="images/co2_emissions_bar_income_zone_cleaned.html"
+        width="650"
+        height="550"
+        frameborder="0"
+        scrolling="no">
+</iframe>
+Figure 6: Interactive visualization of CO₂ emissions for different income zones from 1970 to 2023
+
+
+
+### CO₂ emissions by geographic regions
+<iframe src="images/co2_emissions_pie_fixed_colors_position.html"
+        width="600"
+        height="550"
+        frameborder="0"
+        scrolling="no">
+</iframe>
+Figure 7: Interactive visualization of CO₂ emissions for different geographic regions from 1970 to 2023
+
+
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)](#) [![](https://img.shields.io/badge/Plotly-3F4F75?logo=plotly&logoColor=white)](#)
+
 
 ---
 
@@ -132,73 +158,6 @@ Retrieval-Augmented Generation (RAG) is a technique that combines a retriever an
 
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#) [![](https://img.shields.io/badge/Transformers-white?logo=huggingface)](#) [![](https://img.shields.io/badge/Hugging%20Face-FFD21E?logo=huggingface&logoColor=black)](#)
-
-
-## Analysis & Interactive Visualisation of Global CO₂ Emissions
-
-The World Bank provides greenhouse gas emissions data in million metric tons of CO₂ equivalent (Mt CO₂e), calculated using AR5 global warming potential (GWP). The dataset captures environmental impact at national, regional, and income-group levels over more than six decades.
-
-### Analytical approach
-
-Time-series aggregation and normalisation across countries, regions, and income groups; comparative cohort analysis across geographic and economic classifications; and interactive filtering to support exploratory pattern detection and trend analysis.
-
-### Key insights
-
-* Several rapidly industrialising countries, including China, India, and Indonesia, exhibit sustained and substantial emissions growth between 1960 and 2024. For instance, while China’s population increased from 0.82 billion in 1970 to 1.41 billion in 2023 (72% growth), its emissions rose from 909 Mt CO₂e to over 13,000 Mt CO₂e, a 1,330% increase (approximately 14.3-fold). This divergence between population growth and emissions growth reflects the scale and intensity of industrial expansion. Despite near-equal population sizes in 2023, China’s emissions were approximately 4.5 times those of India.
-
-* Emissions levels display pronounced cross-country dispersion. Highly industrialised or resource-rich economies, such as Saudi Arabia and United Arab Emirates, record substantially higher emissions than smaller or less industrialised nations, including Aruba and Burundi.
-
-* The analysis suggests a strong association between economic expansion and emissions growth. Rapidly growing economies, such as Vietnam and United Arab Emirates, show marked upward trajectories in emissions. In contrast, several advanced economies, including Germany, Austria, and Belgium, demonstrate stabilisation or modest declines in recent years, consistent with structural energy transitions and policy interventions.
-
-* While ‘High Income’ regions accounted for the largest share of global emissions prior to 2020, ‘Middle Income’ and ‘Upper Middle Income’ regions experienced accelerated post-2000 growth, ultimately surpassing the contribution of ‘High Income’ regions.
-
-### Global CO₂ emissions
-<iframe src="images/co2_emissions_world_animation_start_on_2023_fixed.html"
-        width="700"
-        height="650"
-        frameborder="0"
-        scrolling="no">
-</iframe>
-Figure: Interactive visualization of global CO₂ emissions by country and year
-
-
-### Time sereis CO₂ emissions
-<iframe src="images/co2_emissions_timeseries_trend.html"
-        width="650"
-        height="550"
-        frameborder="0"
-        scrolling="no">
-</iframe>
-Figure: Time sereis CO₂ emissions for selected countries
-
-
-
-### CO₂ emissions by income groups
-<iframe src="images/co2_emissions_bar_income_zone_cleaned.html"
-        width="650"
-        height="550"
-        frameborder="0"
-        scrolling="no">
-</iframe>
-Figure: Interactive visualization of CO₂ emissions for different income zones from 1970 to 2023
-
-
-
-### CO₂ emissions by geographic regions
-<iframe src="images/co2_emissions_pie_fixed_colors_position.html"
-        width="600"
-        height="550"
-        frameborder="0"
-        scrolling="no">
-</iframe>
-Figure: Interactive visualization of CO₂ emissions for different geographic regions from 1970 to 2023
-
-
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)](#) [![](https://img.shields.io/badge/Plotly-3F4F75?logo=plotly&logoColor=white)](#)
-
-
----
-
 
 
 
