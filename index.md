@@ -79,24 +79,15 @@ Time-series aggregation and normalisation across countries, regions, and income 
 
 ### Key insights
 
-* Several rapidly industrialising countries, including China, India, and Indonesia, exhibit sustained and substantial emissions growth between 1960 and 2024. For instance, while China’s population increased from 0.82 billion in 1970 to 1.41 billion in 2023 (72% growth), its emissions rose from 909 Mt CO₂e to over 13,000 Mt CO₂e, a 1,330% increase (approximately 14.3-fold). This divergence between population growth and emissions growth reflects the scale and intensity of industrial expansion. Despite near-equal population sizes in 2023, China’s emissions were approximately 4.5 times those of India (Figure 5).
+* Several rapidly industrialising countries, including China, India, and Indonesia, exhibit sustained and substantial emissions growth between 1960 and 2024. For instance, while China’s population increased from 0.82 billion in 1970 to 1.41 billion in 2023 (72% growth), its emissions rose from 909 Mt CO₂e to over 13,000 Mt CO₂e, a 1,330% increase (approximately 14.3-fold). This divergence between population growth and emissions growth reflects the scale and intensity of industrial expansion. Despite near-equal population sizes in 2023, China’s emissions were approximately 4.5 times those of India (Figure 4).
 
 * Emissions levels display pronounced cross-country dispersion. Highly industrialised or resource-rich economies, such as Saudi Arabia and United Arab Emirates, record substantially higher emissions than smaller or less industrialised nations, including Aruba and Burundi.
 
-* The analysis suggests a strong association between economic expansion and emissions growth. Rapidly growing economies such as Vietnam, Saudi Arabia, and the United Arab Emirates show pronounced upward trajectories in CO₂ emissions. These increases may reflect different underlying drivers, ranging from coal-based electricity expansion and export-oriented manufacturing in Vietnam to oil extraction and refining, energy-intensive industries, and fossil-fuel-based electricity generation in the Gulf economies. In contrast, several advanced economies, including United Kingdom, Germany, Japan, Austria, and Belgium, demonstrate stabilisation or modest declines in recent years, consistent with structural energy transitions and policy interventions (Figure 5).
+* The analysis suggests a strong association between economic expansion and emissions growth. Rapidly growing economies such as Vietnam, Saudi Arabia, and the United Arab Emirates show pronounced upward trajectories in CO₂ emissions. These increases may reflect different underlying drivers, ranging from coal-based electricity expansion and export-oriented manufacturing in Vietnam to oil extraction and refining, energy-intensive industries, and fossil-fuel-based electricity generation in the Gulf economies. In contrast, several advanced economies, including United Kingdom, Germany, Japan, Austria, and Belgium, demonstrate stabilisation or modest declines in recent years, consistent with structural energy transitions and policy interventions (Figure 4).
 
 * While ‘High Income’ regions accounted for the largest share of global emissions prior to 2020, ‘Middle Income’ and ‘Upper Middle Income’ regions experienced accelerated post-2000 growth, ultimately surpassing the contribution of ‘High Income’ regions (Figure 6).
   
-* Europe and North America dominated global CO₂ emissions during the final decades of the 20th century. By 2023, however, the East Asia & Pacific region had become the largest emitter, accounting for 46.6% of global emissions, compared with about 14% each from North America and Europe (Figure 7).
-
-### Global CO₂ emissions
-<iframe src="images/co2_emissions_world_animation_start_on_2023_fixed.html"
-        width="650"
-        height="750"
-        frameborder="0"
-        scrolling="no">
-</iframe>
-Figure 4: Interactive visualization of global CO₂ emissions by country and year
+* Europe and North America dominated global CO₂ emissions during the final decades of the 20th century. By 2023, however, the East Asia & Pacific region had become the largest emitter, accounting for 46.6% of global emissions, compared with about 14% each from North America and Europe (Figure 6).
 
 
 ### Time sereis CO₂ emissions
@@ -106,8 +97,7 @@ Figure 4: Interactive visualization of global CO₂ emissions by country and yea
         frameborder="0"
         scrolling="no">
 </iframe>
-Figure 5: Time sereis CO₂ emissions for selected countries
-
+Figure 4: Time sereis CO₂ emissions for selected countries
 
 
 ### CO₂ emissions by income groups
@@ -117,7 +107,7 @@ Figure 5: Time sereis CO₂ emissions for selected countries
         frameborder="0"
         scrolling="no">
 </iframe>
-Figure 6: Interactive visualization of CO₂ emissions for different income zones from 1970 to 2023
+Figure 5: Interactive visualization of CO₂ emissions for different income zones from 1970 to 2023
 
 
 
@@ -128,7 +118,7 @@ Figure 6: Interactive visualization of CO₂ emissions for different income zone
         frameborder="0"
         scrolling="no">
 </iframe>
-Figure 7: Interactive visualization of CO₂ emissions for different geographic regions from 1970 to 2023
+Figure 6: Interactive visualization of CO₂ emissions for different geographic regions from 1970 to 2023
 
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)](#) [![](https://img.shields.io/badge/Plotly-3F4F75?logo=plotly&logoColor=white)](#)
