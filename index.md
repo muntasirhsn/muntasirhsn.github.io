@@ -35,38 +35,6 @@ Develop an end-to-end machine learning (ML) workflow with automation for all the
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![AWS](https://img.shields.io/badge/AWS-Cloud-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/)  [![Amazon Sagemaker](https://img.shields.io/badge/Sagemaker-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/sagemaker/) [![Amazon API Gateway](https://img.shields.io/badge/API_Gateway-white?logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/api-gateway/) 
 
 
-
-
----
-
-
-## Fine-tuning LLMs with ORPO & QLoRA
-ORPO (Odds Ratio Preference Optimization) is a single-stage fine-tuning method to align LLMs with human preferences efficiently while preserving general performance and avoiding multi-stage training. This method trains directly on human preference pairs (chosen, rejected) without a reward model or reinforcement learning (RL) loop, reducing training complexity and resource usage. However, fine-tuning an LLM (e.g. full fine-tuning) for a particular task can still be computationally intensive as it involves updating all the LLM model parameters. Parameter-efficient fine-tuning (PEFT) updates only a small subset of parameters, allowing LLM fine-tuning with limited resources. Here, I have fine-tuned the [Mistral-7B-v0.3](https://huggingface.co/mistralai/Mistral-7B-v0.3) foundation model with ORPO and QLoRA (a form of PEFT), by using NVIDIA L4 GPUs. In QLoRA, the pre-trained model weights are first quantized with 4-bit NormalFloat (NF4). The original model weights are frozen while trainable low-rank decomposition weight matrices are introduced and modified during the fine-tuning process, allowing for memory-efficient fine-tuning of the LLM without the need to retrain the entire model from scratch.  
-
-[Check the model on Hugging Face hub!](https://huggingface.co/MuntasirHossain/Orpo-Mistral-7B-v0.3)
-
-
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#) [![](https://img.shields.io/badge/Transformers-white?logo=huggingface)](#) 
-
----
-
-## Multi-Agent Workflow for Analytical Reporting
-This multi-agent system orchestrates a sophisticated research workflow by deploying a coordinated team of AI specialists. Starting from a single topic, the planner agent intelligently maps out a customized research strategy, breaking complex questions into logical subtasks. An executor agent then dynamically routes each task to the right specialist: the research agent systematically gathers evidence by intelligently querying web content, academic papers via arXiv, and Wikipedia summaries; the writer agent synthesizes findings into a coherent draft; and the editor agent polishes the language and ensures analytical rigor. The entire process unfolds autonomously—agents collaborate seamlessly, passing context forward, while the system decides in real-time which research tools to deploy and when. The result is a thoroughly researched, professionally formatted Markdown report that users can instantly download as a polished PDF.
-
-**Please try the agentic app below (deployed over the cloud using Docker)**:
-
-<iframe 
-    src="https://multi-agent-research-workflow-production.up.railway.app/" 
-    width="650" 
-    height="900px" 
-    frameborder="0"
-    style="border: 1px solid #ddd; border-radius: 8px;"
-></iframe>
-
-
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/OpenAI-000000?logo=openai&logoColor=white)](#) [![](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)](#)
-
-
 ---
 
 ## Analysis & Interactive Visualisation of Global CO₂ Emissions
@@ -123,8 +91,26 @@ Figure 6: Interactive visualization of CO₂ emissions for different geographic 
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)](#) [![](https://img.shields.io/badge/Plotly-3F4F75?logo=plotly&logoColor=white)](#)
 
-
 ---
+
+## Multi-Agent Workflow for Analytical Reporting
+This project demonstrates an automated workflow for analytical report generation. A coordinated set of agents decomposes complex topics into structured tasks, retrieves relevant information from multiple sources, and synthesises findings into a coherent report. The system supports efficient information gathering, structured analysis, and clear communication of insights, reflecting a practical approach to scaling analytical reporting.
+
+**Please try the agentic app below (deployed over the cloud using Docker)**:
+
+<iframe 
+    src="https://multi-agent-research-workflow-production.up.railway.app/" 
+    width="650" 
+    height="900px" 
+    frameborder="0"
+    style="border: 1px solid #ddd; border-radius: 8px;"
+></iframe>
+
+
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/OpenAI-000000?logo=openai&logoColor=white)](#) [![](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)](#)
+
+
+--
 
 ## Retrieval-Augmented Generation with LLMs and Vector Databases
 Retrieval-Augmented Generation (RAG) is a technique that combines a retriever and a generative LLM to deliver accurate responses to queries. It involves retrieving relevant information from a large corpus and then generating contextually appropriate responses to queries. Here, I used the open-source Llama 3 and Mistral v2 models and LangChain with GPU acceleration to perform generative question-answering (QA) with RAG.
@@ -150,6 +136,23 @@ Retrieval-Augmented Generation (RAG) is a technique that combines a retriever an
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#) [![](https://img.shields.io/badge/Transformers-white?logo=huggingface)](#) [![](https://img.shields.io/badge/Hugging%20Face-FFD21E?logo=huggingface&logoColor=black)](#)
 
 
+
+---
+
+
+## Fine-tuning LLMs with ORPO & QLoRA
+ORPO (Odds Ratio Preference Optimization) is a single-stage fine-tuning method to align LLMs with human preferences efficiently while preserving general performance and avoiding multi-stage training. This method trains directly on human preference pairs (chosen, rejected) without a reward model or reinforcement learning (RL) loop, reducing training complexity and resource usage. However, fine-tuning an LLM (e.g. full fine-tuning) for a particular task can still be computationally intensive as it involves updating all the LLM model parameters. Parameter-efficient fine-tuning (PEFT) updates only a small subset of parameters, allowing LLM fine-tuning with limited resources. Here, I have fine-tuned the [Mistral-7B-v0.3](https://huggingface.co/mistralai/Mistral-7B-v0.3) foundation model with ORPO and QLoRA (a form of PEFT), by using NVIDIA L4 GPUs. In QLoRA, the pre-trained model weights are first quantized with 4-bit NormalFloat (NF4). The original model weights are frozen while trainable low-rank decomposition weight matrices are introduced and modified during the fine-tuning process, allowing for memory-efficient fine-tuning of the LLM without the need to retrain the entire model from scratch.  
+
+[Check the model on Hugging Face hub!](https://huggingface.co/MuntasirHossain/Orpo-Mistral-7B-v0.3)
+
+
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#) [![](https://img.shields.io/badge/Transformers-white?logo=huggingface)](#) 
+
+
+
+
+
+-
 
 
 ---
