@@ -103,24 +103,6 @@ ORPO (Odds Ratio Preference Optimization) is a single-stage fine-tuning method t
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#) [![](https://img.shields.io/badge/Transformers-white?logo=huggingface)](#) 
 
----
-
-## Multi-Agent Workflow for Analytical Reporting
-This project demonstrates an automated workflow for analytical report generation. A coordinated set of AI agents decomposes complex topics into structured tasks, retrieves relevant information from multiple sources, and synthesises findings into a coherent report. The system supports efficient information gathering, structured analysis, and clear communication of insights, reflecting a practical approach to scaling analytical reporting.
-
-**Please try the agentic app below (deployed over the cloud using Docker)**:
-
-<iframe 
-    src="https://multi-agent-research-workflow-production.up.railway.app/" 
-    width="650" 
-    height="900px" 
-    frameborder="0"
-    style="border: 1px solid #ddd; border-radius: 8px;"
-></iframe>
-
-
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/OpenAI-000000?logo=openai&logoColor=white)](#) [![](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)](#)
-
 
 --
 
